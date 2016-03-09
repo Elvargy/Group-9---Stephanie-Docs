@@ -1,5 +1,4 @@
-# Group-9---Stephanie-Docs
-General How-To:
+# General How-To:
 
 Run 'runbot.bat' to start the bot. 
 (The bot could also be run from the 'bot.py' file through the Shell if you'd prefer)
