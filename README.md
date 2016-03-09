@@ -3,6 +3,8 @@
 Run 'runbot.bat' to start the bot. 
 (The bot could also be run from the 'bot.py' file through the Shell if you'd prefer)
 
+I recommened you download all these files along with Python3.5 if you don't already have it. This way you can have a play around and make changes to test the functionality.
+
 .
 
 The 'std-test.xml' and 'std-all.xml' files will load the aiml files into the bot using the <learn> tags.
@@ -24,6 +26,10 @@ Commands:
 'learnstandard' - Adds aiml files from 'std-all.xml' (The standard folder)
 
 'save' - Saves the current aiml files being used by the bot to the 'brain.brn' file allowing for a quicker startup
+
+.
+
+If you want to reset the bot's brain, simply delete the 'bot_brain.brn' file and restart the bot.
 
 .
 
