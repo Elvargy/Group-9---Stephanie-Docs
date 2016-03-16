@@ -9,7 +9,17 @@ kernel = aiml.Kernel()
 #kernel.bootstrap(learnFiles = "std-test.xml", commands = "load aiml b")
 #    kernel.saveBrain("bot_brain.brn")
 
-kernel.bootstrap(learnFiles = "std-test.xml", commands = "load aiml b")
+#kernel.bootstrap(learnFiles = "std-test.xml", commands = "load aiml b")
+
+
+print ("Choose a brain file:")
+print ("[1] Standard")
+print ("[2] Test\n")
+if input("Brain #: ") == "1":
+    kernel.bootstrap(brainFile = "standard.brn")
+else:
+    kernel.bootstrap(brainFile = "test.brn")
+
 
 class Response:
     def command_ping(self):
