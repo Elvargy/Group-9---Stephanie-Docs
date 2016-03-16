@@ -1,0 +1,15 @@
+Tasks:
+
+fix bots aiml file load in
+
+finish list of possible questions
+
+write answers to questions in aiml
+
+link with fb api
+
+add variety random responses
+
+add multiple response sequeces, with some errors in the responses
+
+write up stuff
