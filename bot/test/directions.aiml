@@ -1,0 +1,151 @@
+<aiml version="1.0.1" encoding="UTF-8">
+    
+    
+    <!-- Student Union -->
+    <category>
+        <pattern>DIRECTIONS STUDENT UNION</pattern>
+        <template>
+            [Directions for Student Union]
+        </template>
+    </category>
+    
+    <category>
+        <pattern>ABOUT STUDENT UNION</pattern>
+        <template>
+            [Information about Student Union]
+        </template>
+    </category>
+    
+    
+    <!-- Minerva/Main Building -->
+    <category>
+        <pattern>DIRECTIONS MINERVA BUILDING</pattern>
+        <template>
+            [Directions for Minerva Building]
+        </template>
+    </category>
+    
+    <category>
+        <pattern>ABOUT MINERVA BUILDING</pattern>
+        <template>
+            [Information about Minerva Building]
+        </template>
+    </category>
+    
+    <category>
+        <pattern>DIRECTIONS MAIN BUILDING</pattern>
+        <template>
+            <srai>
+                DIRECTIONS MINERVA BUILDING
+            </srai>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>ABOUT MAIN BUILDING</pattern>
+        <template>
+             <srai>
+                ABOUT MINERVA BUILDING
+            </srai>
+        </template>
+    </category>
+    
+    
+    <!-- General Direction Inputs 
+            The top one essentially removes 'THE' from the the sentence making
+            it easier to return information -->
+    <category>
+        <pattern>DIRECTIONS THE *</pattern>
+        <template>
+            <srai>
+                DIRECTIONS <star/>
+            </srai>
+        </template>
+    </category>
+
+    <!--    The others help get general stataments which all ask the same thing
+            (in this case, asking for directions) -->
+    <category>
+        <pattern>_ GET TO *</pattern>
+        <template>
+            <srai>
+                DIRECTIONS <star index="2"/> 
+            </srai>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>_ DIRECTIONS TO *</pattern>
+        <template>
+            <srai>
+                DIRECTIONS <star index="2"/>
+            </srai>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>DIRECTIONS TO *</pattern>
+        <template>
+            <srai>
+                DIRECTIONS <star/>
+            </srai>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>_ DIRECTIONS FOR *</pattern>
+        <template>
+            <srai>
+                DIRECTIONS <star index="2"/>
+            </srai>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>DIRECTIONS FOR *</pattern>
+        <template>
+            <srai>
+                DIRECTIONS <star/>
+            </srai>
+        </template>
+    </category>
+    
+    <!-- General About Inputs
+            Similar to 'Directions' above -->
+    <category>
+        <pattern>ABOUT THE *</pattern>
+        <template>
+            <srai>
+                ABOUT <star/>
+            </srai>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>_ ABOUT *</pattern>
+        <template>
+            <srai>
+                ABOUT <star index="2"/> 
+            </srai>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>WHAT IS *</pattern>
+        <template>
+            <srai>
+                ABOUT <star/>
+            </srai>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>_ WHAT IS *</pattern>
+        <template>
+            <srai>
+                ABOUT <star index="2"/>
+            </srai>
+        </template>
+    </category>
+    
+</aiml>

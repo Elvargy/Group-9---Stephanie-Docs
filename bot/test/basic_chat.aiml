@@ -9,6 +9,13 @@
     </category>
     
     <category>
+        <pattern>BYE</pattern>
+        <template>
+            Goodbye!
+        </template>
+    </category>
+    
+    <category>
         <pattern>WHAT ARE YOU</pattern>
         <template>
             I'm a bot, silly!
