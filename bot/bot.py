@@ -3,25 +3,68 @@ import os
 
 kernel = aiml.Kernel()
 
-#if os.path.isfile("bot_brain.brn"):
-#    kernel.bootstrap(brainFile = "bot_brain.brn")
-#else:
-#kernel.bootstrap(learnFiles = "std-test.xml", commands = "load aiml b")
-#    kernel.saveBrain("bot_brain.brn")
-
-#kernel.bootstrap(learnFiles = "std-test.xml", commands = "load aiml b")
-
 
 print ("Choose a brain file:")
 print ("[1] Standard")
-print ("[2] Test\n")
-if input("Brain #: ") == "1":
-    kernel.bootstrap(brainFile = "standard.brn")
-else:
-    kernel.bootstrap(brainFile = "test.brn")
+print ("[2] Test")
+print ("[3] Both")
+print ("[4] None\n")
+
+invalidSelection = True
+path = ""
+
+while invalidSelection:
+    
+    print("Please select a number between 1 and 4")
+    
+    inp = input(": ")
+    
+    if inp == "1":
+        path = "brains\\standard.brn"
+        
+        if os.path.isfile(path):
+            kernel.bootstrap(brainFile = path)
+        else:
+            kernel.bootstrap(learnFiles = "std-all.xml", commands = "load aiml b")
+            kernel.saveBrain(path)
+
+        invalidSelection = False
+    
+    elif inp == "2":
+        path = "brains\\test.brn"
+        
+        if os.path.isfile(path):
+            kernel.bootstrap(brainFile = path)
+        else:
+            kernel.bootstrap(learnFiles = "std-test.xml", commands = "load aiml b")
+            kernel.saveBrain(path)
+
+        invalidSelection = False
+    
+    elif inp == "3":
+        path = "brains\\both.brn"
+        
+        if os.path.isfile(path):
+            kernel.bootstrap(brainFile = path)
+        else:
+            kernel.bootstrap(learnFiles = "std-test.xml", commands = "load aiml b")
+            kernel.bootstrap(learnFiles = "std-all.xml", commands = "load aiml b")
+            kernel.saveBrain(path) 
+        
+        invalidSelection = False
+
+    elif inp == "4":
+        print ("No brain loaded")
+        invalidSelection = False
+
+    elif inp == "5":
+        kernel.bootstrap(learnFiles = "std-test.xml", commands = "load aiml b")
+        invalidSelection = False
 
 
-class Response:
+
+class Commands:
+    
     def command_ping(self):
         print("ping")
     
@@ -35,17 +78,18 @@ class Response:
         kernel.bootstrap(learnFiles = "std-all.xml", commands = "load aiml b")
             
     def command_save(self):
-        kernel.saveBrain("bot_brain.brn")
+        if os.path.isfile(path): 
+            kernel.saveBrain(path)
 
     def command_(self):
         bot_response = kernel.respond(message)
 
-r = Response()
+c = Commands()
 
 while True:
     message = input(">>: ")
     try:
-        command = getattr(r, "command_" + message)()
+        command = getattr(c, "command_" + message)()
     except:
         print (kernel.respond(message))
 

@@ -2,13 +2,24 @@
     
     
     <!-- Student Union -->
+        <!-- Directions -->
     <category>
         <pattern>DIRECTIONS STUDENT UNION</pattern>
         <template>
-            [Directions for Student Union]
+            [Directions to Student Union]
         </template>
     </category>
     
+    <category>
+        <pattern>DIRECTIONS STUDENT UNION _</pattern>
+        <template>
+            <srai>
+                DIRECTIONS STUDENT UNION
+            </srai>
+        </template>
+    </category>
+    
+        <!-- Information -->
     <category>
         <pattern>ABOUT STUDENT UNION</pattern>
         <template>
@@ -16,15 +27,35 @@
         </template>
     </category>
     
-    
-    <!-- Minerva/Main Building -->
     <category>
-        <pattern>DIRECTIONS MINERVA BUILDING</pattern>
+        <pattern>ABOUT STUDENT UNION _</pattern>
         <template>
-            [Directions for Minerva Building]
+            <srai>
+                ABOUT STUDENT UNION
+            </srai>
         </template>
     </category>
     
+    
+    <!-- Minerva/Main Building -->
+        <!-- Directions -->
+    <category>
+        <pattern>DIRECTIONS MINERVA BUILDING</pattern>
+        <template>
+            [Directions to Minerva Building]
+        </template>
+    </category>
+    
+    <category>
+        <pattern>DIRECTIONS MINERVA BUILDING _</pattern>
+        <template>
+            <srai>
+                DIRECTIONS MINERVA BUILDING
+            </srai>
+        </template>
+    </category>
+    
+        <!-- Information -->
     <category>
         <pattern>ABOUT MINERVA BUILDING</pattern>
         <template>
@@ -32,6 +63,16 @@
         </template>
     </category>
     
+    <category>
+        <pattern>ABOUT MINERVA BUILDING _</pattern>
+        <template>
+            <srai>
+                ABOUT MINERVA BUILDING
+            </srai>
+        </template>
+    </category>
+    
+        <!-- Directions Main -->
     <category>
         <pattern>DIRECTIONS MAIN BUILDING</pattern>
         <template>
@@ -42,6 +83,16 @@
     </category>
     
     <category>
+        <pattern>DIRECTIONS MAIN BUILDING _</pattern>
+        <template>
+            <srai>
+                DIRECTIONS MINERVA BUILDING
+            </srai>
+        </template>
+    </category>
+    
+        <!-- Information Main -->
+    <category>
         <pattern>ABOUT MAIN BUILDING</pattern>
         <template>
              <srai>
@@ -50,9 +101,56 @@
         </template>
     </category>
     
+    <category>
+        <pattern>ABOUT MAIN BUILDING _</pattern>
+        <template>
+             <srai>
+                ABOUT MINERVA BUILDING
+            </srai>
+        </template>
+    </category>
+    
+    
+    <!-- Add more locations above -->
+    
+    <!-- Template below     
+    <category>
+        <pattern>DIRECTIONS {LOCATION}</pattern>
+        <template>
+            [Directions to {LOCATION}]
+        </template>
+    </category>
+    
+    <category>
+        <pattern>DIRECTIONS {LOCATION} _</pattern>
+        <template>
+            <srai>
+                DIRECTIONS {LOCATION}
+            </srai>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>ABOUT {LOCATION}</pattern>
+        <template>
+            [Information about {LOCATION}]
+        </template>
+    </category>
+    
+    <category>
+        <pattern>ABOUT {LOCATION} _</pattern>
+        <template>
+            <srai>
+                ABOUT {LOCATION}
+            </srai>
+        </template>
+    </category>
+    -->
+    
+    
     
     <!-- General Direction Inputs 
-            The top one essentially removes 'THE' from the the sentence making
+            The first one essentially removes 'THE' from the sentence making
             it easier to return information -->
     <category>
         <pattern>DIRECTIONS THE *</pattern>
@@ -62,9 +160,20 @@
             </srai>
         </template>
     </category>
-
+    
     <!--    The others help get general stataments which all ask the same thing
             (in this case, asking for directions) -->
+            
+    <!-- GET TO -->
+    <category>
+        <pattern>GET TO *</pattern>
+        <template>
+            <srai>
+                DIRECTIONS <star/> 
+            </srai>
+        </template>
+    </category>
+    
     <category>
         <pattern>_ GET TO *</pattern>
         <template>
@@ -74,17 +183,28 @@
         </template>
     </category>
     
+    <!-- DIRECTIONS TO -->
     <category>
-        <pattern>_ DIRECTIONS TO *</pattern>
+        <pattern>DIRECTIONS TO *</pattern>
         <template>
             <srai>
-                DIRECTIONS <star index="2"/>
+                DIRECTIONS <star/>
             </srai>
         </template>
     </category>
     
     <category>
-        <pattern>DIRECTIONS TO *</pattern>
+        <pattern>_ DIRECTIONS TO *</pattern>
+        <template>
+            <srai>
+                DIRECTIONS <star index="2"/> 
+            </srai>
+        </template>
+    </category>
+    
+    <!-- DIRECTIONS FOR -->
+    <category>
+        <pattern>DIRECTIONS FOR *</pattern>
         <template>
             <srai>
                 DIRECTIONS <star/>
@@ -96,19 +216,49 @@
         <pattern>_ DIRECTIONS FOR *</pattern>
         <template>
             <srai>
-                DIRECTIONS <star index="2"/>
+                DIRECTIONS <star index="2"/> 
             </srai>
         </template>
     </category>
     
+     <!-- WHERE IS -->
     <category>
-        <pattern>DIRECTIONS FOR *</pattern>
+        <pattern>WHERE IS *</pattern>
         <template>
             <srai>
                 DIRECTIONS <star/>
             </srai>
         </template>
     </category>
+    
+    <category>
+        <pattern>_ WHERE IS *</pattern>
+        <template>
+            <srai>
+                DIRECTIONS <star index="2"/> 
+            </srai>
+        </template>
+    </category>
+    
+     <!-- WHERE'S -->
+    <category>
+        <pattern>WHERE'S *</pattern>
+        <template>
+            <srai>
+                DIRECTIONS <star/>
+            </srai>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>_ WHERE'S *</pattern>
+        <template>
+            <srai>
+                DIRECTIONS <star index="2"/> 
+            </srai>
+        </template>
+    </category>
+    
     
     <!-- General About Inputs
             Similar to 'Directions' above -->
