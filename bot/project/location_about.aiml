@@ -1,0 +1,133 @@
+<aiml version="1.0.1" encoding="UTF-8">
+    
+    <!-- Student Union -->
+    <category>
+        <pattern>ABOUT STUDENT UNION</pattern>
+        <template>
+            [Information about Student Union]
+        </template>
+    </category>
+    
+    <category>
+        <pattern>ABOUT STUDENT UNION _</pattern>
+        <template>
+            <srai>
+                ABOUT STUDENT UNION
+            </srai>
+        </template>
+    </category>
+    
+    <!-- Minerva/Main Building -->
+        <!-- Minerva Building -->
+    <category>
+        <pattern>ABOUT MINERVA BUILDING</pattern>
+        <template>
+            [Information about Minerva Building]
+        </template>
+    </category>
+    
+    <category>
+        <pattern>ABOUT MINERVA BUILDING _</pattern>
+        <template>
+            <srai>
+                ABOUT MINERVA BUILDING
+            </srai>
+        </template>
+    </category>
+    
+        <!-- Main Building -->
+    <category>
+        <pattern>ABOUT MAIN BUILDING</pattern>
+        <template>
+             <srai>
+                ABOUT MINERVA BUILDING
+            </srai>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>ABOUT MAIN BUILDING _</pattern>
+        <template>
+             <srai>
+                ABOUT MINERVA BUILDING
+            </srai>
+        </template>
+    </category>
+    
+    
+    <!-- Add more locations above -->
+    
+    <!-- Template below     
+    <category>
+        <pattern>ABOUT {LOCATION}</pattern>
+        <template>
+            [Information about {LOCATION}]
+        </template>
+    </category>
+    
+    <category>
+        <pattern>ABOUT {LOCATION} _</pattern>
+        <template>
+            <srai>
+                ABOUT {LOCATION}
+            </srai>
+        </template>
+    </category>
+    -->
+    
+    
+    
+    <!-- General Direction Inputs 
+            The first one essentially removes 'THE' from the sentence making
+            it easier to return information -->
+    <category>
+        <pattern>ABOUT THE *</pattern>
+        <template>
+            <srai>
+                ABOUT <star/>
+            </srai>
+        </template>
+    </category>
+    
+    <!--    The others help get general stataments which all ask the same thing
+            (in this case, asking for directions) -->
+            
+    <!-- ABOUT -->
+    <category>
+        <pattern>_ ABOUT *</pattern>
+        <template>
+            <srai>
+                ABOUT <star index="2"/> 
+            </srai>
+        </template>
+    </category>
+    
+    <!-- WHAT IS -->
+    <category>
+        <pattern>WHAT IS *</pattern>
+        <template>
+            <srai>
+                ABOUT <star/>
+            </srai>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>_ WHAT IS *</pattern>
+        <template>
+            <srai>
+                ABOUT <star index="2"/>
+            </srai>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>_ WHAT * IS</pattern>
+        <template>
+            <srai>
+                ABOUT <star index="2"/>
+            </srai>
+        </template>
+    </category>
+    
+</aiml>

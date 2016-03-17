@@ -1,0 +1,210 @@
+<aiml version="1.0.1" encoding="UTF-8">
+    
+    <!-- Student Union -->
+    <category>
+        <pattern>DIRECTIONS STUDENT UNION</pattern>
+        <template>
+            [Directions to Student Union]
+        </template>
+    </category>
+    
+    <category>
+        <pattern>DIRECTIONS STUDENT UNION _</pattern>
+        <template>
+            <srai>
+                DIRECTIONS STUDENT UNION
+            </srai>
+        </template>
+    </category>
+    
+    
+    <!-- Minerva/Main Building -->
+        <!-- Minerva Building -->
+    <category>
+        <pattern>DIRECTIONS MINERVA BUILDING</pattern>
+        <template>
+            [Directions to Minerva Building]
+        </template>
+    </category>
+    
+    <category>
+        <pattern>DIRECTIONS MINERVA BUILDING _</pattern>
+        <template>
+            <srai>
+                DIRECTIONS MINERVA BUILDING
+            </srai>
+        </template>
+    </category>
+    
+        <!-- Main Building -->
+    <category>
+        <pattern>DIRECTIONS MAIN BUILDING</pattern>
+        <template>
+            <srai>
+                DIRECTIONS MINERVA BUILDING
+            </srai>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>DIRECTIONS MAIN BUILDING _</pattern>
+        <template>
+            <srai>
+                DIRECTIONS MINERVA BUILDING
+            </srai>
+        </template>
+    </category>
+    
+    
+    <!-- Add more locations above -->
+    
+    <!-- Template below     
+    <category>
+        <pattern>DIRECTIONS {LOCATION}</pattern>
+        <template>
+            [Directions to {LOCATION}]
+        </template>
+    </category>
+    
+    <category>
+        <pattern>DIRECTIONS {LOCATION} _</pattern>
+        <template>
+            <srai>
+                DIRECTIONS {LOCATION}
+            </srai>
+        </template>
+    </category>
+    -->
+    
+    
+    
+    <!-- General Direction Inputs 
+            The first one essentially removes 'THE' from the sentence making
+            it easier to return information -->
+    <category>
+        <pattern>DIRECTIONS THE *</pattern>
+        <template>
+            <srai>
+                DIRECTIONS <star/>
+            </srai>
+        </template>
+    </category>
+    
+    <!--    The others help get general stataments which all ask the same thing
+            (in this case, asking for directions) -->
+    
+    <!-- DIRECTIONS -->
+    <category>
+        <pattern>_ DIRECTIONS *</pattern>
+        <template>
+            <srai>
+                DIRECTIONS <star index="2"/>
+            </srai>
+        </template>
+    </category>
+    
+    <!-- DIRECTIONS TO -->
+    <category>
+        <pattern>DIRECTIONS TO *</pattern>
+        <template>
+            <srai>
+                DIRECTIONS <star/>
+            </srai>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>_ DIRECTIONS TO *</pattern>
+        <template>
+            <srai>
+                DIRECTIONS <star index="2"/> 
+            </srai>
+        </template>
+    </category>
+    
+    <!-- DIRECTIONS FOR -->
+    <category>
+        <pattern>DIRECTIONS FOR *</pattern>
+        <template>
+            <srai>
+                DIRECTIONS <star/>
+            </srai>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>_ DIRECTIONS FOR *</pattern>
+        <template>
+            <srai>
+                DIRECTIONS <star index="2"/> 
+            </srai>
+        </template>
+    </category>
+    
+    <!-- GET TO -->
+    <category>
+        <pattern>GET TO *</pattern>
+        <template>
+            <srai>
+                DIRECTIONS <star/> 
+            </srai>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>_ GET TO *</pattern>
+        <template>
+            <srai>
+                DIRECTIONS <star index="2"/> 
+            </srai>
+        </template>
+    </category>
+    
+     <!-- WHERE IS -->
+    <category>
+        <pattern>WHERE IS *</pattern>
+        <template>
+            <srai>
+                DIRECTIONS <star/>
+            </srai>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>_ WHERE IS *</pattern>
+        <template>
+            <srai>
+                DIRECTIONS <star index="2"/> 
+            </srai>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>_ WHERE * IS</pattern>
+        <template>
+            <srai>
+                DIRECTIONS <star index="2"/> 
+            </srai>
+        </template>
+    </category>
+    
+     <!-- WHERE'S -->
+    <category>
+        <pattern>WHERE'S *</pattern>
+        <template>
+            <srai>
+                DIRECTIONS <star/>
+            </srai>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>_ WHERE'S *</pattern>
+        <template>
+            <srai>
+                DIRECTIONS <star index="2"/> 
+            </srai>
+        </template>
+    </category>
+    
+</aiml>

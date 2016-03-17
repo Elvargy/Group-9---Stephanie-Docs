@@ -1,15 +1,30 @@
 Tasks:
 
 fix bots aiml file load in
+	- possibly solved (?)
+
 
 finish list of possible questions
 
+
 write answers to questions in aiml
+	- directions and information for locations started
+	- I made it easy to add more locations later
+
 
 link with fb api
 
+
 add variety random responses
 
-add multiple response sequeces, with some errors in the responses
 
-write up stuff
+add multiple response sequences, with some errors in the responses
+	- errors will make her look more human but I think we should give her very few errors because she is meant to be official; general typos will do
+
+
+give Steph a fall-through response when she doesn't understand the input
+	- also include a 'patience' level
+	- every time a fall-through response is used increased by n
+	- when n gets too high, stop responding to unknown messages
+	- this will only be an issue if we don't give appropriate responses for all possible univeristy questions
+	- so as long as our coding is correct this will make her look more human

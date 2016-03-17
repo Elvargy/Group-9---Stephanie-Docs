@@ -3,8 +3,9 @@
     <category>
         <pattern>LOAD AIML B</pattern>
         <template>
-            <learn>test/basic_chat.aiml</learn>
-            <learn>test/directions.aiml</learn>
+            <learn>project/basic_chat.aiml</learn>
+            <learn>project/location_directions.aiml</learn>
+            <learn>project/location_about.aiml</learn>
         </template>
         
     </category>

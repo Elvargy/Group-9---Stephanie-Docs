@@ -1,0 +1,63 @@
+<aiml version="1.0.1" encoding="UTF-8">
+
+<!-- Basic chat responses -->
+
+    <category>
+        <pattern>HELLO</pattern>
+        <template>
+            Hello!
+        </template>
+    </category>
+    
+    <category>
+        <pattern>HEY</pattern>
+        <template>
+            <srai>
+                HELLO
+            </srai>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>HI</pattern>
+        <template>
+            <srai>
+                HELLO
+            </srai>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>YO</pattern>
+        <template>
+            <srai>
+                HELLO
+            </srai>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>BYE</pattern>
+        <template>
+            Goodbye!
+        </template>
+    </category>
+    
+    <category>
+        <pattern>WHO ARE YOU</pattern>
+        <template>
+            I am Steph from the Student Union. If you need assitance around the university, I'm here to help! :)
+        </template>
+    </category>
+    
+    <category>
+        <pattern>WHAT ARE YOU</pattern>
+        <template>
+            That's a little rude.
+            <srai>
+                WHO ARE YOU
+            </srai>
+        </template>
+    </category>
+    
+</aiml>
