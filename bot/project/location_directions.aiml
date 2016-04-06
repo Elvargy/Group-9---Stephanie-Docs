@@ -21,42 +21,19 @@
     <!-- Minerva/Main Building -->
         <!-- Minerva Building -->
     <category>
-        <pattern>DIRECTIONS MINERVA BUILDING</pattern>
+        <pattern>DIRECTIONS MAIN ADMIN MINERVA BUILDING _</pattern>
         <template>
-            Head to where the Swan is. I'm sure that being a student, you're already familiar with it ;-). Once at the Swan, the Minerva Building is the big Building with the illuminating University logo on the side.
-			The entrance also has the words 'Minerva Building' above the doors.
+		<random>
+            <li> Head to where the Swan is. I'm sure that being a student, you're already familiar with it ;-). Once at the Swan, the Minerva Building is the big Building with the illuminating University logo on the side.
+			The entrance also has the words 'Minerva Building' above the doors. </li>
+			
+			<li> Oh, that one confuses a few people sometimes. It used to be called the Main Admin Building! Head to The Swan Student Pub which I'm sure you're familiar with, and you should see the building from there.
+				it's the building with the giant illuminating logo on the side. It also has the words 'Minerva Building'above the enterance. </li>
+			
+			</random>
         </template>
     </category>
-    
-    <category>
-        <pattern>DIRECTIONS MINERVA BUILDING _</pattern>
-        <template>
-            <srai>
-                Oh, that one confuses a few people sometimes. It used to be called the Main Admin Building! Head to The Swan Student Pub which I'm sure you're familiar with, and you should see the building from there.
-				it's the building with the giant illuminating logo on the side. It also has the words 'Minerva Building'above the enterance.
-            </srai>
-        </template>
-    </category>
-    
-        <!-- Main Building -->
-    <category>
-        <pattern>DIRECTIONS MAIN BUILDING</pattern>
-        <template>
-            <srai>
-                DIRECTIONS MINERVA BUILDING
-            </srai>
-        </template>
-    </category>
-    
-    <category>
-        <pattern>DIRECTIONS MAIN BUILDING _</pattern>
-        <template>
-            <srai>
-                DIRECTIONS MINERVA BUILDING
-            </srai>
-        </template>
-    </category>
-    
+         
     
     <!-- Add more locations above -->
     
