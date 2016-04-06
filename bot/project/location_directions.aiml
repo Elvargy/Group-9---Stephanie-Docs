@@ -32,7 +32,8 @@
         <pattern>DIRECTIONS MINERVA BUILDING _</pattern>
         <template>
             <srai>
-                DIRECTIONS MINERVA BUILDING
+                Oh, that one confuses a few people sometimes. It used to be called the Main Admin Building! Head to The Swan Student Pub which I'm sure you're familiar with, and you should see the building from there.
+				it's the building with the giant illuminating logo on the side. It also has the words 'Minerva Building'above the enterance.
             </srai>
         </template>
     </category>
