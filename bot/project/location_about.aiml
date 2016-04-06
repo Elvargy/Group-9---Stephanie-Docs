@@ -66,7 +66,7 @@
     <category>
         <pattern>ABOUT JOSEPH BANKS LABORATORIES</pattern>
         <template>
-            <li>The Joseph Banks Laboratories, opened by Visiting Professor Chris Packham, are the result of a £14 million redevelopment project designed to provide science students in the Schools of Chemistry, Maths and Physics, Life Sciences and Pharmacy with state-of-the-art, professional-standard facilities in which to study at undergraduate and postgraduate level.</li>
+            The Joseph Banks Laboratories, it provides science students in the Schools of Chemistry, Maths and Physics, Life Sciences and Pharmacy with state-of-the-art, professional-standard facilities in which to study.
         </template>
     </category>
 	
@@ -74,7 +74,7 @@
         <pattern>ABOUT JOSEPH BANKS LABORATORIES MAIN BUILDING _</pattern>
         <template>
              <srai>
-                <li>The Joseph Banks Laboratories, opened by Visiting Professor Chris Packham, are the result of a £14 million redevelopment project designed to provide science students in the Schools of Chemistry, Maths and Physics, Life Sciences and Pharmacy with state-of-the-art, professional-standard facilities in which to study at undergraduate and postgraduate level.</li>
+                The Joseph Banks Laboratories, opened by Visiting Professor Chris Packham, are the result of a £14 million redevelopment project designed to provide science students in the Schools of Chemistry, Maths and Physics, Life Sciences and Pharmacy with state-of-the-art, professional-standard facilities in which to study at undergraduate and postgraduate level.
             </srai>
         </template>
     </category>
@@ -84,7 +84,7 @@
 	<category>
         <pattern>ABOUT LINCOLN PERFORMING ARTS CENTRE</pattern>
         <template>
-            <li>The Lincoln Performing Arts Centre (LPAC) is an innovative performance venue with a state-of-the-art learning environment for the Lincoln School of Performing Arts.</li>
+          The Lincoln Performing Arts Centre (LPAC) is an innovative performance venue with a state-of-the-art learning environment for the Lincoln School of Performing Arts.
         </template>
     </category>
 	
@@ -92,7 +92,7 @@
         <pattern>ABOUT LINCOLN PERFORMING ARTS CENTRE _</pattern>
         <template>
 		<srai>
-            <li>The Lincoln Performing Arts Centre (LPAC) is an innovative performance venue with a state-of-the-art learning environment for the Lincoln School of Performing Arts.</li>
+            The Lincoln Performing Arts Centre (LPAC) is an innovative performance venue with a state-of-the-art learning environment for the Lincoln School of Performing Arts.
         </srai>
 		</template>
     </category>
@@ -100,7 +100,7 @@
     <category>
         <pattern>ABOUT LPAC</pattern>
         <template>
-            <li>The Lincoln Performing Arts Centre (LPAC) is an innovative performance venue with a state-of-the-art learning environment for the Lincoln School of Performing Arts.</li>
+            The Lincoln Performing Arts Centre (LPAC) is an innovative performance venue with a state-of-the-art learning environment for the Lincoln School of Performing Arts.
         </template>
     </category>
 	
@@ -108,7 +108,7 @@
         <pattern>ABOUT LPAC _</pattern>
         <template>
 		<srai>
-            <li>The Lincoln Performing Arts Centre (LPAC) is an innovative performance venue with a state-of-the-art learning environment for the Lincoln School of Performing Arts.</li>
+           The Lincoln Performing Arts Centre (LPAC) is an innovative performance venue with a state-of-the-art learning environment for the Lincoln School of Performing Arts.
         </srai>
 		</template>
     </category>
@@ -118,7 +118,7 @@
 	<category>
         <pattern>ABOUT ENTERPRISE BUILDING</pattern>
         <template>
-           <li> Home to the Careers and Employability Service, a dedicated team of qualified advisors who offer students the advice and support to maximise the opportunities available upon graduating. This building is also home to our business incubation unit, Sparkhouse Studios, where entrepreneurial students can access expertise and resources to support a fledgling business.</li>
+           Home to the Careers and Employability Service, a dedicated team of qualified advisors who offer students the advice and support to maximise the opportunities available upon graduating. This building is also home to our business incubation unit, Sparkhouse Studios, where entrepreneurial students can access expertise and resources to support a fledgling business.
         </template>
     </category>
     
@@ -126,7 +126,7 @@
         <pattern>ABOUT ENTERPRISE BUILDING _</pattern>
         <template>
             <srai>
-                <li>Home to the Careers and Employability Service, a dedicated team of qualified advisors who offer students the advice and support to maximise the opportunities available upon graduating. This building is also home to our business incubation unit, Sparkhouse Studios, where entrepreneurial students can access expertise and resources to support a fledgling business. </li>
+                Home to the Careers and Employability Service, a dedicated team of qualified advisors who offer students the advice and support to maximise the opportunities available upon graduating. This building is also home to our business incubation unit, Sparkhouse Studios, where entrepreneurial students can access expertise and resources to support a fledgling business. 
             </srai>
         </template>
     </category>
@@ -136,7 +136,7 @@
 	<category>
         <pattern>ABOUT MHT</pattern>
         <template>
-           <li>The Media, Humanities and Technology building is fully equipped to industry standards with media suites providing the latest broadcast television, radio and sound equipment, as well as television and photographic studios and radio editing suites. Siren FM, our on-campus community radio station, is based here. Media Archive for Central England (MACE) is also located in the MHT building.</li>
+           The Media, Humanities and Technology building is fully equipped to industry standards with media suites providing the latest broadcast television, radio and sound equipment, as well as television and photographic studios and radio editing suites. Siren FM, our on-campus community radio station, is based here. Media Archive for Central England (MACE) is also located in the MHT building.
         </template>
     </category>
     
@@ -144,7 +144,23 @@
         <pattern>ABOUT MHT _</pattern>
         <template>
             <srai>
-                <li>The Media, Humanities and Technology building is fully equipped to industry standards with media suites providing the latest broadcast television, radio and sound equipment, as well as television and photographic studios and radio editing suites. Siren FM, our on-campus community radio station, is based here. Media Archive for Central England (MACE) is also located in the MHT building.</li>
+                The Media, Humanities and Technology building is fully equipped to industry standards with media suites providing the latest broadcast television, radio and sound equipment, as well as television and photographic studios and radio editing suites. Siren FM, our on-campus community radio station, is based here. Media Archive for Central England (MACE) is also located in the MHT building.
+            </srai>
+        </template>
+    </category>
+	
+		<category>
+        <pattern>ABOUT MEDIA BUILDING</pattern>
+        <template>
+           The Media, Humanities and Technology building is fully equipped to industry standards with media suites providing the latest broadcast television, radio and sound equipment, as well as television and photographic studios and radio editing suites. Siren FM, our on-campus community radio station, is based here. Media Archive for Central England (MACE) is also located in the MHT building.
+        </template>
+    </category>
+    
+    <category>
+        <pattern>ABOUT MEDIA BUILDING_</pattern>
+        <template>
+            <srai>
+                The Media, Humanities and Technology building is fully equipped to industry standards with media suites providing the latest broadcast television, radio and sound equipment, as well as television and photographic studios and radio editing suites. Siren FM, our on-campus community radio station, is based here. Media Archive for Central England (MACE) is also located in the MHT building.
             </srai>
         </template>
     </category>
