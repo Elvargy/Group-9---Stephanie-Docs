@@ -23,7 +23,8 @@
     <category>
         <pattern>DIRECTIONS MINERVA BUILDING</pattern>
         <template>
-            [Directions to Minerva Building]
+            Head to where the Swan is. I'm sure that being a student, you're already familiar with it ;-). Once at the Swan, the Minerva Building is the big Building with the illuminating University logo on the side.
+			The entrance also has the words 'Minerva Building' above the doors.
         </template>
     </category>
     
