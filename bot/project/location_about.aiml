@@ -2,7 +2,7 @@
     
     <!-- Student Union -->
     <category>
-        <pattern>ABOUT STUDENT UNION</pattern>
+        <pattern>ABOUT STUDENTS UNION</pattern>
 			<template>
 				<random>
 					<li>The Students Union is an orgnasiation that is run by students, for students. </li>
@@ -13,7 +13,7 @@
     </category>
     
     <category>
-        <pattern>ABOUT STUDENT UNION _</pattern>
+        <pattern>ABOUT STUDENTS UNION _</pattern>
 			<template>
 				<srai>
 					<random>
@@ -30,7 +30,8 @@
     <category>
         <pattern>ABOUT MINERVA BUILDING</pattern>
         <template>
-            [Information about Minerva Building]
+			The Minerva building (or the main building, as it is sometimes called) is the heart of the university. 
+			There is a food court and a large seating area that anyone can use :).
         </template>
     </category>
     
@@ -38,7 +39,8 @@
         <pattern>ABOUT MINERVA BUILDING _</pattern>
         <template>
             <srai>
-                ABOUT MINERVA BUILDING
+             The Minerva building (or the main building, as it is sometimes called) is the heart of the university. 
+			There is a food court and a large seating area that anyone can use :).
             </srai>
         </template>
     </category>
@@ -48,7 +50,8 @@
         <pattern>ABOUT MAIN BUILDING</pattern>
         <template>
              <srai>
-                ABOUT MINERVA BUILDING
+            The Minerva building (or the main building, as it is sometimes called) is the heart of the university. 
+			There is a food court and a large seating area that anyone can use :).
             </srai>
         </template>
     </category>
@@ -56,8 +59,9 @@
     <category>
         <pattern>ABOUT MAIN BUILDING _</pattern>
         <template>
-             <srai>
-                ABOUT MINERVA BUILDING
+            <srai>
+            The Minerva building (or the main building, as it is sometimes called) is the heart of the university. 
+			There is a food court and a large seating area that anyone can use :).
             </srai>
         </template>
     </category>
@@ -74,7 +78,7 @@
         <pattern>ABOUT JOSEPH BANKS LABORATORIES MAIN BUILDING _</pattern>
         <template>
              <srai>
-                The Joseph Banks Laboratories, opened by Visiting Professor Chris Packham, are the result of a £14 million redevelopment project designed to provide science students in the Schools of Chemistry, Maths and Physics, Life Sciences and Pharmacy with state-of-the-art, professional-standard facilities in which to study at undergraduate and postgraduate level.
+                The Joseph Banks Laboratories, it provides science students in the Schools of Chemistry, Maths and Physics, Life Sciences and Pharmacy with state-of-the-art, professional-standard facilities in which to study.
             </srai>
         </template>
     </category>
