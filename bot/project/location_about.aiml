@@ -16,11 +16,7 @@
         <pattern>ABOUT STUDENTS UNION _</pattern>
 			<template>
 				<srai>
-					<random>
-						<li>The Students Union is an orgnasiation that is run by students, for students. </li>
-						<li>A large group of like-minded students that represent the students of the University of Lincoln.</li>
-						<li>The SU offers a range of services to help students get the most out of their time at university, providing opportunities with a voice in political discourse, and the chance to be involved in sports and societies.</li>
-					</random>
+					ABOUT STUDENTS UNION
 				</srai>
 			</template>
     </category>
@@ -39,19 +35,17 @@
         <pattern>ABOUT MINERVA BUILDING _</pattern>
         <template>
             <srai>
-             The Minerva building (or the main building, as it is sometimes called) is the heart of the university. 
-			There is a food court and a large seating area that anyone can use :).
+				ABOUT MAIN BUILDING
             </srai>
         </template>
     </category>
     
-        <!-- Main Building -->
+       <!-- Main Building -->
     <category>
         <pattern>ABOUT MAIN BUILDING</pattern>
         <template>
              <srai>
-            The Minerva building (or the main building, as it is sometimes called) is the heart of the university. 
-			There is a food court and a large seating area that anyone can use :).
+				ABOUT MAIN BUILDING
             </srai>
         </template>
     </category>
@@ -60,8 +54,7 @@
         <pattern>ABOUT MAIN BUILDING _</pattern>
         <template>
             <srai>
-            The Minerva building (or the main building, as it is sometimes called) is the heart of the university. 
-			There is a food court and a large seating area that anyone can use :).
+				ABOUT MAIN BUILDING
             </srai>
         </template>
     </category>
@@ -78,7 +71,7 @@
         <pattern>ABOUT JOSEPH BANKS LABORATORIES MAIN BUILDING _</pattern>
         <template>
              <srai>
-                The Joseph Banks Laboratories, it provides science students in the Schools of Chemistry, Maths and Physics, Life Sciences and Pharmacy with state-of-the-art, professional-standard facilities in which to study.
+                ABOUT JOSEPH BANKS LABORATORIES
             </srai>
         </template>
     </category>
@@ -96,7 +89,7 @@
         <pattern>ABOUT LINCOLN PERFORMING ARTS CENTRE _</pattern>
         <template>
 		<srai>
-            The Lincoln Performing Arts Centre (LPAC) is an innovative performance venue with a state-of-the-art learning environment for the Lincoln School of Performing Arts.
+           ABOUT LINCOLN PERFORMING Arts CENTRE
         </srai>
 		</template>
     </category>
@@ -104,7 +97,9 @@
     <category>
         <pattern>ABOUT LPAC</pattern>
         <template>
-            The Lincoln Performing Arts Centre (LPAC) is an innovative performance venue with a state-of-the-art learning environment for the Lincoln School of Performing Arts.
+		<srai>
+           ABOUT LINCOLN PERFORMING Arts CENTRE
+        </srai>
         </template>
     </category>
 	
@@ -112,7 +107,7 @@
         <pattern>ABOUT LPAC _</pattern>
         <template>
 		<srai>
-           The Lincoln Performing Arts Centre (LPAC) is an innovative performance venue with a state-of-the-art learning environment for the Lincoln School of Performing Arts.
+           ABOUT LINCOLN PERFORMING Arts CENTRE
         </srai>
 		</template>
     </category>
@@ -130,8 +125,8 @@
         <pattern>ABOUT ENTERPRISE BUILDING _</pattern>
         <template>
             <srai>
-                Home to the Careers and Employability Service, a dedicated team of qualified advisors who offer students the advice and support to maximise the opportunities available upon graduating. This building is also home to our business incubation unit, Sparkhouse Studios, where entrepreneurial students can access expertise and resources to support a fledgling business. 
-            </srai>
+            ABOUT ENTERPRISE BUILDING
+			</srai>
         </template>
     </category>
 	
@@ -148,7 +143,7 @@
         <pattern>ABOUT MHT _</pattern>
         <template>
             <srai>
-                The Media, Humanities and Technology building is fully equipped to industry standards with media suites providing the latest broadcast television, radio and sound equipment, as well as television and photographic studios and radio editing suites. Siren FM, our on-campus community radio station, is based here. Media Archive for Central England (MACE) is also located in the MHT building.
+                ABOUT MHT
             </srai>
         </template>
     </category>
@@ -156,15 +151,17 @@
 		<category>
         <pattern>ABOUT MEDIA BUILDING</pattern>
         <template>
-           The Media, Humanities and Technology building is fully equipped to industry standards with media suites providing the latest broadcast television, radio and sound equipment, as well as television and photographic studios and radio editing suites. Siren FM, our on-campus community radio station, is based here. Media Archive for Central England (MACE) is also located in the MHT building.
-        </template>
+            <srai>
+                ABOUT MHT
+            </srai>
+		</template>
     </category>
     
     <category>
         <pattern>ABOUT MEDIA BUILDING_</pattern>
         <template>
             <srai>
-                The Media, Humanities and Technology building is fully equipped to industry standards with media suites providing the latest broadcast television, radio and sound equipment, as well as television and photographic studios and radio editing suites. Siren FM, our on-campus community radio station, is based here. Media Archive for Central England (MACE) is also located in the MHT building.
+                ABOUT MHT
             </srai>
         </template>
     </category>
