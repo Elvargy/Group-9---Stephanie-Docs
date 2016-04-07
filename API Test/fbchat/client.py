@@ -395,11 +395,12 @@ class Client(object):
         r = self._get(StickyURL, data)
         try:
             j = get_json(r.text)
-        except:
-            pass
             
-        self.seq = j.get('seq', '0')
-        return j
+            self.seq = j.get('seq', '0')
+            return j
+            
+        except:
+            return ""
 
 
     def _parseMessage(self, content):
