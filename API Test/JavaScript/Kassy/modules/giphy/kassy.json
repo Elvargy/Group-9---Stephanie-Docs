@@ -1,0 +1,5 @@
+﻿{
+  "name": "giphy",
+  "version": 2.1,
+  "startup": "giphy.js"
+}
