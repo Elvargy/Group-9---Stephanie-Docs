@@ -198,8 +198,19 @@ class Client(object):
             print (e)
             
             handled = r.text.replace('\\n', ' ')
-            print(handled)
-            self.j = j = get_json(handled)
+			
+            try:
+                self.j = j = get_json(handled)
+            except:
+                j = {
+                    'message': {
+                        'mid':"",
+                        'body':"",
+                        'sender_fbid':"",
+                        'sender_name':"",
+                        'thread_fbid':""
+                    }
+                }
 		
         users = []
         for entry in j['payload']['entries']:
@@ -286,7 +297,19 @@ class Client(object):
             print (e)
             
             handled = r.text.replace('\\n', ' ')
-            j = get_json(handled)
+            
+            try:
+                self.j = j = get_json(handled)
+            except:
+                j = {
+                    'message': {
+                        'mid':"",
+                        'body':"",
+                        'sender_fbid':"",
+                        'sender_name':"",
+                        'thread_fbid':""
+                    }
+                }
             
         if not j['payload']:
             return None
@@ -326,7 +349,19 @@ class Client(object):
             print (e)
             
             handled = r.text.replace('\\n', ' ')
-            j = get_json(handled)
+            
+            try:
+                self.j = j = get_json(handled)
+            except:
+                j = {
+                    'message': {
+                        'mid':"",
+                        'body':"",
+                        'sender_fbid':"",
+                        'sender_name':"",
+                        'thread_fbid':""
+                    }
+                }
             
         # Get names for people
         participants={}
@@ -371,7 +406,19 @@ class Client(object):
             print (e)
             
             handled = r.text.replace('\\n', ' ')
-            j = get_json(handled)
+			
+            try:
+                self.j = j = get_json(handled)
+            except:
+                j = {
+                    'message': {
+                        'mid':"",
+                        'body':"",
+                        'sender_fbid':"",
+                        'sender_name':"",
+                        'thread_fbid':""
+                    }
+                }
             
         result = {
             "message_counts": j['payload']['message_counts'],
@@ -431,7 +478,19 @@ class Client(object):
             print (e)
             
             handled = r.text.replace('\\n', ' ')
-            j = get_json(handled)
+			
+            try:
+                self.j = j = get_json(handled)
+            except:
+                j = {
+                    'message': {
+                        'mid':"",
+                        'body':"",
+                        'sender_fbid':"",
+                        'sender_name':"",
+                        'thread_fbid':""
+                    }
+                }
 
         if 'lb_info' not in j:
             raise Exception('Get sticky pool error')
@@ -461,7 +520,19 @@ class Client(object):
             print (e)
             
             handled = r.text.replace('\\n', ' ')
-            j = get_json(handled)
+            
+            try:
+                self.j = j = get_json(handled)
+            except:
+                j = {
+                    'message': {
+                        'mid':"",
+                        'body':"",
+                        'sender_fbid':"",
+                        'sender_name':"",
+                        'thread_fbid':""
+                    }
+                }
             
         self.seq = j.get('seq', '0')
         return j
@@ -473,7 +544,7 @@ class Client(object):
         May contains multiple messages in the content.
         '''
         if 'ms' not in content:
-            return
+            return content
         for m in content['ms']:
             if m['type'] in ['m_messaging', 'messaging']:
                 try:
