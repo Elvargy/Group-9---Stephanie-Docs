@@ -35,7 +35,7 @@
         <pattern>ABOUT MINERVA BUILDING _</pattern>
         <template>
             <srai>
-				ABOUT MAIN BUILDING
+				ABOUT MINERVA BUILDING
             </srai>
         </template>
     </category>
@@ -45,7 +45,7 @@
         <pattern>ABOUT MAIN BUILDING</pattern>
         <template>
              <srai>
-				ABOUT MAIN BUILDING
+				ABOUT MINERVA BUILDING
             </srai>
         </template>
     </category>
@@ -54,7 +54,7 @@
         <pattern>ABOUT MAIN BUILDING _</pattern>
         <template>
             <srai>
-				ABOUT MAIN BUILDING
+				ABOUT MINERVA BUILDING
             </srai>
         </template>
     </category>
@@ -79,7 +79,9 @@
 	    <category>
         <pattern>ABOUT JOSEPH BANKS BUILDING</pattern>
         <template>
-           Sure thing :), the Joseph Banks Laboratories provides science students in the Schools of Chemistry, Maths and Physics, Life Sciences and Pharmacy with state-of-the-art, professional-standard facilities in which to study.
+           <srai>
+                ABOUT JOSEPH BANKS LABORATORIES
+            </srai>
         </template>
     </category>
 	
@@ -104,7 +106,7 @@
         <pattern>ABOUT LINCOLN PERFORMING ARTS CENTRE _</pattern>
         <template>
 		<srai>
-           ABOUT LINCOLN PERFORMING Arts CENTRE
+           ABOUT LINCOLN PERFORMING ARTS CENTRE
         </srai>
 		</template>
     </category>
@@ -113,7 +115,7 @@
         <pattern>ABOUT LPAC</pattern>
         <template>
 		<srai>
-           ABOUT LINCOLN PERFORMING Arts CENTRE
+           ABOUT LINCOLN PERFORMING ARTS CENTRE
         </srai>
         </template>
     </category>
@@ -122,7 +124,7 @@
         <pattern>ABOUT LPAC _</pattern>
         <template>
 		<srai>
-           ABOUT LINCOLN PERFORMING Arts CENTRE
+           ABOUT LINCOLN PERFORMING ARTS CENTRE
         </srai>
 		</template>
     </category>

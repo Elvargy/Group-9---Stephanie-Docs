@@ -4,12 +4,11 @@
     <category>
         <pattern>DIRECTIONS STUDENT UNION</pattern>
         <template>
-        <random>
-            <li>The Student Union is located on the south sound of campus. The closest landmark is the Engine Shed.
-            The SU is actually located inside of the Engine Shed's building. </li>
-            
-            <li>The SU is located outside of the doors to the Tower Bar </li>
-            
+            <random>
+                <li>The Student Union is located on the south sound of campus. The closest landmark is the Engine Shed.
+                The SU is actually located inside of the Engine Shed's building. </li>
+                
+                <li>The SU is located outside of the doors to the Tower Bar </li>
             </random>
             
         </template>
@@ -30,8 +29,10 @@
     <category>
         <pattern>DIRECTIONS MINERVA BUILDING</pattern>
         <template>
-            <li> Head to where the Swan is. I'm sure that being a student, you're already familiar with it ;-). Once at the Swan, the Minerva Building is the big Building with the illuminating University logo on the side. The entrance also has the words 'Minerva Building' above the doors. </li>
-			<li> Oh, that one confuses a few people sometimes. It used to be called the Main Admin Building! Head to The Swan Student Pub which I'm sure you're familiar with, and you should see the building from there. It's the building with the giant illuminating logo on the side. It also has the words 'Minerva Building'above the enterance. </li>
+            <random>
+                <li> Head to where the Swan is. I'm sure that being a student, you're already familiar with it ;-). Once at the Swan, the Minerva Building is the big Building with the illuminating University logo on the side. The entrance also has the words 'Minerva Building' above the doors. </li>
+                <li> Oh, that one confuses a few people sometimes. It used to be called the Main Admin Building! Head to The Swan Student Pub which I'm sure you're familiar with, and you should see the building from there. It's the building with the giant illuminating logo on the side. It also has the words 'Minerva Building'above the enterance. </li>
+            </random>
         </template>
     </category>
     
