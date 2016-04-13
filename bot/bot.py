@@ -1,5 +1,7 @@
-import aiml
 import os
+import aiml
+import fbchat
+import random
 
 kernel = aiml.Kernel()
 
@@ -123,38 +125,80 @@ questionList = []
 for location in locationList:
     # Directions
     questionList.append("Directions %s" % location)
-    questionList.append("Can you tell me directions %s" % location)
+    questionList.append("Can you tell me directions %s?" % location)
     
     questionList.append("Directions to %s" % location)
-    questionList.append("Can you tell me directions to %s" % location)
+    questionList.append("Can you tell me directions to %s?" % location)
     
     questionList.append("Directions for %s" % location)
-    questionList.append("Can you tell me directions for %s" % location)
+    questionList.append("Can you tell me directions for %s?" % location)
     
     questionList.append("Get to %s" % location)
-    questionList.append("Can you tell me how to get to %s" % location)
+    questionList.append("Can you tell me how to get to %s?" % location)
     
-    questionList.append("Where is %s" % location)
-    questionList.append("Hey, where is %s" % location)
-    questionList.append("Can you tell me where %s is" % location)
+    questionList.append("Where is %s?" % location)
+    questionList.append("Hey, where is %s?" % location)
+    questionList.append("Can you tell me where %s is?" % location)
     
-    questionList.append("Where's %s" % location)
-    questionList.append("Hey, where's %s" % location)
+    questionList.append("Where's %s?" % location)
+    questionList.append("Hey, where's %s?" % location)
 
     # About
     questionList.append("About %s" % location)
-    questionList.append("Can you tell me about %s" % location)
+    questionList.append("Can you tell me about %s?" % location)
     
-    questionList.append("What is %s" % location)
-    questionList.append("Hey, what is %s" % location)
-    questionList.append("Can you tell me what %s is" % location)
+    questionList.append("What is %s?" % location)
+    questionList.append("Hey, what is %s?" % location)
+    questionList.append("Can you tell me what %s is?" % location)
 
-    
+    questionList.append("Information for %s" % location)
+    questionList.append("Can you give me information for %s?" % location)
+
+
+fallback = [
+    "Sorry I didn't understand that, could you please clarify your question?",
+    "I don't understand",
+    "Suck my dick you pixie wanker"
+    ]
+
+api = fbchat.Client("13393724@students.lincoln.ac.uk", "group9")
+
 while True:
-    message = input(">>: ")
-    try:
-        command = getattr(c, "command_" + message)()
-    except:
-        print (kernel.respond(message))
+    metadata = api.listen()
+
+    if metadata != None :
+        if 'message' in metadata:
+            mid     = metadata['message']['mid']
+            message = metadata['message']['body']
+            fbid    = metadata['message']['sender_fbid']
+            name    = metadata['message']['sender_name']
+            
+            if 'thread_fbid' in metadata['message']:
+                tid     = metadata['message']['thread_fbid']
+            else:
+                tid = None
+        
+            print (mid)
+            print (message)
+            print (fbid)
+            print (name)
+            print (metadata)            
+
+            if tid != None and fbid != 100011744288479:
+                try:
+                    command = getattr(c, "command_" + message)()
+                    response = ""
+                except:
+                    response = kernel.respond(message)
+                
+                if response != "":
+                    print (response)
+                    api.send(tid, response)
+                else:
+                    api.send(tid, random.choice(fallback))
+    
+            else:
+                print("None")
+    
 
 
