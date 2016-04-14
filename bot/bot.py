@@ -4,6 +4,7 @@ import fbchat
 import random
 
 kernel = aiml.Kernel()
+api = fbchat.Client("13393724@students.lincoln.ac.uk", "group9")
 
 print ("Choose a brain file:")
 print ("[1] Standard")
@@ -13,6 +14,7 @@ print ("[4] None\n")
 
 invalidSelection = True
 path = "notafile.brn"
+run = True
 
 while invalidSelection:
     
@@ -77,6 +79,7 @@ class Commands:
     
     def command_quit(self):
         # Quits the bot
+        run = False
         exit(0)
         
     def command_learntest(self):
@@ -106,9 +109,9 @@ class Commands:
         
         inp = ""
         for question in questionList:
-            print(question)
-            print(kernel.respond(question))
-            print()
+            api.send('998191603562029', question)
+            api.send('998191603562029', kernel.respond(question))
+            api.send('998191603562029', " ")
                                       
     def command_(self):
         bot_response = kernel.respond(message)
@@ -119,6 +122,12 @@ locationList = [
     "Student Union",
     "Minerva Building",
     "Main Building"
+    "Joseph Banks Laboritories",
+    "Lincoln Performing Arts Centre",
+    "LPAC",
+    "Enterprise",
+    "MHT",
+    "Media Building"
     ]
 
 questionList = []
@@ -161,9 +170,7 @@ fallback = [
     "Suck my dick you pixie wanker"
     ]
 
-api = fbchat.Client("13393724@students.lincoln.ac.uk", "group9")
-
-while True:
+while run:
     metadata = api.listen()
 
     if metadata != None :
@@ -174,7 +181,7 @@ while True:
             name    = metadata['message']['sender_name']
             
             if 'thread_fbid' in metadata['message']:
-                tid     = metadata['message']['thread_fbid']
+                tid = metadata['message']['thread_fbid']
             else:
                 tid = None
         
@@ -182,9 +189,12 @@ while True:
             print (message)
             print (fbid)
             print (name)
-            print (metadata)            
+            print (metadata)
 
-            if tid != None and fbid != 100011744288479:
+            if name == "json error":
+                api.send(tid, message)
+                
+            elif tid != None and fbid != 100011744288479:
                 try:
                     command = getattr(c, "command_" + message)()
                     response = ""
