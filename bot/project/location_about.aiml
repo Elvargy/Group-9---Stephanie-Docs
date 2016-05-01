@@ -184,6 +184,40 @@
     </category>
 	
     
+	<!-- Shed/Swan -->
+	
+	<category>
+        <pattern>ABOUT SWAN</pattern>
+        <template>
+           The Swan or Shed (the swans older name) is a uni owned pub that is located near the MHT building. 
+        </template>
+    </category>
+    
+    <category>
+        <pattern>ABOUT SWAN _</pattern>
+        <template>
+            <srai>
+                ABOUT MHT
+            </srai>
+        </template>
+    </category>
+	
+		
+	<category>
+        <pattern>ABOUT SHED</pattern>
+        <template>
+           The Shed is the uni-owned pub that is now called the Swan. :)
+        </template>
+    </category>
+    
+    <category>
+        <pattern>ABOUT SHED _</pattern>
+        <template>
+            <srai>
+                ABOUT MHT
+            </srai>
+        </template>
+    </category>
     <!-- Add more locations above -->
     
     <!-- Template below 
