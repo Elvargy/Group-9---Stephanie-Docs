@@ -197,7 +197,7 @@
         <pattern>ABOUT SWAN _</pattern>
         <template>
             <srai>
-                ABOUT MHT
+                ABOUT SWAN
             </srai>
         </template>
     </category>
@@ -214,10 +214,29 @@
         <pattern>ABOUT SHED _</pattern>
         <template>
             <srai>
-                ABOUT MHT
+                ABOUT SHED
             </srai>
         </template>
     </category>
+	
+	<!-- accommodation -->
+	
+	<category>
+        <pattern>ABOUT ACCOMMODATION</pattern>
+        <template>
+           The university offers a wide range of on and off campus accommodation. Courts is the on campus accommodation, it is a large student village made up of 17 buildings that house around 1,037 students. Our off campus accommodation includes Brayford Quay, Hayes Wharf, The Junxion, Park Court, Pavilion House and St Marks House. If you need more information, just got to the uni website and search for accommodation. :)
+        </template>
+    </category>
+    
+    <category>
+        <pattern>ABOUT ACCOMMODATION _</pattern>
+        <template>
+            <srai>
+                ABOUT ACCOMMODATION
+            </srai>
+        </template>
+    </category>
+	
     <!-- Add more locations above -->
     
     <!-- Template below 

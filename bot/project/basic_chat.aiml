@@ -89,5 +89,27 @@
             </srai>
         </template>
     </category>
+	
+	<category>
+		<pattern>THANK YOU</pattern>
+		<template>
+			<srai>No Problem :)</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>THANK YOU _</pattern>
+		<template>
+			<srai>No Problem :)</srai>
+		</template>
+	</category>
+	
+		<category>
+		<pattern>_ THANK YOU</pattern>
+		<template>
+			<srai>No Problem :)</srai>
+		</template>
+	</category>
+
     
 </aiml>
