@@ -505,63 +505,20 @@
 			OK.
 		</template>
 	</category>
-<<<<<<< HEAD
 			
 	<category>
 	<pattern>Yes</pattern>
 		<template>
 		<srai>NO</srai>
-=======
+		</template>
+	<category>
 		
-		
-	
-<<<<<<< HEAD
-	<!-- Purple Rain -->
-	<category>
-		<pattern>PURPLE RAIN</pattern>
-		<template>I never meant to cause you any sorrow, I never meant to cause you any pain, I only wanted one time to see you laughing, I only want to see you laughing in the purple rain. Purple rain, Purple rain.
-=======
-	<category>
-	<pattern>Yes</pattern>
-		<template>
-		<random>
-		<li>OK.</li>
-		</random>
->>>>>>> 31c2d75a5b417a129ddffc28f955c10274b29f55
-		</template>
-	</category>
-	
-	<category>
-<<<<<<< HEAD
-		<pattern>PURPLE RAIN _</pattern>
-		<template>
-			<srai>PURPLE RAIN</srai>
->>>>>>> f327da413f68bae55efd3dd2bc74c60fdae00333
-		</template>
-	</category>
-	
-	<category>
-		<pattern>_ PURPLE RAIN</pattern>
-		<template>
-			<srai>PURPLE RAIN</srai>
-		</template>
-	</category>
-
-	<category>
-		<pattern>_ PURPLE RAIN _</pattern>
-		<template>
-			<srai>PURPLE RAIN</srai>
-		</template>
-	</category>
-
-=======
 	<pattern>I DONT KNOW</pattern>
 		<template>
 		<srai>NO</srai>
 		</template>
 	</category>
->>>>>>> 31c2d75a5b417a129ddffc28f955c10274b29f55
-	
+
 	<category>
 	<pattern>I DON'T KNOW</pattern>
 		<template>
@@ -580,6 +537,35 @@
 	<pattern>I DON'T KNOW _</pattern>
 		<template>
 		<srai>NO</srai>
+		</template>
+	</category>
+	
+	
+	<!-- Purple Rain -->
+	<category>
+		<pattern>PURPLE RAIN</pattern>
+		<template>I never meant to cause you any sorrow, I never meant to cause you any pain, I only wanted one time to see you laughing, I only want to see you laughing in the purple rain. Purple rain, Purple rain.
+
+	<category>
+
+	<category>
+		<pattern>PURPLE RAIN _</pattern>
+		<template>
+			<srai>PURPLE RAIN</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>_ PURPLE RAIN</pattern>
+		<template>
+			<srai>PURPLE RAIN</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>_ PURPLE RAIN _</pattern>
+		<template>
+			<srai>PURPLE RAIN</srai>
 		</template>
 	</category>
 
