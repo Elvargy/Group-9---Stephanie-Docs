@@ -416,7 +416,7 @@
 	<category>
 		<pattern>HOW DO YOU KNOW YOU ARE REAL</pattern>
 		<template>
-			Thats a strange question. [p]5[p] \n How do you know you are real? 
+			Thats a strange question. [p]2[p] \n How do you know you are real? 
 		</template>
 	</category>
 	
@@ -502,59 +502,45 @@
 	<category>
 	<pattern>NO</pattern>
 		<template>
-		<random>
-		<li>OK.</li>
-		</random>
+			OK.
 		</template>
 	</category>
-		
-		
-	
+			
 	<category>
 	<pattern>Yes</pattern>
 		<template>
-		<random>
-		<li>OK.</li>
-		</random>
+		<srai>NO</srai>
 		</template>
 	</category>
 	
 	<category>
 	<pattern>I DONT KNOW</pattern>
 		<template>
-		<random>
-		<li>OK.</li>
-		</random>
+		<srai>NO</srai>
 		</template>
 	</category>
 	
 	<category>
 	<pattern>I DON'T KNOW</pattern>
 		<template>
-		<random>
-		<li>OK.</li>
-		</random>
+		<srai>NO</srai>
 		</template>
 	</category>
 	
 	<category>
 	<pattern>I DONT KNOW _</pattern>
 		<template>
-		<random>
-		<li>OK.</li>
-		</random>
+		<srai>NO</srai>
 		</template>
 	</category>
 	
 	<category>
 	<pattern>I DON'T KNOW _</pattern>
 		<template>
-		<random>
-		<li>OK.</li>
-		</random>
+		<srai>NO</srai>
 		</template>
 	</category>
-	
+
 	<!-- Fallthrough Responses-->
 	<category>
 		<pattern>*</pattern>
