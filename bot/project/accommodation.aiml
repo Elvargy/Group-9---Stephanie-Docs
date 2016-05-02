@@ -6,7 +6,7 @@
 		<template>
 			<random>
 				<li> The university offers a wide range of on and off campus accommodation. Courts is the on campus accommodation, it is a large student village made up of 17 buildings that house around 1,037 students. Our off campus accommodation includes Brayford Quay, Hayes Wharf, The Junxion, Park Court, Pavilion House and St Marks House. If you need more information, just got to the uni website and search for accommodation. :) </li>
-				<li> ITEM 2 </li>
+				<li> Answering a questions about a specific accommodation is tough so I reccommend that you go to this website to find out more https://www.lincoln.ac.uk/home/accommodation/ </li>
 			</random>
 		</template>
     </category>
@@ -17,7 +17,7 @@
         <template>
             <random>
                 <li> To find out where the accommodations are located, I reccommend using this website https://www.lincoln.ac.uk/home/accommodation/ </li>
-				<li> ITEM 2 </li>
+				<li> please see this website for more information https://www.lincoln.ac.uk/home/accommodation/ </li>
             </random>
         </template>
     </category>
@@ -54,6 +54,25 @@
     <category>
         <pattern>DIRECTIONS ACCOMMODATION _</pattern>
         <template>
+            <srai>
+                DIRECTIONS ACCOMMODATION
+            </srai>
+        </template>
+    </category>
+	
+	<category>
+        <pattern>DIRECTIONS COURTS </pattern>
+        <template>
+            <srai>
+                DIRECTIONS ACCOMMODATION
+            </srai>
+        </template>
+    </category>
+	
+	<category>
+        <pattern>DIRECTIONS COURTS _</pattern>
+        <template>
+		Ah, Courts. Courts is the On-Campus Accomodation,
             <srai>
                 DIRECTIONS ACCOMMODATION
             </srai>

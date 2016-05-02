@@ -17,7 +17,7 @@
         <pattern>DIRECTIONS LINCOLN PERFORMING ARTS CENTRE</pattern>
         <template>
             <random>
-                <li> ITEM 1 </li>
+                <li> To find this head towards Student Union or Engine Shed, look for the building that has the LPAC sign. </li>
 				<li> ITEM 2 </li>
             </random>
         </template>
