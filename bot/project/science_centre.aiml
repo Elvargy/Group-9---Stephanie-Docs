@@ -52,15 +52,6 @@
     </category>
     
     <category>
-        <pattern>ABOUT SCIENCE CENTRE</pattern>
-		<template>
-			<srai>
-				ABOUT SCIENCE CENTRE
-			</srai>
-		</template>
-    </category>
-    
-    <category>
         <pattern>ABOUT SCIENCE CENTRE _</pattern>
 		<template>
 			<srai>
@@ -81,15 +72,6 @@
     </category>
     
     <category>
-        <pattern>DIRECTIONS SCIENCE CENTRE</pattern>
-        <template>
-            <srai>
-                DIRECTIONS SCIENCE CENTRE
-            </srai>
-        </template>
-    </category>
-    
-    <category>
         <pattern>DIRECTIONS SCIENCE CENTRE _</pattern>
         <template>
             <srai>
@@ -102,15 +84,6 @@
     <!-- OPEN TIMES -->    
     <category>
         <pattern>OPEN SCIENCE CENTRE _</pattern>
-        <template>
-            <srai>
-                OPEN SCIENCE CENTRE
-            </srai>
-        </template>
-    </category>
-    
-    <category>
-        <pattern>OPEN SCIENCE CENTRE</pattern>
         <template>
             <srai>
                 OPEN SCIENCE CENTRE

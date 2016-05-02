@@ -52,15 +52,6 @@
     </category>
     
     <category>
-        <pattern>ABOUT STUDENT WELLBEING CENTER</pattern>
-		<template>
-			<srai>
-				ABOUT STUDENT WELLBEING CENTER
-			</srai>
-		</template>
-    </category>
-    
-    <category>
         <pattern>ABOUT STUDENT WELLBEING CENTER _</pattern>
 		<template>
 			<srai>
@@ -73,15 +64,6 @@
     <!-- DIRECTIONS -->
     <category>
         <pattern>DIRECTIONS STUDENT WELLBEING CENTER _</pattern>
-        <template>
-            <srai>
-                DIRECTIONS STUDENT WELLBEING CENTER
-            </srai>
-        </template>
-    </category>
-    
-    <category>
-        <pattern>DIRECTIONS STUDENT WELLBEING CENTER</pattern>
         <template>
             <srai>
                 DIRECTIONS STUDENT WELLBEING CENTER
@@ -108,16 +90,7 @@
             </srai>
         </template>
     </category>
-    
-    <category>
-        <pattern>OPEN STUDENT WELLBEING CENTER</pattern>
-        <template>
-            <srai>
-                OPEN STUDENT WELLBEING CENTER
-            </srai>
-        </template>
-    </category>
-    
+
     <category>
         <pattern>OPEN STUDENT WELLBEING CENTER _</pattern>
         <template>

@@ -52,15 +52,6 @@
     </category>
     
     <category>
-        <pattern>ABOUT ENGINEERING HUB</pattern>
-		<template>
-			<srai>
-				ABOUT ENGINEERING HUB
-			</srai>
-		</template>
-    </category>
-    
-    <category>
         <pattern>ABOUT ENGINEERING HUB _</pattern>
 		<template>
 			<srai>
@@ -81,15 +72,6 @@
     </category>
     
     <category>
-        <pattern>DIRECTIONS ENGINEERING HUB</pattern>
-        <template>
-            <srai>
-                DIRECTIONS ENGINEERING HUB
-            </srai>
-        </template>
-    </category>
-    
-    <category>
         <pattern>DIRECTIONS ENGINEERING HUB _</pattern>
         <template>
             <srai>
@@ -102,15 +84,6 @@
     <!-- OPEN TIMES -->    
     <category>
         <pattern>OPEN ENGINEERING HUB _</pattern>
-        <template>
-            <srai>
-                OPEN ENGINEERING HUB
-            </srai>
-        </template>
-    </category>
-    
-    <category>
-        <pattern>OPEN ENGINEERING HUB</pattern>
         <template>
             <srai>
                 OPEN ENGINEERING HUB

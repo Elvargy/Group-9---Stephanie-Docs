@@ -50,16 +50,6 @@
 			</srai>
 		</template>
     </category>
-    
-    <category>
-        <pattern>ABOUT VILLAGE HALL</pattern>
-		<template>
-			<srai>
-				ABOUT VILLAGE HALL
-			</srai>
-		</template>
-    </category>
-    
     <category>
         <pattern>ABOUT VILLAGE HALL _</pattern>
 		<template>
@@ -73,15 +63,6 @@
     <!-- DIRECTIONS -->
     <category>
         <pattern>DIRECTIONS VILLAGE HALL _</pattern>
-        <template>
-            <srai>
-                DIRECTIONS VILLAGE HALL
-            </srai>
-        </template>
-    </category>
-    
-    <category>
-        <pattern>DIRECTIONS VILLAGE HALL</pattern>
         <template>
             <srai>
                 DIRECTIONS VILLAGE HALL
@@ -108,16 +89,7 @@
             </srai>
         </template>
     </category>
-    
-    <category>
-        <pattern>OPEN VILLAGE HALL</pattern>
-        <template>
-            <srai>
-                OPEN VILLAGE HALL
-            </srai>
-        </template>
-    </category>
-    
+
     <category>
         <pattern>OPEN VILLAGE HALL _</pattern>
         <template>
@@ -126,11 +98,6 @@
             </srai>
         </template>
     </category>
-	
-	
-	
-	
-	
 	
 	
 	 <!-- ABOUT  -->

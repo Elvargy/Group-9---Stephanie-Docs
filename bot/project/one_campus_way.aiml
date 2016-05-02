@@ -51,14 +51,6 @@
 		</template>
     </category>
     
-    <category>
-        <pattern>ABOUT ONE ONE CAMPUS WAY</pattern>
-		<template>
-			<srai>
-				ABOUT ONE CAMPUS WAY
-			</srai>
-		</template>
-    </category>
     
     <category>
         <pattern>ABOUT ONE CAMPUS WAY _</pattern>
@@ -80,14 +72,6 @@
         </template>
     </category>
     
-    <category>
-        <pattern>DIRECTIONS ONE CAMPUS WAY</pattern>
-        <template>
-            <srai>
-                DIRECTIONS ONE CAMPUS WAY
-            </srai>
-        </template>
-    </category>
     
     <category>
         <pattern>DIRECTIONS ONE CAMPUS WAY _</pattern>
@@ -102,15 +86,6 @@
     <!-- OPEN TIMES -->    
     <category>
         <pattern>OPEN ONE CAMPUS WAY _</pattern>
-        <template>
-            <srai>
-                OPEN ONE CAMPUS WAY
-            </srai>
-        </template>
-    </category>
-    
-    <category>
-        <pattern>OPEN ONE CAMPUS WAY</pattern>
         <template>
             <srai>
                 OPEN ONE CAMPUS WAY

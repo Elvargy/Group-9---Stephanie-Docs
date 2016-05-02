@@ -50,16 +50,7 @@
 			</srai>
 		</template>
     </category>
-    
-    <category>
-        <pattern>ABOUT CHARLOTTE SCOTT BUILDING</pattern>
-		<template>
-			<srai>
-				ABOUT CHARLOTTE SCOTT BUILDING
-			</srai>
-		</template>
-    </category>
-    
+
     <category>
         <pattern>ABOUT CHARLOTTE SCOTT BUILDING _</pattern>
 		<template>
@@ -73,15 +64,6 @@
     <!-- DIRECTIONS -->
     <category>
         <pattern>DIRECTIONS CHARLOTTE SCOTT BUILDING _</pattern>
-        <template>
-            <srai>
-                DIRECTIONS CHARLOTTE SCOTT BUILDING
-            </srai>
-        </template>
-    </category>
-    
-    <category>
-        <pattern>DIRECTIONS CHARLOTTE SCOTT BUILDING</pattern>
         <template>
             <srai>
                 DIRECTIONS CHARLOTTE SCOTT BUILDING
@@ -109,14 +91,6 @@
         </template>
     </category>
     
-    <category>
-        <pattern>OPEN CHARLOTTE SCOTT BUILDING</pattern>
-        <template>
-            <srai>
-                OPEN CHARLOTTE SCOTT BUILDING
-            </srai>
-        </template>
-    </category>
     
     <category>
         <pattern>OPEN CHARLOTTE SCOTT BUILDING _</pattern>

@@ -52,15 +52,6 @@
     </category>
     
     <category>
-        <pattern>ABOUT THINK TANK</pattern>
-		<template>
-			<srai>
-				ABOUT THINK TANK
-			</srai>
-		</template>
-    </category>
-    
-    <category>
         <pattern>ABOUT THINK TANK _</pattern>
 		<template>
 			<srai>
@@ -73,15 +64,6 @@
     <!-- DIRECTIONS -->
     <category>
         <pattern>DIRECTIONS THINK TANK _</pattern>
-        <template>
-            <srai>
-                DIRECTIONS THINK TANK
-            </srai>
-        </template>
-    </category>
-    
-    <category>
-        <pattern>DIRECTIONS THINK TANK</pattern>
         <template>
             <srai>
                 DIRECTIONS THINK TANK
@@ -110,15 +92,6 @@
     </category>
     
     <category>
-        <pattern>OPEN THINK TANK</pattern>
-        <template>
-            <srai>
-                OPEN THINK TANK
-            </srai>
-        </template>
-    </category>
-    
-    <category>
         <pattern>OPEN THINK TANK _</pattern>
         <template>
             <srai>
@@ -126,11 +99,6 @@
             </srai>
         </template>
     </category>
-	
-	
-	
-	
-	
 	
 	<!-- ABOUT  -->
     <category>

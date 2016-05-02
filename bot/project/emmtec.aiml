@@ -35,14 +35,6 @@
 		</template>
     </category>
     
-    <category>
-        <pattern>ABOUT EMMTEC</pattern>
-		<template>
-			<srai>
-				ABOUT EMMTEC
-			</srai>
-		</template>
-    </category>
     
     <category>
         <pattern>ABOUT EMMTEC _</pattern>
@@ -63,16 +55,7 @@
             </srai>
         </template>
     </category>
-    
-    <category>
-        <pattern>DIRECTIONS EMMTEC</pattern>
-        <template>
-            <srai>
-                DIRECTIONS EMMTEC
-            </srai>
-        </template>
-    </category>
-    
+	
     <category>
         <pattern>DIRECTIONS EMMTEC _</pattern>
         <template>

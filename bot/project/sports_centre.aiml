@@ -52,15 +52,6 @@
     </category>
     
     <category>
-        <pattern>ABOUT SPORTS CENTRE</pattern>
-		<template>
-			<srai>
-				ABOUT SPORTS CENTRE
-			</srai>
-		</template>
-    </category>
-    
-    <category>
         <pattern>ABOUT SPORTS CENTRE _</pattern>
 		<template>
 			<srai>
@@ -79,16 +70,6 @@
             </srai>
         </template>
     </category>
-    
-    <category>
-        <pattern>DIRECTIONS SPORTS CENTRE</pattern>
-        <template>
-            <srai>
-                DIRECTIONS SPORTS CENTRE
-            </srai>
-        </template>
-    </category>
-    
     <category>
         <pattern>DIRECTIONS SPORTS CENTRE _</pattern>
         <template>
@@ -102,15 +83,6 @@
     <!-- OPEN TIMES -->    
     <category>
         <pattern>OPEN SPORTS CENTRE _</pattern>
-        <template>
-            <srai>
-                OPEN SPORTS CENTRE
-            </srai>
-        </template>
-    </category>
-    
-    <category>
-        <pattern>OPEN SPORTS CENTRE</pattern>
         <template>
             <srai>
                 OPEN SPORTS CENTRE

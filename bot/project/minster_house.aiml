@@ -52,15 +52,6 @@
     </category>
     
     <category>
-        <pattern>ABOUT MINSTER HOUSE</pattern>
-		<template>
-			<srai>
-				ABOUT MINSTER HOUSE
-			</srai>
-		</template>
-    </category>
-    
-    <category>
         <pattern>ABOUT MINSTER HOUSE _</pattern>
 		<template>
 			<srai>
@@ -81,15 +72,6 @@
     </category>
     
     <category>
-        <pattern>DIRECTIONS MINSTER HOUSE</pattern>
-        <template>
-            <srai>
-                DIRECTIONS MINSTER HOUSE
-            </srai>
-        </template>
-    </category>
-    
-    <category>
         <pattern>DIRECTIONS MINSTER HOUSE _</pattern>
         <template>
             <srai>
@@ -102,15 +84,6 @@
     <!-- OPEN TIMES -->    
     <category>
         <pattern>OPEN MINSTER HOUSE _</pattern>
-        <template>
-            <srai>
-                OPEN MINSTER HOUSE
-            </srai>
-        </template>
-    </category>
-    
-    <category>
-        <pattern>OPEN MINSTER HOUSE</pattern>
         <template>
             <srai>
                 OPEN MINSTER HOUSE
