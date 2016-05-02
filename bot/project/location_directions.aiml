@@ -1,121 +1,7 @@
-<aiml version="1.0.1" encoding="UTF-8">
-    
-    <!-- Student Union -->
-    <category>
-        <pattern>DIRECTIONS STUDENTS UNION</pattern>
-        <template>
-            <random>
-                <li>The Student Union is located on the south sound of campus. The closest landmark is the Engine Shed.
-                The SU is actually located inside of the Engine Shed's building. </li>
-                
-                <li>The SU is located outside of the doors to the Tower Bar </li>
-            </random>
-            
-        </template>
-    </category>
-    
-    <category>
-        <pattern>DIRECTIONS STUDENTS UNION _</pattern>
-        <template>
-            <srai>
-                DIRECTIONS STUDENTS UNION
-            </srai>
-        </template>
-    </category>
-    
-    <category>
-        <pattern>DIRECTIONS STUDENT UNION</pattern>
-        <template>
-            <srai>
-                DIRECTIONS STUDENTS UNION
-            </srai>
-        </template>
-    </category>
-    
-    <category>
-        <pattern>DIRECTIONS STUDENT UNION _</pattern>
-        <template>
-            <srai>
-                DIRECTIONS STUDENTS UNION
-            </srai>
-        </template>
-    </category>
-    
-    <!-- Minerva/Main Building -->
-        <!-- Minerva Building -->
-    <category>
-        <pattern>DIRECTIONS MINERVA BUILDING</pattern>
-        <template>
-            <random>
-                <li> Head to where the Swan is. I'm sure that being a student, you're already familiar with it ;-). Once at the Swan, the Minerva Building is the big Building with the illuminating University logo on the side. The entrance also has the words 'Minerva Building' above the doors. </li>
-                <li> Oh, that one confuses a few people sometimes. It used to be called the Main Admin Building! Head to The Swan Student Pub which I'm sure you're familiar with, and you should see the building from there. It's the building with the giant illuminating logo on the side. It also has the words 'Minerva Building'above the enterance. </li>
-            </random>
-        </template>
-    </category>
-    
-    <category>
-        <pattern>DIRECTIONS MINERVA BUILDING _</pattern>
-        <template>
-            <srai>
-                DIRECTIONS MINERVA BUILDING
-            </srai>
-        </template>
-    </category>
-    
-        <!-- Main Building -->
-    <category>
-        <pattern>DIRECTIONS MAIN BUILDING</pattern>
-        <template>
-            <srai>
-                DIRECTIONS MINERVA BUILDING
-            </srai>
-        </template>
-    </category>
-    
-    <category>
-        <pattern>DIRECTIONS MAIN BUILDING _</pattern>
-        <template>
-            <srai>
-                DIRECTIONS MINERVA BUILDING
-            </srai>
-        </template>
-    </category>
-    
-    <category>
-        <pattern>DIRECTIONS MAIN _ BUILDING _</pattern>
-        <template>
-            <srai>
-                DIRECTIONS MINERVA BUILDING
-            </srai>
-        </template>
-    </category>
-         
-    
-    <!-- Add more locations above -->
-    
-    <!-- Template below     
-    <category>
-        <pattern>DIRECTIONS {LOCATION}</pattern>
-        <template>
-            [Directions to {LOCATION}]
-        </template>
-    </category>
-    
-    <category>
-        <pattern>DIRECTIONS {LOCATION} _</pattern>
-        <template>
-            <srai>
-                DIRECTIONS {LOCATION}
-            </srai>
-        </template>
-    </category>
-    -->
-    
-    
-    
-    <!-- General Direction Inputs 
-            The first one essentially removes 'THE' from the sentence making
-            it easier to return information -->
+<aiml version="1.0.1" encoding="UTF-8">    
+<!-- General Direction Inputs 
+    The first one essentially removes 'THE' from the sentence making
+    it easier to return information -->
     <category>
         <pattern>DIRECTIONS THE *</pattern>
         <template>
@@ -125,8 +11,8 @@
         </template>
     </category>
     
-    <!--    The others help get general stataments which all ask the same thing
-            (in this case, asking for directions) -->
+    <!-- The others help get general stataments which all ask the same thing
+        (in this case, asking for directions) -->
     
     <!-- DIRECTIONS -->
     <category>

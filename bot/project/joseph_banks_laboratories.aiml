@@ -1,0 +1,129 @@
+<aiml version="1.0.1" encoding="UTF-8">
+    
+<!-- RESPONSES -->
+    <!-- ABOUT -->
+    <category>
+        <pattern>ABOUT JOSEPH BANKS LABORATORIES</pattern>
+		<template>
+			<random>
+				<li> Sure thing :), the Joseph Banks Laboratories provides science students in the Schools of Chemistry, Maths and Physics, Life Sciences and Pharmacy with state-of-the-art, professional-standard facilities in which to study. </li>
+				<li> ITEM 2 </li>
+			</random>
+		</template>
+    </category>
+    
+    <!-- DIRECTIONS -->
+    <category>
+        <pattern>DIRECTIONS JOSEPH BANKS LABORATORIES</pattern>
+        <template>
+            <random>
+                <li> ITEM 1 </li>
+				<li> ITEM 2 </li>
+            </random>
+        </template>
+    </category>
+    
+    <!-- OPEN TIMES -->
+    <category>
+        <pattern>OPEN JOSEPH BANKS LABORATORIES</pattern>
+        <template>
+            Let me just get that for you
+            *You experienced a short wait time*
+            Mon 00:00 - 00:00
+            Tue 00:00 - 00:00
+            Wed 00:00 - 00:00
+            Thu 00:00 - 00:00
+            Fri 00:00 - 00:00
+            Sat 00:00 - 00:00
+            Sun 00:00 - 00:00
+        </template>
+    </category>
+    
+    
+<!-- SRAI STATEMENTS -->
+    <!-- ABOUT  -->
+    <category>
+        <pattern>ABOUT JOSEPH BANKS LABORATORIES _</pattern>
+		<template>
+			<srai>
+				ABOUT JOSEPH BANKS LABORATORIES
+			</srai>
+		</template>
+    </category>
+    
+    <category>
+        <pattern>ABOUT JOSEPH BANKS LABORATORIES</pattern>
+		<template>
+			<srai>
+				ABOUT JOSEPH BANKS LABORATORIES
+			</srai>
+		</template>
+    </category>
+    
+    <category>
+        <pattern>ABOUT JOSEPH BANKS LABORATORIES _</pattern>
+		<template>
+			<srai>
+				ABOUT JOSEPH BANKS LABORATORIES
+			</srai>
+		</template>
+    </category>
+    
+    
+    <!-- DIRECTIONS -->
+    <category>
+        <pattern>DIRECTIONS JOSEPH BANKS LABORATORIES _</pattern>
+        <template>
+            <srai>
+                DIRECTIONS JOSEPH BANKS LABORATORIES
+            </srai>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>DIRECTIONS JOSEPH BANKS LABORATORIES</pattern>
+        <template>
+            <srai>
+                DIRECTIONS JOSEPH BANKS LABORATORIES
+            </srai>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>DIRECTIONS JOSEPH BANKS LABORATORIES _</pattern>
+        <template>
+            <srai>
+                DIRECTIONS JOSEPH BANKS LABORATORIES
+            </srai>
+        </template>
+    </category>
+    
+    
+    <!-- OPEN TIMES -->    
+    <category>
+        <pattern>OPEN JOSEPH BANKS LABORATORIES _</pattern>
+        <template>
+            <srai>
+                OPEN JOSEPH BANKS LABORATORIES
+            </srai>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>OPEN JOSEPH BANKS LABORATORIES</pattern>
+        <template>
+            <srai>
+                OPEN JOSEPH BANKS LABORATORIES
+            </srai>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>OPEN JOSEPH BANKS LABORATORIES _</pattern>
+        <template>
+            <srai>
+                OPEN JOSEPH BANKS LABORATORIES
+            </srai>
+        </template>
+    </category>
+</aiml>

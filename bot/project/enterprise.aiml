@@ -1,0 +1,129 @@
+<aiml version="1.0.1" encoding="UTF-8">
+
+<!-- RESPONSES -->
+    <!-- ABOUT -->
+    <category>
+        <pattern>ABOUT ENTERPRISE BUILDING</pattern>
+		<template>
+			<random>
+				<li> Yeah, it is home to the Careers and Employability Service, a team of advisors who offer students the advice and support to maximise the opportunities available upon graduating. This building is also home to our business incubation unit, Sparkhouse Studios, where entrepreneurial students can access expertise and resources to support a fledgling business :). </li>
+				<li> ITEM 2 </li>
+			</random>
+		</template>
+    </category>
+    
+    <!-- DIRECTIONS -->
+    <category>
+        <pattern>DIRECTIONS ENTERPRISE BUILDING</pattern>
+        <template>
+            <random>
+                <li> ITEM 1 </li>
+				<li> ITEM 2 </li>
+            </random>
+        </template>
+    </category>
+    
+    <!-- OPEN TIMES -->
+    <category>
+        <pattern>OPEN ENTERPRISE BUILDING</pattern>
+        <template>
+            Let me just get that for you
+            *You experienced a short wait time*
+            Mon 00:00 - 00:00
+            Tue 00:00 - 00:00
+            Wed 00:00 - 00:00
+            Thu 00:00 - 00:00
+            Fri 00:00 - 00:00
+            Sat 00:00 - 00:00
+            Sun 00:00 - 00:00
+        </template>
+    </category>
+    
+    
+<!-- SRAI STATEMENTS -->
+    <!-- ABOUT  -->
+    <category>
+        <pattern>ABOUT ENTERPRISE BUILDING _</pattern>
+		<template>
+			<srai>
+				ABOUT ENTERPRISE BUILDING
+			</srai>
+		</template>
+    </category>
+    
+    <category>
+        <pattern>ABOUT ENTERPRISE BUILDING</pattern>
+		<template>
+			<srai>
+				ABOUT ENTERPRISE BUILDING
+			</srai>
+		</template>
+    </category>
+    
+    <category>
+        <pattern>ABOUT ENTERPRISE BUILDING _</pattern>
+		<template>
+			<srai>
+				ABOUT ENTERPRISE BUILDING
+			</srai>
+		</template>
+    </category>
+    
+    
+    <!-- DIRECTIONS -->
+    <category>
+        <pattern>DIRECTIONS ENTERPRISE BUILDING _</pattern>
+        <template>
+            <srai>
+                DIRECTIONS ENTERPRISE BUILDING
+            </srai>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>DIRECTIONS ENTERPRISE BUILDING</pattern>
+        <template>
+            <srai>
+                DIRECTIONS ENTERPRISE BUILDING
+            </srai>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>DIRECTIONS ENTERPRISE BUILDING _</pattern>
+        <template>
+            <srai>
+                DIRECTIONS ENTERPRISE BUILDING
+            </srai>
+        </template>
+    </category>
+    
+    
+    <!-- OPEN TIMES -->    
+    <category>
+        <pattern>OPEN ENTERPRISE BUILDING _</pattern>
+        <template>
+            <srai>
+                OPEN ENTERPRISE BUILDING
+            </srai>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>OPEN ENTERPRISE BUILDING</pattern>
+        <template>
+            <srai>
+                OPEN ENTERPRISE BUILDING
+            </srai>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>OPEN ENTERPRISE BUILDING _</pattern>
+        <template>
+            <srai>
+                OPEN ENTERPRISE BUILDING
+            </srai>
+        </template>
+    </category>
+</aiml>

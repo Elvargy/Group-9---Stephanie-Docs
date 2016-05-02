@@ -1,0 +1,197 @@
+<aiml version="1.0.1" encoding="UTF-8">
+<category>
+        <pattern>ABOUT MHT</pattern>
+        <template>
+           
+        </template>
+    </category>
+    
+    <category>
+        <pattern>ABOUT MHT _</pattern>
+        <template>
+            <srai>
+                ABOUT MHT
+            </srai>
+        </template>
+    </category>
+	
+	
+<!-- RESPONSES -->
+    <!-- ABOUT -->
+    <category>
+        <pattern>ABOUT MHT</pattern>
+		<template>
+			<random>
+				<li> the Media, Humanities and Technology building (or MHT) is fully equipped to industry standards with media suites providing the latest broadcast television, radio and sound equipment, as well as television and photographic studios and radio editing suites. We also have Siren FM, our on-campus community radio station, which is based here. </li>
+				<li> ITEM 2 </li>
+			</random>
+		</template>
+    </category>
+    
+    <!-- DIRECTIONS -->
+    <category>
+        <pattern>DIRECTIONS MHT</pattern>
+        <template>
+            <random>
+                <li> ITEM 1 </li>
+				<li> ITEM 2 </li>
+            </random>
+        </template>
+    </category>
+    
+    <!-- OPEN TIMES -->
+    <category>
+        <pattern>OPEN MHT</pattern>
+        <template>
+            Let me just get that for you
+            *You experienced a short wait time*
+            Mon 00:00 - 00:00
+            Tue 00:00 - 00:00
+            Wed 00:00 - 00:00
+            Thu 00:00 - 00:00
+            Fri 00:00 - 00:00
+            Sat 00:00 - 00:00
+            Sun 00:00 - 00:00
+        </template>
+    </category>
+    
+    
+<!-- SRAI STATEMENTS -->
+    <!-- ABOUT  -->
+    <category>
+        <pattern>ABOUT MHT _</pattern>
+		<template>
+			<srai>
+				ABOUT MHT
+			</srai>
+		</template>
+    </category>
+    
+    <category>
+        <pattern>ABOUT MHT</pattern>
+		<template>
+			<srai>
+				ABOUT MHT
+			</srai>
+		</template>
+    </category>
+    
+    <category>
+        <pattern>ABOUT MHT _</pattern>
+		<template>
+			<srai>
+				ABOUT MHT
+			</srai>
+		</template>
+    </category>
+    
+    <category>
+        <pattern>ABOUT MEDIA BUILDING</pattern>
+        <template>
+            <srai>
+                ABOUT MHT
+            </srai>
+		</template>
+    </category>
+    
+    <category>
+        <pattern>ABOUT MEDIA BUILDING_</pattern>
+        <template>
+            <srai>
+                ABOUT MHT
+            </srai>
+        </template>
+    </category>
+    
+    <!-- DIRECTIONS -->
+    <category>
+        <pattern>DIRECTIONS MHT _</pattern>
+        <template>
+            <srai>
+                DIRECTIONS MHT
+            </srai>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>DIRECTIONS MHT</pattern>
+        <template>
+            <srai>
+                DIRECTIONS MHT
+            </srai>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>DIRECTIONS MHT _</pattern>
+        <template>
+            <srai>
+                DIRECTIONS MHT
+            </srai>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>DIRECTIONS MEDIA BUILDING</pattern>
+        <template>
+            <srai>
+                DIRECTIONS MHT
+            </srai>
+		</template>
+    </category>
+    
+    <category>
+        <pattern>DIRECTIONS MEDIA BUILDING_</pattern>
+        <template>
+            <srai>
+                DIRECTIONS MHT
+            </srai>
+        </template>
+    </category>
+    
+    <!-- OPEN TIMES -->    
+    <category>
+        <pattern>OPEN MHT _</pattern>
+        <template>
+            <srai>
+                OPEN MHT
+            </srai>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>OPEN MHT</pattern>
+        <template>
+            <srai>
+                OPEN MHT
+            </srai>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>OPEN MHT _</pattern>
+        <template>
+            <srai>
+                OPEN MHT
+            </srai>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>DIRECTIONS MEDIA BUILDING</pattern>
+        <template>
+            <srai>
+                DIRECTIONS MHT
+            </srai>
+		</template>
+    </category>
+    
+    <category>
+        <pattern>DIRECTIONS MEDIA BUILDING_</pattern>
+        <template>
+            <srai>
+                DIRECTIONS MHT
+            </srai>
+        </template>
+    </category>
+</aiml>

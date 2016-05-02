@@ -1,0 +1,128 @@
+<aiml version="1.0.1" encoding="UTF-8">
+<!-- RESPONSES -->
+    <!-- ABOUT -->
+    <category>
+        <pattern>ABOUT ACCOMMODATION</pattern>
+		<template>
+			<random>
+				<li> The university offers a wide range of on and off campus accommodation. Courts is the on campus accommodation, it is a large student village made up of 17 buildings that house around 1,037 students. Our off campus accommodation includes Brayford Quay, Hayes Wharf, The Junxion, Park Court, Pavilion House and St Marks House. If you need more information, just got to the uni website and search for accommodation. :) </li>
+				<li> ITEM 2 </li>
+			</random>
+		</template>
+    </category>
+    
+    <!-- DIRECTIONS -->
+    <category>
+        <pattern>DIRECTIONS ACCOMMODATION</pattern>
+        <template>
+            <random>
+                <li> ITEM 1 </li>
+				<li> ITEM 2 </li>
+            </random>
+        </template>
+    </category>
+    
+    <!-- OPEN TIMES -->
+    <category>
+        <pattern>OPEN ACCOMMODATION</pattern>
+        <template>
+            Let me just get that for you
+            *You experienced a short wait time*
+            Mon 00:00 - 00:00
+            Tue 00:00 - 00:00
+            Wed 00:00 - 00:00
+            Thu 00:00 - 00:00
+            Fri 00:00 - 00:00
+            Sat 00:00 - 00:00
+            Sun 00:00 - 00:00
+        </template>
+    </category>
+    
+    
+<!-- SRAI STATEMENTS -->
+    <!-- ABOUT  -->
+    <category>
+        <pattern>ABOUT ACCOMMODATION _</pattern>
+		<template>
+			<srai>
+				ABOUT ACCOMMODATION
+			</srai>
+		</template>
+    </category>
+    
+    <category>
+        <pattern>ABOUT ACCOMMODATION</pattern>
+		<template>
+			<srai>
+				ABOUT ACCOMMODATION
+			</srai>
+		</template>
+    </category>
+    
+    <category>
+        <pattern>ABOUT ACCOMMODATION _</pattern>
+		<template>
+			<srai>
+				ABOUT ACCOMMODATION
+			</srai>
+		</template>
+    </category>
+    
+    
+    <!-- DIRECTIONS -->
+    <category>
+        <pattern>DIRECTIONS ACCOMMODATION _</pattern>
+        <template>
+            <srai>
+                DIRECTIONS ACCOMMODATION
+            </srai>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>DIRECTIONS ACCOMMODATION</pattern>
+        <template>
+            <srai>
+                DIRECTIONS ACCOMMODATION
+            </srai>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>DIRECTIONS ACCOMMODATION _</pattern>
+        <template>
+            <srai>
+                DIRECTIONS ACCOMMODATION
+            </srai>
+        </template>
+    </category>
+    
+    
+    <!-- OPEN TIMES -->    
+    <category>
+        <pattern>OPEN ACCOMMODATION _</pattern>
+        <template>
+            <srai>
+                OPEN ACCOMMODATION
+            </srai>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>OPEN ACCOMMODATION</pattern>
+        <template>
+            <srai>
+                OPEN ACCOMMODATION
+            </srai>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>OPEN ACCOMMODATION _</pattern>
+        <template>
+            <srai>
+                OPEN ACCOMMODATION
+            </srai>
+        </template>
+    </category>
+</aiml>

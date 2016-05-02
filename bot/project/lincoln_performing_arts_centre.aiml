@@ -1,0 +1,181 @@
+<aiml version="1.0.1" encoding="UTF-8">
+    
+<!-- RESPONSES -->
+    <!-- ABOUT -->
+    <category>
+        <pattern>ABOUT LINCOLN PERFORMING ARTS CENTRE</pattern>
+		<template>
+			<random>
+				<li> defo, the Lincoln Performing Arts Centre (LPAC) is an innovative performance venue with a state-of-the-art learning environment for the Lincoln School of Performing Arts. </li>
+				<li> ITEM 2 </li>
+			</random>
+		</template>
+    </category>
+    
+    <!-- DIRECTIONS -->
+    <category>
+        <pattern>DIRECTIONS LINCOLN PERFORMING ARTS CENTRE</pattern>
+        <template>
+            <random>
+                <li> ITEM 1 </li>
+				<li> ITEM 2 </li>
+            </random>
+        </template>
+    </category>
+    
+    <!-- OPEN TIMES -->
+    <category>
+        <pattern>OPEN LINCOLN PERFORMING ARTS CENTRE</pattern>
+        <template>
+            Let me just get that for you
+            *You experienced a short wait time*
+            Mon 00:00 - 00:00
+            Tue 00:00 - 00:00
+            Wed 00:00 - 00:00
+            Thu 00:00 - 00:00
+            Fri 00:00 - 00:00
+            Sat 00:00 - 00:00
+            Sun 00:00 - 00:00
+        </template>
+    </category>
+    
+    
+<!-- SRAI STATEMENTS -->
+    <!-- ABOUT  -->
+    <category>
+        <pattern>ABOUT LINCOLN PERFORMING ARTS CENTRE _</pattern>
+		<template>
+			<srai>
+				ABOUT LINCOLN PERFORMING ARTS CENTRE
+			</srai>
+		</template>
+    </category>
+    
+    <category>
+        <pattern>ABOUT LINCOLN PERFORMING ARTS CENTRE</pattern>
+		<template>
+			<srai>
+				ABOUT LINCOLN PERFORMING ARTS CENTRE
+			</srai>
+		</template>
+    </category>
+    
+    <category>
+        <pattern>ABOUT LINCOLN PERFORMING ARTS CENTRE _</pattern>
+		<template>
+			<srai>
+				ABOUT LINCOLN PERFORMING ARTS CENTRE
+			</srai>
+		</template>
+    </category>
+    
+    <category>
+        <pattern>ABOUT LPAC</pattern>
+        <template>
+		<srai>
+           ABOUT LINCOLN PERFORMING ARTS CENTRE
+        </srai>
+        </template>
+    </category>
+	
+	<category>
+        <pattern>ABOUT LPAC _</pattern>
+        <template>
+		<srai>
+           ABOUT LINCOLN PERFORMING ARTS CENTRE
+        </srai>
+		</template>
+    </category>
+    
+    <!-- DIRECTIONS -->
+    <category>
+        <pattern>DIRECTIONS LINCOLN PERFORMING ARTS CENTRE _</pattern>
+        <template>
+            <srai>
+                DIRECTIONS LINCOLN PERFORMING ARTS CENTRE
+            </srai>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>DIRECTIONS LINCOLN PERFORMING ARTS CENTRE</pattern>
+        <template>
+            <srai>
+                DIRECTIONS LINCOLN PERFORMING ARTS CENTRE
+            </srai>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>DIRECTIONS LINCOLN PERFORMING ARTS CENTRE _</pattern>
+        <template>
+            <srai>
+                DIRECTIONS LINCOLN PERFORMING ARTS CENTRE
+            </srai>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>DIRECTIONS LPAC</pattern>
+        <template>
+		<srai>
+           DIRECTIONS LINCOLN PERFORMING ARTS CENTRE
+        </srai>
+        </template>
+    </category>
+	
+	<category>
+        <pattern>DIRECTIONS LPAC _</pattern>
+        <template>
+		<srai>
+           DIRECTIONS LINCOLN PERFORMING ARTS CENTRE
+        </srai>
+		</template>
+    </category>
+    
+    <!-- OPEN TIMES -->    
+    <category>
+        <pattern>OPEN LINCOLN PERFORMING ARTS CENTRE _</pattern>
+        <template>
+            <srai>
+                OPEN LINCOLN PERFORMING ARTS CENTRE
+            </srai>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>OPEN LINCOLN PERFORMING ARTS CENTRE</pattern>
+        <template>
+            <srai>
+                OPEN LINCOLN PERFORMING ARTS CENTRE
+            </srai>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>OPEN LINCOLN PERFORMING ARTS CENTRE _</pattern>
+        <template>
+            <srai>
+                OPEN LINCOLN PERFORMING ARTS CENTRE
+            </srai>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>OPEN LPAC</pattern>
+        <template>
+		<srai>
+           OPEN LINCOLN PERFORMING ARTS CENTRE
+        </srai>
+        </template>
+    </category>
+	
+	<category>
+        <pattern>OPEN LPAC _</pattern>
+        <template>
+		<srai>
+           OPEN LINCOLN PERFORMING ARTS CENTRE
+        </srai>
+		</template>
+    </category>
+</aiml>

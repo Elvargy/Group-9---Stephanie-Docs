@@ -1,0 +1,181 @@
+<aiml version="1.0.1" encoding="UTF-8">
+    
+<!-- RESPONSES -->
+    <!-- ABOUT -->
+    <category>
+        <pattern>ABOUT SWAN</pattern>
+		<template>
+			<random>
+				<li> The Swan or Shed (the swans older name) is a uni owned pub that is located near the MHT building.  </li>
+				<li> ITEM 2 </li>
+			</random>
+		</template>
+    </category>
+    
+    <!-- DIRECTIONS -->
+    <category>
+        <pattern>DIRECTIONS SWAN</pattern>
+        <template>
+            <random>
+                <li> ITEM 1 </li>
+				<li> ITEM 2 </li>
+            </random>
+        </template>
+    </category>
+    
+    <!-- OPEN TIMES -->
+    <category>
+        <pattern>OPEN SWAN</pattern>
+        <template>
+            Let me just get that for you
+            *You experienced a short wait time*
+            Mon 00:00 - 00:00
+            Tue 00:00 - 00:00
+            Wed 00:00 - 00:00
+            Thu 00:00 - 00:00
+            Fri 00:00 - 00:00
+            Sat 00:00 - 00:00
+            Sun 00:00 - 00:00
+        </template>
+    </category>
+    
+    
+<!-- SRAI STATEMENTS -->
+    <!-- ABOUT  -->
+    <category>
+        <pattern>ABOUT SWAN _</pattern>
+		<template>
+			<srai>
+				ABOUT SWAN
+			</srai>
+		</template>
+    </category>
+    
+    <category>
+        <pattern>ABOUT SWAN</pattern>
+		<template>
+			<srai>
+				ABOUT SWAN
+			</srai>
+		</template>
+    </category>
+    
+    <category>
+        <pattern>ABOUT SWAN _</pattern>
+		<template>
+			<srai>
+				ABOUT SWAN
+			</srai>
+		</template>
+    </category>
+    
+    <category>
+        <pattern>ABOUT SHED</pattern>
+        <template>
+            <srai>
+                ABOUT SWAN
+            </srai>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>ABOUT SHED _</pattern>
+        <template>
+            <srai>
+                ABOUT SHED
+            </srai>
+        </template>
+    </category>
+    
+    <!-- DIRECTIONS -->
+    <category>
+        <pattern>DIRECTIONS SWAN _</pattern>
+        <template>
+            <srai>
+                DIRECTIONS SWAN
+            </srai>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>DIRECTIONS SWAN</pattern>
+        <template>
+            <srai>
+                DIRECTIONS SWAN
+            </srai>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>DIRECTIONS SWAN _</pattern>
+        <template>
+            <srai>
+                DIRECTIONS SWAN
+            </srai>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>DIRECTIONS SHED</pattern>
+        <template>
+            <srai>
+                DIRECTIONS SWAN
+            </srai>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>DIRECTIONS SHED _</pattern>
+        <template>
+            <srai>
+                DIRECTIONS SHED
+            </srai>
+        </template>
+    </category>
+    
+    <!-- OPEN TIMES -->    
+    <category>
+        <pattern>OPEN SWAN _</pattern>
+        <template>
+            <srai>
+                OPEN SWAN
+            </srai>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>OPEN SWAN</pattern>
+        <template>
+            <srai>
+                OPEN SWAN
+            </srai>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>OPEN SWAN _</pattern>
+        <template>
+            <srai>
+                OPEN SWAN
+            </srai>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>OPEN SHED</pattern>
+        <template>
+            <srai>
+                OPEN SWAN
+            </srai>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>OPEN SHED _</pattern>
+        <template>
+            <srai>
+                OPEN SHED
+            </srai>
+        </template>
+    </category>
+</aiml>
