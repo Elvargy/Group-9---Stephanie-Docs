@@ -2,6 +2,7 @@
 
 <!-- Basic chat responses -->
 
+	<!-- 'Hello' Responses -->
     <category>
         <pattern>HELLO</pattern>
         <template>
@@ -16,8 +17,26 @@
         </template>
     </category>
     
+	<category>
+        <pattern>HELLO _</pattern>
+        <template>
+            <srai>
+                HELLO
+            </srai>
+        </template>
+    </category>
+	
     <category>
         <pattern>HEY</pattern>
+        <template>
+            <srai>
+                HELLO
+            </srai>
+        </template>
+    </category>
+	
+	<category>
+        <pattern>HEY _</pattern>
         <template>
             <srai>
                 HELLO
@@ -33,6 +52,15 @@
             </srai>
         </template>
     </category>
+	
+	<category>
+        <pattern>HI _</pattern>
+        <template>
+            <srai>
+                HELLO
+            </srai>
+        </template>
+    </category>
     
     <category>
         <pattern>YO</pattern>
@@ -42,9 +70,17 @@
             </srai>
         </template>
     </category>
-    
-	<!-- bye responses -->
 	
+	<category>
+        <pattern>YO _</pattern>
+        <template>
+            <srai>
+                HELLO
+            </srai>
+        </template>
+    </category>
+    
+	<!-- 'Bye' Responses -->
     <category>
         <pattern>BYE</pattern>
         <template>
@@ -63,6 +99,13 @@
     </category>
     
 	<category>
+		<pattern>BYE _</pattern>
+		<template>
+			<srai>BYE</srai>
+		</template>
+	</category>
+	
+	<category>
 		<pattern>SEE YOU</pattern>
 		<template>
 			<srai>BYE</srai>
@@ -70,21 +113,7 @@
 	</category>
 
 	<category>
-		<pattern>SEE YOU *</pattern>
-		<template>
-			<srai>BYE</srai>
-		</template>
-	</category>
-
-	<category>
-		<pattern>SEE YOU LATER</pattern>
-			<template>
-			<srai>BYE</srai>
-		</template>
-	</category>
-
-	<category>
-		<pattern>SEE YOU SOON</pattern>
+		<pattern>SEE YOU _</pattern>
 		<template>
 			<srai>BYE</srai>
 		</template>
@@ -98,12 +127,27 @@
 	</category>
 	
 	<category>
+		<pattern>CYA _</pattern>
+		<template>
+			<srai>BYE</srai>
+		</template>
+	</category>
+	
+	<category>
 		<pattern>GOODBYE</pattern>
 		<template>
 			<srai>BYE</srai>
 		</template>
 	</category>
 	
+	<category>
+		<pattern>GOODBYE _</pattern>
+		<template>
+			<srai>BYE</srai>
+		</template>
+	</category>
+	
+	<!-- 'Who' Responses -->
     <category>
         <pattern>WHO ARE YOU</pattern>
         <template>
@@ -111,6 +155,7 @@
         </template>
     </category>
     
+	<!-- 'What' Responses -->
     <category>
         <pattern>WHAT ARE YOU</pattern>
         <template>
@@ -121,16 +166,14 @@
         </template>
     </category>
 	
+	<!-- 'Thank you' Responses-->
 	<category>
 		<pattern>THANK YOU</pattern>
 		<template>
 			<random>
 				<li>No Problem :)</li>
-				
 				<li>You're welcome, happy to help :)</li>
-				
 				<li>You're welcome :)</li>
-				
 				<li>No Problem, always happy to help :)</li>			
 			</random>
 		</template>
@@ -156,7 +199,6 @@
 			<srai>THANK YOU</srai>
 		</template>
 	</category>
-
 	
 	<category>
 		<pattern>THANKS</pattern>
@@ -165,7 +207,7 @@
 		</template>
 	</category>
 
-	
+	<!-- Fallthrough Responses-->
 	<category>
 		<pattern>*</pattern>
 		<template>
