@@ -16,8 +16,8 @@
         <pattern>DIRECTIONS ACCOMMODATION</pattern>
         <template>
             <random>
-                <li> To find out where the accommodations are located, I reccommend using this website https://www.lincoln.ac.uk/home/accommodation/ </li>
-				<li> please see this website for more information https://www.lincoln.ac.uk/home/accommodation/ </li>
+                <li>. To find out where all of the accommodations are located, I reccommend using this website https://www.lincoln.ac.uk/home/accommodation/ </li>
+				<li>, please see this website for more information https://www.lincoln.ac.uk/home/accommodation/ </li>
             </random>
         </template>
     </category>
@@ -60,10 +60,11 @@
         </template>
     </category>
 	
+	<!-- COURTS -->
 	<category>
         <pattern>DIRECTIONS COURTS </pattern>
         <template>
-		Ah, Courts. Courts is the On-Campus Accomodation,
+		Ah, Courts. Courts is the On-Campus Accomodation
             <srai>
                 DIRECTIONS ACCOMMODATION
             </srai>
@@ -73,7 +74,28 @@
 	<category>
         <pattern>DIRECTIONS COURTS _</pattern>
         <template>
-		Ah, Courts. Courts is the On-Campus Accomodation,
+		Ah, Courts. Courts is the On-Campus Accomodation
+            <srai>
+                DIRECTIONS ACCOMMODATION
+            </srai>
+        </template>
+    </category>
+	
+	<!-- BRAYFORD QUAY -->
+	<category>
+        <pattern>DIRECTIONS BRAYFORD QUAY </pattern>
+        <template>
+		Brayford Quay you say? You cheeky bugger, you know that it's located near the Nandos
+            <srai>
+                DIRECTIONS ACCOMMODATION
+            </srai>
+        </template>
+    </category>
+	
+	<category>
+        <pattern>DIRECTIONS BRAYFORD QUAY _</pattern>
+        <template>
+		Brayford Quay you say? You cheeky bugger, you know that it's located near the Nandos
             <srai>
                 DIRECTIONS ACCOMMODATION
             </srai>
