@@ -118,7 +118,7 @@ THINK TANK
     - Item 2
 
 
-VILLAGE HALL
+VILLAGE HALL *** DONE - WILL
 | About:
     - Item 1
     - Item 2
@@ -128,7 +128,7 @@ VILLAGE HALL
 | Open Times.
 
 
-WITHAM HOUSE
+WITHAM HOUSE ***DONE - WILL
 | About:
     - Item 1
     - Item 2
@@ -138,7 +138,7 @@ WITHAM HOUSE
 | Open Times.
 
 
-WITHAM WHARF
+WITHAM WHARF *** DONE - WILL
 | About:
     - Item 2
 | Directions:
