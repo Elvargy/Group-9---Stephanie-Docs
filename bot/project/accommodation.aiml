@@ -16,7 +16,7 @@
         <pattern>DIRECTIONS ACCOMMODATION</pattern>
         <template>
             <random>
-                <li> ITEM 1 </li>
+                <li> To find out where the accommodations are located, I reccommend using this website https://www.lincoln.ac.uk/home/accommodation/ </li>
 				<li> ITEM 2 </li>
             </random>
         </template>
