@@ -49,6 +49,15 @@
     </category>
 	
 	<category>
+        <pattern>ABOUT ENTERPRISE</pattern>
+		<template>
+			<srai>
+				ABOUT ENTERPRISE BUILDING
+			</srai>
+		</template>
+    </category>
+	
+	<category>
         <pattern>ABOUT ENTERPRISE _</pattern>
 		<template>
 			<srai>
@@ -68,6 +77,15 @@
     </category>
 	
 	<category>
+        <pattern>DIRECTIONS ENTERPRISE</pattern>
+        <template>
+            <srai>
+                DIRECTIONS ENTERPRISE BUILDING
+            </srai>
+        </template>
+    </category>
+	
+	<category>
         <pattern>DIRECTIONS ENTERPRISE _</pattern>
         <template>
             <srai>
@@ -79,6 +97,15 @@
     <!-- OPEN TIMES -->    
     <category>
         <pattern>OPEN ENTERPRISE BUILDING _</pattern>
+        <template>
+            <srai>
+                OPEN ENTERPRISE BUILDING
+            </srai>
+        </template>
+    </category>
+	
+	<category>
+        <pattern>OPEN ENTERPRISE</pattern>
         <template>
             <srai>
                 OPEN ENTERPRISE BUILDING

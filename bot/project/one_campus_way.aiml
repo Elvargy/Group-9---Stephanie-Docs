@@ -50,8 +50,25 @@
 			</srai>
 		</template>
     </category>
-    
-  
+	
+	<category>
+        <pattern>ABOUT OCW</pattern>
+		<template>
+			<srai>
+				ABOUT ONE CAMPUS WAY
+			</srai>
+		</template>
+    </category>
+	
+	<category>
+        <pattern>ABOUT OCW _</pattern>
+		<template>
+			<srai>
+				ABOUT ONE CAMPUS WAY
+			</srai>
+		</template>
+    </category>
+
     <!-- DIRECTIONS -->
     <category>
         <pattern>DIRECTIONS ONE CAMPUS WAY _</pattern>
@@ -61,7 +78,24 @@
             </srai>
         </template>
     </category>
-    
+	
+	<category>
+        <pattern>DIRECTIONS OCW</pattern>
+        <template>
+            <srai>
+                DIRECTIONS ONE CAMPUS WAY
+            </srai>
+        </template>
+    </category>
+	
+	<category>
+        <pattern>DIRECTIONS OCW _</pattern>
+        <template>
+            <srai>
+                DIRECTIONS ONE CAMPUS WAY
+            </srai>
+        </template>
+    </category>
      
     <!-- OPEN TIMES -->    
     <category>
@@ -72,57 +106,8 @@
             </srai>
         </template>
     </category>
-    
-
-	<!-- ABOUT  -->
-    <category>
-        <pattern>ABOUT OCW _</pattern>
-		<template>
-			<srai>
-				ABOUT ONE CAMPUS WAY
-			</srai>
-		</template>
-    </category>
-    
-    <category>
-        <pattern>ABOUT OCW</pattern>
-		<template>
-			<srai>
-				ABOUT ONE CAMPUS WAY
-			</srai>
-		</template>
-    </category>
-    
-    <!-- DIRECTIONS -->
-    <category>
-        <pattern>DIRECTIONS OCW _</pattern>
-        <template>
-            <srai>
-                DIRECTIONS ONE CAMPUS WAY
-            </srai>
-        </template>
-    </category>
-    
-    <category>
-        <pattern>DIRECTIONS OCW</pattern>
-        <template>
-            <srai>
-                DIRECTIONS ONE CAMPUS WAY
-            </srai>
-        </template>
-    </category>
-    
-    <!-- OPEN TIMES -->    
-    <category>
-        <pattern>OPEN OCW _</pattern>
-        <template>
-            <srai>
-                OPEN ONE CAMPUS WAY
-            </srai>
-        </template>
-    </category>
-    
-    <category>
+	
+	<category>
         <pattern>OPEN OCW</pattern>
         <template>
             <srai>
@@ -130,6 +115,14 @@
             </srai>
         </template>
     </category>
-    
+	
+	<category>
+        <pattern>OPEN OCW _</pattern>
+        <template>
+            <srai>
+                OPEN ONE CAMPUS WAY
+            </srai>
+        </template>
+    </category>
 
 </aiml>

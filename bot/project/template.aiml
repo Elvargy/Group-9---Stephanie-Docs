@@ -50,15 +50,24 @@
 			</srai>
 		</template>
     </category>
-    <category>
-        <pattern>ABOUT BUILDINGNAMEHERE _</pattern>
+	
+	<category>
+        <pattern>ABOUT ALTERNATEBUILDINGNAMEHERE</pattern>
 		<template>
 			<srai>
 				ABOUT BUILDINGNAMEHERE
 			</srai>
 		</template>
     </category>
-    
+	
+    <category>
+        <pattern>ABOUT ALTERNATEBUILDINGNAMEHERE _</pattern>
+		<template>
+			<srai>
+				ABOUT BUILDINGNAMEHERE
+			</srai>
+		</template>
+    </category>
     
     <!-- DIRECTIONS -->
     <category>
@@ -71,7 +80,7 @@
     </category>
     
     <category>
-        <pattern>DIRECTIONS BUILDINGNAMEHERE _</pattern>
+        <pattern>DIRECTIONS ALTERNATEBUILDINGNAMEHERE</pattern>
         <template>
             <srai>
                 DIRECTIONS BUILDINGNAMEHERE
@@ -79,6 +88,14 @@
         </template>
     </category>
     
+	<category>
+        <pattern>DIRECTIONS ALTERNATEBUILDINGNAMEHERE _</pattern>
+        <template>
+            <srai>
+                DIRECTIONS BUILDINGNAMEHERE
+            </srai>
+        </template>
+    </category>
     
     <!-- OPEN TIMES -->    
     <category>
@@ -89,9 +106,18 @@
             </srai>
         </template>
     </category>
-
+	
+	<category>
+        <pattern>OPEN ALTERNATEBUILDINGNAMEHERE</pattern>
+        <template>
+            <srai>
+                OPEN BUILDINGNAMEHERE
+            </srai>
+        </template>
+    </category>
+	
     <category>
-        <pattern>OPEN BUILDINGNAMEHERE _</pattern>
+        <pattern>OPEN ALTERNATEBUILDINGNAMEHERE _</pattern>
         <template>
             <srai>
                 OPEN BUILDINGNAMEHERE

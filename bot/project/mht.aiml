@@ -50,7 +50,6 @@
 		</template>
     </category>
     
-    
     <category>
         <pattern>ABOUT MEDIA BUILDING</pattern>
         <template>
@@ -61,7 +60,7 @@
     </category>
     
     <category>
-        <pattern>ABOUT MEDIA BUILDING_</pattern>
+        <pattern>ABOUT MEDIA BUILDING _</pattern>
         <template>
             <srai>
                 ABOUT MHT
@@ -89,7 +88,7 @@
     </category>
     
     <category>
-        <pattern>DIRECTIONS MEDIA BUILDING_</pattern>
+        <pattern>DIRECTIONS MEDIA BUILDING _</pattern>
         <template>
             <srai>
                 DIRECTIONS MHT
@@ -108,7 +107,16 @@
     </category>
     
     <category>
-        <pattern>OPEN MHT</pattern>
+        <pattern>OPEN MEDIA BUILDING</pattern>
+        <template>
+            <srai>
+                OPEN MHT
+            </srai>
+        </template>
+    </category>
+	
+	<category>
+        <pattern>OPEN MEDIA BUILDING _</pattern>
         <template>
             <srai>
                 OPEN MHT

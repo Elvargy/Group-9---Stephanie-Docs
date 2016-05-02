@@ -51,9 +51,24 @@
 		</template>
     </category>
     
+	<category>
+        <pattern>ABOUT SB</pattern>
+		<template>
+			<srai>
+				ABOUT SCIENCE CENTRE
+			</srai>
+		</template>
+    </category>
+	
+	<category>
+        <pattern>ABOUT SB _</pattern>
+		<template>
+			<srai>
+				ABOUT SCIENCE CENTRE
+			</srai>
+		</template>
+    </category>
 
-    
-    
     <!-- DIRECTIONS -->
     <category>
         <pattern>DIRECTIONS SCIENCE CENTRE _</pattern>
@@ -63,9 +78,24 @@
             </srai>
         </template>
     </category>
+	
+	<category>
+        <pattern>DIRECTIONS SB</pattern>
+        <template>
+            <srai>
+                DIRECTIONS SCIENCE CENTRE
+            </srai>
+        </template>
+    </category>
     
-
-    
+	<category>
+        <pattern>DIRECTIONS SB _</pattern>
+        <template>
+            <srai>
+                DIRECTIONS SCIENCE CENTRE
+            </srai>
+        </template>
+    </category>
     
     <!-- OPEN TIMES -->    
     <category>
@@ -76,50 +106,16 @@
             </srai>
         </template>
     </category>
-    
 	
-	<!-- ABOUT  -->
-    <category>
-        <pattern>ABOUT SB _</pattern>
-		<template>
-			<srai>
-				ABOUT SCIENCE CENTRE
-			</srai>
-		</template>
-    </category>
-    
-    <category>
-        <pattern>ABOUT SB</pattern>
-		<template>
-			<srai>
-				ABOUT SCIENCE CENTRE
-			</srai>
-		</template>
-    </category>
-    
-    
-    <!-- DIRECTIONS -->
-    <category>
-        <pattern>DIRECTIONS SB _</pattern>
+	<category>
+        <pattern>OPEN SB</pattern>
         <template>
             <srai>
-                DIRECTIONS SCIENCE CENTRE
+                OPEN SCIENCE CENTRE
             </srai>
         </template>
     </category>
-    
-    <category>
-        <pattern>DIRECTIONS SB</pattern>
-        <template>
-            <srai>
-                DIRECTIONS SCIENCE CENTRE
-            </srai>
-        </template>
-    </category>
-    
-
-    
-    <!-- OPEN TIMES -->    
+  
     <category>
         <pattern>OPEN SB _</pattern>
         <template>
@@ -128,15 +124,5 @@
             </srai>
         </template>
     </category>
-    
-    <category>
-        <pattern>OPEN SB</pattern>
-        <template>
-            <srai>
-                OPEN SCIENCE CENTRE
-            </srai>
-        </template>
-    </category>
-    
 
 </aiml>

@@ -79,16 +79,6 @@
     </category>
     
     <category>
-        <pattern>DIRECTIONS SWAN</pattern>
-        <template>
-            <srai>
-                DIRECTIONS SWAN
-            </srai>
-        </template>
-    </category>
-   
-    
-    <category>
         <pattern>DIRECTIONS SHED</pattern>
         <template>
             <srai>
@@ -109,15 +99,6 @@
     <!-- OPEN TIMES -->    
     <category>
         <pattern>OPEN SWAN _</pattern>
-        <template>
-            <srai>
-                OPEN SWAN
-            </srai>
-        </template>
-    </category>
-    
-    <category>
-        <pattern>OPEN SWAN</pattern>
         <template>
             <srai>
                 OPEN SWAN

@@ -27,12 +27,12 @@
     <category>
         <pattern>OPEN ENGINEERING HUB</pattern>
         <template>
-            		<random>
-            			<li>Let me just get that for you. [p]5[p] \n The building is open all day, every day! Hope this helps :)</li> 
-        			<li>One moment.[p]5[p] \n The Engineering Hub is open everyday and never closes. Hope this helps :)</li> 
-            			<li>One moment. [p]5[p] \n The building is open 24/7, so there's no closing times! Hope this helps :)</li> 
-            			<li>Let me just get that for you. [p]5[p] \n The Engineering Hub is open all day, every day. Hope this helps :)</li>
-            		</random>
+            <random>
+				<li>Let me just get that for you. [p]5[p] \n The building is open all day, every day! Hope this helps :)</li> 
+        		<li>One moment.[p]5[p] \n The Engineering Hub is open everyday and never closes. Hope this helps :)</li> 
+            	<li>One moment. [p]5[p] \n The building is open 24/7, so there's no closing times! Hope this helps :)</li> 
+            	<li>Let me just get that for you. [p]5[p] \n The Engineering Hub is open all day, every day. Hope this helps :)</li>
+			</random>
         </template>
     </category>
     
@@ -47,41 +47,8 @@
 			</srai>
 		</template>
     </category>
-      
-    
-    <!-- DIRECTIONS -->
-    <category>
-        <pattern>DIRECTIONS ENGINEERING HUB _</pattern>
-        <template>
-            <srai>
-                DIRECTIONS ENGINEERING HUB
-            </srai>
-        </template>
-    </category>
-    
-    
-    <!-- OPEN TIMES -->    
-    <category>
-        <pattern>OPEN ENGINEERING HUB _</pattern>
-        <template>
-            <srai>
-                OPEN ENGINEERING HUB
-            </srai>
-        </template>
-    </category>
-    
 	
-	<!-- ABOUT  -->
-    <category>
-        <pattern>ABOUT ENG _</pattern>
-		<template>
-			<srai>
-				ABOUT ENGINEERING HUB
-			</srai>
-		</template>
-    </category>
-    
-    <category>
+	<category>
         <pattern>ABOUT ENG</pattern>
 		<template>
 			<srai>
@@ -89,11 +56,19 @@
 			</srai>
 		</template>
     </category>
-    
+	
+	<category>
+        <pattern>ABOUT ENG _</pattern>
+		<template>
+			<srai>
+				ABOUT ENGINEERING HUB
+			</srai>
+		</template>
+    </category>   
     
     <!-- DIRECTIONS -->
     <category>
-        <pattern>DIRECTIONS ENG _</pattern>
+        <pattern>DIRECTIONS ENGINEERING HUB _</pattern>
         <template>
             <srai>
                 DIRECTIONS ENGINEERING HUB
@@ -109,11 +84,19 @@
             </srai>
         </template>
     </category>
-      
+	
+	<category>
+        <pattern>DIRECTIONS ENG _</pattern>
+        <template>
+            <srai>
+                DIRECTIONS ENGINEERING HUB
+            </srai>
+        </template>
+    </category>
     
     <!-- OPEN TIMES -->    
     <category>
-        <pattern>OPEN ENG _</pattern>
+        <pattern>OPEN ENGINEERING HUB _</pattern>
         <template>
             <srai>
                 OPEN ENGINEERING HUB
@@ -121,8 +104,17 @@
         </template>
     </category>
     
-    <category>
+	<category>
         <pattern>OPEN ENG</pattern>
+        <template>
+            <srai>
+                OPEN ENGINEERING HUB
+            </srai>
+        </template>
+    </category>
+	
+	<category>
+        <pattern>OPEN ENG _</pattern>
         <template>
             <srai>
                 OPEN ENGINEERING HUB
