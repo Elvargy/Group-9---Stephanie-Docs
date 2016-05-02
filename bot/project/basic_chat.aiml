@@ -86,9 +86,13 @@
         <template>
 			<random>
 				<li>Goodbye!</li>
+				
 				<li>Hope what I said has been helpful :) Cya!</li>
+				
 				<li>Cya!</li>
+				
 				<li>hope I've helped! Goodbye :)</li>
+				
 				<li>Bye! Have a nice day :)</li>
 			</random>
         </template>
@@ -143,16 +147,33 @@
 		</template>
 	</category>
 	
+	<category>
+		<pattern>FUCK YOU</pattern>
+		<template>
+			FUCK YOU TOO
+		</template>
+	</category>
+	
+	<category>
+		<pattern>FUCK YOU _</pattern>
+		<template>
+			<srai>FUCK YOU</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>FUCK OFF</pattern>
+		<template>
+			:/
+		</template>
+	</category>
+	
 	<!-- about steph Responses -->
+	
     <category>
         <pattern>WHO ARE YOU</pattern>
         <template>
-        	<random>
-			<li>I am Steph from the Student Union. If you need assitance around the university, I'm here to help! :)</li>
-			<li>I'm Steph, a member of the student union. If you have any questions about the university, feel free to ask.</li>
-			<li>I'm Steph frpm the Student union. If you need assistance around the university, I'm here to help! :)</li>
-			<li>I am Steph, a member of the Student Union. If you have any questions about the university, I'm here to help</li>
-		</random>
+            I am Steph from the Student Union. If you need assitance around the university, I'm here to help! :)
         </template>
     </category>
 	
@@ -202,6 +223,21 @@
         </template>
     </category>
     
+	<category>
+        <pattern>YOU LIVE</pattern>
+        <template>
+            Thats private :)
+        </template>
+    </category>
+	
+	<category>
+        <pattern>YOU LIVE _</pattern>
+        <template>
+            <srai>YOU LIVE</srai>
+        </template>
+    </category>
+	
+	
 	<!-- 'What' Responses -->
     <category>
         <pattern>WHAT ARE YOU</pattern>
@@ -225,8 +261,6 @@
         </template>
     </category>
 	
-	
-	
 	<category>
         <pattern>WHAT IS YOUR NAME _</pattern>
         <template>
@@ -248,9 +282,6 @@
 				<srai>WHAT IS YOUR NAME</srai>
         </template>
     </category>
-	
-
-	
 	
 	<!-- 'How' Responses -->
 	
@@ -293,7 +324,7 @@
 		</template>
 	</category>
 	
-		<category>
+	<category>
 		<pattern>HOWS YOU _</pattern>
 		<template>
 			<srai>HOW ARE YOU</srai>
