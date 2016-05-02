@@ -6,8 +6,8 @@
         <pattern>ABOUT WITHAM WHARF</pattern>
 		<template>
 			<random>
-				<li> ITEM 1 </li>
-				<li> ITEM 2 </li>
+				<li> Yes, Witham Wharf is a building on the campus, it is part of the School of Computer Science for the Lincoln Centre for Autonomous Systems Reseach </li>
+				<li> Witham Wharf is a part of the School of Computer Science, it hold the Lincoln Centre of Autonomous Systems Reseach </li>
 			</random>
 		</template>
     </category>
@@ -17,8 +17,8 @@
         <pattern>DIRECTIONS WITHAM WHARF</pattern>
         <template>
             <random>
-                <li> ITEM 1 </li>
-				<li> ITEM 2 </li>
+                <li> Yeah, Witham Wharf is located on the east side of campus on the edge of the Brayford Pool, north of the train tracks just outside Tower Bars </li>
+				<li> Witham Wharf is on the east side of campus just north of the David Chiddick Building </li>
             </random>
         </template>
     </category>
@@ -27,15 +27,10 @@
     <category>
         <pattern>OPEN WITHAM WHARF</pattern>
         <template>
-            Let me just get that for you
-            *You experienced a short wait time*
-            Mon 00:00 - 00:00
-            Tue 00:00 - 00:00
-            Wed 00:00 - 00:00
-            Thu 00:00 - 00:00
-            Fri 00:00 - 00:00
-            Sat 00:00 - 00:00
-            Sun 00:00 - 00:00
+			<random>
+            <li> Yeah, hold on while I get that for you [p]13[p] The opening times are 8am-6pm all week </li>
+			<li> Yes, let me just get them for you [p]7[p] Witham Wharf opens from 8am-6pm everyday </li>
+			</random>
         </template>
     </category>
     
