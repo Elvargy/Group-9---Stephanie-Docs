@@ -10,27 +10,24 @@ kernel.bootstrap(learnFiles = "std-project.xml", commands = "load aiml b")
 def pause_in_line(line):
     if "[p]" in line:
         paused = line.split("[p]")
+        
+        time.sleep(len(paused[0]) / 6.5)
         print(paused[0])
 
         try:
             time.sleep(int(paused[1]))
         except:
             print("[p]#[/p] error")
-            
-        try:
-            if paused[2] != "":
-                print (paused[2])
-        except:
-            pass
     else:
+        time.sleep(len(line) / 6.5)
         print(line)
+
 
 while True:
     inp = input(":> ")
     response = kernel.respond(inp)
-
+    
     if response != "":
-        time.sleep(len(response) / 5)
         if "\\n" in response:
             lines = response.split(" \\n ")
             for l in lines:

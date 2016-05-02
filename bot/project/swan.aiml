@@ -49,16 +49,7 @@
 			</srai>
 		</template>
     </category>
-    
-    <category>
-        <pattern>ABOUT SWAN _</pattern>
-		<template>
-			<srai>
-				ABOUT SWAN
-			</srai>
-		</template>
-    </category>
-    
+      
     <category>
         <pattern>ABOUT SHED</pattern>
         <template>
@@ -96,15 +87,7 @@
             </srai>
         </template>
     </category>
-    
-    <category>
-        <pattern>DIRECTIONS SWAN _</pattern>
-        <template>
-            <srai>
-                DIRECTIONS SWAN
-            </srai>
-        </template>
-    </category>
+   
     
     <category>
         <pattern>DIRECTIONS SHED</pattern>
@@ -136,15 +119,6 @@
     
     <category>
         <pattern>OPEN SWAN</pattern>
-        <template>
-            <srai>
-                OPEN SWAN
-            </srai>
-        </template>
-    </category>
-    
-    <category>
-        <pattern>OPEN SWAN _</pattern>
         <template>
             <srai>
                 OPEN SWAN

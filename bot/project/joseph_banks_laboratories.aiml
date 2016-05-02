@@ -44,24 +44,6 @@
 		</template>
     </category>
     
-    <category>
-        <pattern>ABOUT JOSEPH BANKS LABORATORIES</pattern>
-		<template>
-			<srai>
-				ABOUT JOSEPH BANKS LABORATORIES
-			</srai>
-		</template>
-    </category>
-    
-    <category>
-        <pattern>ABOUT JOSEPH BANKS LABORATORIES _</pattern>
-		<template>
-			<srai>
-				ABOUT JOSEPH BANKS LABORATORIES
-			</srai>
-		</template>
-    </category>
-    
     
     <!-- DIRECTIONS -->
     <category>
@@ -73,25 +55,7 @@
         </template>
     </category>
     
-    <category>
-        <pattern>DIRECTIONS JOSEPH BANKS LABORATORIES</pattern>
-        <template>
-            <srai>
-                DIRECTIONS JOSEPH BANKS LABORATORIES
-            </srai>
-        </template>
-    </category>
-    
-    <category>
-        <pattern>DIRECTIONS JOSEPH BANKS LABORATORIES _</pattern>
-        <template>
-            <srai>
-                DIRECTIONS JOSEPH BANKS LABORATORIES
-            </srai>
-        </template>
-    </category>
-    
-    
+      
     <!-- OPEN TIMES -->    
     <category>
         <pattern>OPEN JOSEPH BANKS LABORATORIES _</pattern>
@@ -102,21 +66,4 @@
         </template>
     </category>
     
-    <category>
-        <pattern>OPEN JOSEPH BANKS LABORATORIES</pattern>
-        <template>
-            <srai>
-                OPEN JOSEPH BANKS LABORATORIES
-            </srai>
-        </template>
-    </category>
-    
-    <category>
-        <pattern>OPEN JOSEPH BANKS LABORATORIES _</pattern>
-        <template>
-            <srai>
-                OPEN JOSEPH BANKS LABORATORIES
-            </srai>
-        </template>
-    </category>
 </aiml>
