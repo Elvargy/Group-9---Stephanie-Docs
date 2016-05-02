@@ -6,7 +6,7 @@
         <pattern>ABOUT ENGINEERING HUB</pattern>
 		<template>
 			<random>
-				<li> ITEM 1 </li>
+				<li> The Engineering hub is a building that houses the school of Engineering students. </li>
 				<li> ITEM 2 </li>
 			</random>
 		</template>
@@ -17,7 +17,7 @@
         <pattern>DIRECTIONS ENGINEERING HUB</pattern>
         <template>
             <random>
-                <li> ITEM 1 </li>
+                <li> The building is located on the south side of campus, opposite the student union building and near the library. It is hard to miss! </li>
 				<li> ITEM 2 </li>
             </random>
         </template>
@@ -27,15 +27,12 @@
     <category>
         <pattern>OPEN ENGINEERING HUB</pattern>
         <template>
-            Let me just get that for you
-            *You experienced a short wait time*
-            Mon 00:00 - 00:00
-            Tue 00:00 - 00:00
-            Wed 00:00 - 00:00
-            Thu 00:00 - 00:00
-            Fri 00:00 - 00:00
-            Sat 00:00 - 00:00
-            Sun 00:00 - 00:00
+            		<random>
+            			<li>Let me just get that for you. [p]5[p] \n The building is open all day, every day! Hope this helps :)</li> 
+        			<li>One moment.[p]5[p] \n The Engineering Hub is open everyday and never closes. Hope this helps :)</li> 
+            			<li>One moment. [p]5[p] \n The building is open 24/7, so there's no closing times! Hope this helps :)</li> 
+            			<li>Let me just get that for you. [p]5[p] \n The Engineering Hub is open all day, every day. Hope this helps :)</li>
+            		</random>
         </template>
     </category>
     
