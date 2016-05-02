@@ -28,8 +28,7 @@
         <pattern>OPEN LINCOLN PERFORMING ARTS CENTRE</pattern>
         <template>
             <random>
-			<li> Let me check that for you. [p]5[p] /n opening times are 7.00am to late depending on what shows are being performed on the night. Hope this is helpfule :) </li>			
-			
+				<li> Let me check that for you. [p]5[p] \n opening times are 7.00am to late depending on what shows are being performed on the night. Hope this is helpfule :) </li>			
 			</random>
         </template>
     </category>
