@@ -483,7 +483,34 @@
 	</category>
 	
 	
+	<!-- Purple Rain -->
+	<category>
+		<pattern>PURPLE RAIN</pattern>
+		<template>I never meant to cause you any sorrow, I never meant to cause you any pain, I only wanted one time to see you laughing, I only want to see you laughing in the purple rain. Purple rain, Purple rain.
+		</template>
+	</category>
 	
+	<category>
+		<pattern>PURPLE RAIN _</pattern>
+		<template>
+			<srai>PURPLE RAIN</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>_ PURPLE RAIN</pattern>
+		<template>
+			<srai>PURPLE RAIN</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>_ PURPLE RAIN _</pattern>
+		<template>
+			<srai>PURPLE RAIN</srai>
+		</template>
+	</category>
+
 	
 	
 	
