@@ -6,7 +6,7 @@
         <pattern>ABOUT MINSTER HOUSE</pattern>
 		<template>
 			<random>
-				<li> ITEM 1 </li>
+				<li> A building created to allow students and staff to use this building for resaerch and teaching </li>
 				<li> ITEM 2 </li>
 			</random>
 		</template>
@@ -17,7 +17,7 @@
         <pattern>DIRECTIONS MINSTER HOUSE</pattern>
         <template>
             <random>
-                <li> ITEM 1 </li>
+                <li> This is located next to the Joseph Banks laboratories located southwest from campus, if unsure look on google maps :)</li>
 				<li> ITEM 2 </li>
             </random>
         </template>
@@ -27,15 +27,9 @@
     <category>
         <pattern>OPEN MINSTER HOUSE</pattern>
         <template>
-            Let me just get that for you
-            *You experienced a short wait time*
-            Mon 00:00 - 00:00
-            Tue 00:00 - 00:00
-            Wed 00:00 - 00:00
-            Thu 00:00 - 00:00
-            Fri 00:00 - 00:00
-            Sat 00:00 - 00:00
-            Sun 00:00 - 00:00
+          <random>
+		  <li>  this is open from 7.30am to 6.00pm </li>
+		  </random>
         </template>
     </category>
     
