@@ -416,7 +416,7 @@
 	<category>
 		<pattern>HOW DO YOU KNOW YOU ARE REAL</pattern>
 		<template>
-			Thats a strange question. [p]2[p] \n How do you know you are real? 
+			Thats a strange question. [p]2[p] \n How do you know YOU are real? 
 		</template>
 	</category>
 	
@@ -424,6 +424,34 @@
 		<pattern>HOW DO YOU KNOW YOU ARE REAL _</pattern>
 		<template>
 			<srai>HOW DO YOU KNOW YOU ARE REAL</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>ARE YOU REAL</pattern>
+		<template>
+			Thats a strange question. [p]2[p] \n Are you? 
+		</template>
+	</category>
+	
+	<category>
+		<pattern>ARE YOU REAL _</pattern>
+		<template>
+			<srai>ARE YOU REAL</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>ARE YOU HUMAN</pattern>
+		<template>
+			YES! what else would I be? A chatbot? 
+		</template>
+	</category>
+
+	<category>
+		<pattern>ARE YOU HUMAN _</pattern>
+		<template>
+				<srai>ARE YOU HUMAN</srai>
 		</template>
 	</category>
 	
