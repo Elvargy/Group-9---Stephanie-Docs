@@ -27,15 +27,8 @@
     <category>
         <pattern>OPEN JOSEPH BANKS LABORATORIES</pattern>
         <template>
-            Let me just get that for you
-            *You experienced a short wait time*
-            Mon 00:00 - 00:00
-            Tue 00:00 - 00:00
-            Wed 00:00 - 00:00
-            Thu 00:00 - 00:00
-            Fri 00:00 - 00:00
-            Sat 00:00 - 00:00
-            Sun 00:00 - 00:00
+            <li>Let me just get that for you. [p]5[p] /n Joseph Banks is open 24 hours a day, 7 days a week. Hope this helps :)</li> 
+            <li>One moment.[p]5[p] /n Joseph banks is open all day, every day! Hope this helps :)</li> 
         </template>
     </category>
     
