@@ -5,7 +5,14 @@
     <category>
         <pattern>HELLO</pattern>
         <template>
-            Hello!
+			<random>
+				<li>Hello! How can I help?</li>
+				<li>Hey! How can I help?</li>
+				<li>Hi! How can I help?</li>
+				<li>Hello! How can I be of assistance?</li>
+				<li>Hey! How can I be of assistance?</li>
+				<li>Hi! How can I be of assistance?</li>
+			</random>
         </template>
     </category>
     
@@ -41,7 +48,17 @@
     <category>
         <pattern>BYE</pattern>
         <template>
-            Goodbye!
+			<random>
+				<li>Goodbye!</li>
+				
+				<li>Hope what I said has been helpful :) Cya!</li>
+				
+				<li>Cya!</li>
+				
+				<li>hope I've helped! Goodbye :)</li>
+				
+				<li>Bye! Have a nice day :)</li>
+			</random>
         </template>
     </category>
     
@@ -73,6 +90,20 @@
 		</template>
 	</category>
 
+	<category>
+		<pattern>CYA</pattern>
+		<template>
+			<srai>BYE</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>GOODBYE</pattern>
+		<template>
+			<srai>BYE</srai>
+		</template>
+	</category>
+	
     <category>
         <pattern>WHO ARE YOU</pattern>
         <template>
@@ -93,23 +124,47 @@
 	<category>
 		<pattern>THANK YOU</pattern>
 		<template>
-			<srai>No Problem :)</srai>
+			<random>
+				<li>No Problem :)</li>
+				
+				<li>You're welcome, happy to help :)</li>
+				
+				<li>You're welcome :)</li>
+				
+				<li>No Problem, always happy to help :)</li>			
+			</random>
 		</template>
 	</category>
 	
 	<category>
 		<pattern>THANK YOU _</pattern>
 		<template>
-			<srai>No Problem :)</srai>
+			<srai>THANK YOU</sria>
 		</template>
 	</category>
 	
-		<category>
+	<category>
 		<pattern>_ THANK YOU</pattern>
 		<template>
-			<srai>No Problem :)</srai>
+			<srai>THANK YOU</sria>
 		</template>
 	</category>
+	
+	<category>
+		<pattern>CHEERS</pattern>
+		<template>
+			<srai>THANK YOU</sria>
+		</template>
+	</category>
+
+	
+	<category>
+		<pattern>THANKS</pattern>
+		<template>
+			<srai>THANK YOU</sria>
+		</template>
+	</category>
+
 
     
 </aiml>
