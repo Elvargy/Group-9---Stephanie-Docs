@@ -7,7 +7,7 @@
 		<template>
 			<random>
 				<li> defo, the Lincoln Performing Arts Centre (LPAC) is an innovative performance venue with a state-of-the-art learning environment for the Lincoln School of Performing Arts. </li>
-				<li> ITEM 2 </li>
+				<li> LPAC the main building for any performing arts student, with live performances for all people to come and watch. For more info on this visit http://lpac.co.uk/ </li>
 			</random>
 		</template>
     </category>
@@ -18,7 +18,7 @@
         <template>
             <random>
                 <li> To find this head towards Student Union or Engine Shed, look for the building that has the LPAC sign. </li>
-				<li> ITEM 2 </li>
+				<li> Head to any building that is close to the libary or the main car park, then you should be able to see the building that has the big LPAC sign. </li>
             </random>
         </template>
     </category>
@@ -27,15 +27,10 @@
     <category>
         <pattern>OPEN LINCOLN PERFORMING ARTS CENTRE</pattern>
         <template>
-            Let me just get that for you
-            *You experienced a short wait time*
-            Mon 00:00 - 00:00
-            Tue 00:00 - 00:00
-            Wed 00:00 - 00:00
-            Thu 00:00 - 00:00
-            Fri 00:00 - 00:00
-            Sat 00:00 - 00:00
-            Sun 00:00 - 00:00
+            <random>
+			<li> Let me check that for you. [p]5[p] /n opening times are 7.00am to late depending on what shows are being performed on the night. Hope this is helpfule :) </li>			
+			
+			</random>
         </template>
     </category>
     
