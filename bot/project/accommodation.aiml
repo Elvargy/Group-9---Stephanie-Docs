@@ -101,6 +101,70 @@
             </srai>
         </template>
     </category>
+	
+	<!-- HAYES WHARF -->
+	<category>
+        <pattern>DIRECTIONS HAYES WHARF </pattern>
+        <template>
+		Hayes Wharf is the red brick building facing Carlhome Road
+            <srai>
+                DIRECTIONS ACCOMMODATION
+            </srai>
+        </template>
+    </category>
+	
+	<category>
+        <pattern>DIRECTIONS HAYES WHARF _</pattern>
+        <template>
+		Hayes Wharf is the red brick building facing Carlhome Road
+            <srai>
+                DIRECTIONS ACCOMMODATION
+            </srai>
+        </template>
+    </category>
+	
+	<!-- THE JUNXION -->
+	<category>
+        <pattern>DIRECTIONS THE JUNXION </pattern>
+        <template>
+		The Junxion is the huuuuuge building that looks over the library and the engine shed
+            <srai>
+                DIRECTIONS ACCOMMODATION
+            </srai>
+        </template>
+    </category>
+	
+	<category>
+        <pattern>DIRECTIONS THE JUNXION _</pattern>
+        <template>
+		The Junxion is the huuuuuge building that looks over the library and the engine shed
+            <srai>
+                DIRECTIONS ACCOMMODATION
+            </srai>
+        </template>
+    </category>
+	
+	<category>
+        <pattern>DIRECTIONS JUNXION </pattern>
+        <template>
+		The Junxion is the huuuuuge building that looks over the library and the engine shed
+            <srai>
+                DIRECTIONS ACCOMMODATION
+            </srai>
+        </template>
+    </category>
+	
+	<category>
+        <pattern>DIRECTIONS JUNXION _</pattern>
+        <template>
+		The Junxion is the huuuuuge building that looks over the library and the engine shed
+            <srai>
+                DIRECTIONS ACCOMMODATION
+            </srai>
+        </template>
+    </category>
+   
+   
    
     
 <!-- OPEN TIMES -->    
