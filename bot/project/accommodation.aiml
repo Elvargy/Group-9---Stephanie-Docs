@@ -184,7 +184,7 @@
     </category>
 		
 	<!-- PAVILLION HOUSE -->
-	category>
+	<category>
         <pattern>DIRECTIONS PAVILLION HOUSE </pattern>
         <template>
 		    <srai>
@@ -203,7 +203,7 @@
     </category>	
 	
 	<!-- ST MARKS HOUSE -->
-	category>
+	<category>
         <pattern>DIRECTIONS ST MARKS HOUSE </pattern>
         <template>
 		    <srai>
