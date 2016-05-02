@@ -145,3 +145,12 @@ WITHAM WHARF
     - Item 1
     - Item 2
 | Open Times.
+
+LIBRARY
+| About:
+    - Item 1
+    - Item 2
+| Directions:
+    - Item 1
+    - Item 2
+| Open Times.
