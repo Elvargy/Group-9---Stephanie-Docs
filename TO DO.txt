@@ -117,35 +117,6 @@ THINK TANK
     - Item 1
     - Item 2
 
-
-VILLAGE HALL *** DONE - WILL
-| About:
-    - Item 1
-    - Item 2
-| Directions:
-    - Item 1
-    - Item 2
-| Open Times.
-
-
-WITHAM HOUSE ***DONE - WILL
-| About:
-    - Item 1
-    - Item 2
-| Directions:
-    - Item 1
-    - Item 2
-| Open Times.
-
-
-WITHAM WHARF *** DONE - WILL
-| About:
-    - Item 2
-| Directions:
-    - Item 1
-    - Item 2
-| Open Times.
-
 LIBRARY
 | About:
     - Item 1
