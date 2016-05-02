@@ -413,6 +413,21 @@
 		</template>
 	</category>
 	
+	<category>
+		<pattern>HOW DO YOU KNOW YOU ARE REAL</pattern>
+		<template>
+			Thats a strange question. [p]5[p] \n How do you know you are real? 
+		</template>
+	</category>
+	
+	<category>
+		<pattern>HOW DO YOU KNOW YOU ARE REAL _</pattern>
+		<template>
+			<srai>HOW DO YOU KNOW YOU ARE REAL</srai>
+		</template>
+	</category>
+	
+	
 	<!-- 'Thank you' Responses-->
 	<category>
 		<pattern>THANK YOU</pattern>
@@ -482,11 +497,63 @@
 		</template>
 	</category>
 	
+	<!-- Random responses -->
 	
+	<category>
+	<pattern>NO</pattern>
+		<template>
+		<random>
+		<li>OK.</li>
+		</random>
+		</template>
+	</category>
+		
+		
 	
+	<category>
+	<pattern>Yes</pattern>
+		<template>
+		<random>
+		<li>OK.</li>
+		</random>
+		</template>
+	</category>
 	
+	<category>
+	<pattern>I DONT KNOW</pattern>
+		<template>
+		<random>
+		<li>OK.</li>
+		</random>
+		</template>
+	</category>
 	
+	<category>
+	<pattern>I DON'T KNOW</pattern>
+		<template>
+		<random>
+		<li>OK.</li>
+		</random>
+		</template>
+	</category>
 	
+	<category>
+	<pattern>I DONT KNOW _</pattern>
+		<template>
+		<random>
+		<li>OK.</li>
+		</random>
+		</template>
+	</category>
+	
+	<category>
+	<pattern>I DON'T KNOW _</pattern>
+		<template>
+		<random>
+		<li>OK.</li>
+		</random>
+		</template>
+	</category>
 	
 	<!-- Fallthrough Responses-->
 	<category>
