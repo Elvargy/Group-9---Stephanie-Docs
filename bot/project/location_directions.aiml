@@ -2,7 +2,7 @@
     
     <!-- Student Union -->
     <category>
-        <pattern>DIRECTIONS STUDENT UNION</pattern>
+        <pattern>DIRECTIONS STUDENTS UNION</pattern>
         <template>
             <random>
                 <li>The Student Union is located on the south sound of campus. The closest landmark is the Engine Shed.
@@ -15,14 +15,31 @@
     </category>
     
     <category>
-        <pattern>DIRECTIONS STUDENT UNION _</pattern>
+        <pattern>DIRECTIONS STUDENTS UNION _</pattern>
         <template>
             <srai>
-                DIRECTIONS STUDENT UNION
+                DIRECTIONS STUDENTS UNION
             </srai>
         </template>
     </category>
     
+    <category>
+        <pattern>DIRECTIONS STUDENT UNION</pattern>
+        <template>
+            <srai>
+                DIRECTIONS STUDENTS UNION
+            </srai>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>DIRECTIONS STUDENT UNION _</pattern>
+        <template>
+            <srai>
+                DIRECTIONS STUDENTS UNION
+            </srai>
+        </template>
+    </category>
     
     <!-- Minerva/Main Building -->
         <!-- Minerva Building -->
@@ -171,6 +188,25 @@
     
     <category>
         <pattern>_ GET TO *</pattern>
+        <template>
+            <srai>
+                DIRECTIONS <star index="2"/> 
+            </srai>
+        </template>
+    </category>
+    
+    <!-- FIND -->
+    <category>
+        <pattern>FIND *</pattern>
+        <template>
+            <srai>
+                DIRECTIONS <star/> 
+            </srai>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>_ FIND *</pattern>
         <template>
             <srai>
                 DIRECTIONS <star index="2"/> 

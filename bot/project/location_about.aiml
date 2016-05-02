@@ -21,6 +21,24 @@
 			</template>
     </category>
     
+    <category>
+        <pattern>ABOUT STUDENT UNION</pattern>
+			<template>
+				<srai>
+					ABOUT STUDENTS UNION
+				</srai>
+			</template>
+    </category>
+    
+    <category>
+        <pattern>ABOUT STUDENT UNION _</pattern>
+			<template>
+				<srai>
+					ABOUT STUDENTS UNION
+				</srai>
+			</template>
+    </category>
+    
     <!-- Minerva/Main Building -->
         <!-- Minerva Building -->
     <category>

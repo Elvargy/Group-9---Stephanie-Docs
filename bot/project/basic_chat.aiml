@@ -139,21 +139,21 @@
 	<category>
 		<pattern>THANK YOU _</pattern>
 		<template>
-			<srai>THANK YOU</sria>
+			<srai>THANK YOU</srai>
 		</template>
 	</category>
 	
 	<category>
 		<pattern>_ THANK YOU</pattern>
 		<template>
-			<srai>THANK YOU</sria>
+			<srai>THANK YOU</srai>
 		</template>
 	</category>
 	
 	<category>
 		<pattern>CHEERS</pattern>
 		<template>
-			<srai>THANK YOU</sria>
+			<srai>THANK YOU</srai>
 		</template>
 	</category>
 
@@ -161,7 +161,7 @@
 	<category>
 		<pattern>THANKS</pattern>
 		<template>
-			<srai>THANK YOU</sria>
+			<srai>THANK YOU</srai>
 		</template>
 	</category>
 
