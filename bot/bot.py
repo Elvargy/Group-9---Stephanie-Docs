@@ -4,7 +4,6 @@ import fbchat
 import random
 
 kernel = aiml.Kernel()
-api = fbchat.Client("13393724@students.lincoln.ac.uk", "group9")
 
 print ("Choose a brain file:")
 print ("[1] Standard")
@@ -14,7 +13,6 @@ print ("[4] None\n")
 
 invalidSelection = True
 path = "notafile.brn"
-run = True
 
 while invalidSelection:
     
@@ -67,7 +65,6 @@ while invalidSelection:
         invalidSelection = False
 
 
-
 class Commands:
 
     def __init__(self, path):
@@ -79,7 +76,6 @@ class Commands:
     
     def command_quit(self):
         # Quits the bot
-        run = False
         exit(0)
         
     def command_learntest(self):
@@ -109,59 +105,14 @@ class Commands:
         
         inp = ""
         for question in questionList:
-            api.send('998191603562029', question)
-            api.send('998191603562029', kernel.respond(question))
-            api.send('998191603562029', " ")
+            print(question)
+            print(kernel.respond(question))
+            print()
                                       
     def command_(self):
         bot_response = kernel.respond(message)
 
 c = Commands(path)
-
-locationList = [
-    "Student Union",
-    "Minerva Building",
-    "Main Building"
-    "Joseph Banks Laboritories",
-    "Lincoln Performing Arts Centre",
-    "LPAC",
-    "Enterprise",
-    "MHT",
-    "Media Building"
-    ]
-
-questionList = []
-for location in locationList:
-    # Directions
-    questionList.append("Directions %s" % location)
-    questionList.append("Can you tell me directions %s?" % location)
-    
-    questionList.append("Directions to %s" % location)
-    questionList.append("Can you tell me directions to %s?" % location)
-    
-    questionList.append("Directions for %s" % location)
-    questionList.append("Can you tell me directions for %s?" % location)
-    
-    questionList.append("Get to %s" % location)
-    questionList.append("Can you tell me how to get to %s?" % location)
-    
-    questionList.append("Where is %s?" % location)
-    questionList.append("Hey, where is %s?" % location)
-    questionList.append("Can you tell me where %s is?" % location)
-    
-    questionList.append("Where's %s?" % location)
-    questionList.append("Hey, where's %s?" % location)
-
-    # About
-    questionList.append("About %s" % location)
-    questionList.append("Can you tell me about %s?" % location)
-    
-    questionList.append("What is %s?" % location)
-    questionList.append("Hey, what is %s?" % location)
-    questionList.append("Can you tell me what %s is?" % location)
-
-    questionList.append("Information for %s" % location)
-    questionList.append("Can you give me information for %s?" % location)
 
 
 fallback = [
@@ -170,7 +121,9 @@ fallback = [
     "Suck my dick you pixie wanker"
     ]
 
-while run:
+api = fbchat.Client("13393724@students.lincoln.ac.uk", "group9")
+
+while True:
     metadata = api.listen()
 
     if metadata != None :
@@ -184,31 +137,42 @@ while run:
                 tid = metadata['message']['thread_fbid']
             else:
                 tid = None
-        
-            print (mid)
-            print (message)
-            print (fbid)
-            print (name)
-            print (metadata)
+                
+        elif 'delta' in metadata and 'messageMetadata' in metadata['delta']:
+            mid     = metadata['delta']['messageMetadata']['messageId']
+            message = metadata['delta']['body']
+            fbid    = metadata['delta']['messageMetadata']['threadKey']['threadFbId']
+            tid     = fbid
+            name    = metadata['delta']['messageMetadata']['actorFbId']
 
-            if name == "json error":
-                api.send(tid, message)
+        else:
+            mid     = " "
+            message = " "
+            fbid    = " "
+            tid     = " "
+            name    = " "
+            
+        print (mid)
+        print (message)
+        print (fbid)
+        print (name)
+        print (metadata)            
+
+        if tid != None and fbid != 100011744288479:
+            try:
+                command = getattr(c, "command_" + message)()
+                response = ""
+            except:
+                response = kernel.respond(message)
                 
-            elif tid != None and fbid != 100011744288479:
-                try:
-                    command = getattr(c, "command_" + message)()
-                    response = ""
-                except:
-                    response = kernel.respond(message)
-                
-                if response != "":
-                    print (response)
-                    api.send(tid, response)
-                else:
-                    api.send(tid, random.choice(fallback))
+            if response != "" and tid == "963983477056732":
+                print (response)
+                api.send(tid, response)
+            elif tid == "963983477056732":
+                api.send(tid, random.choice(fallback))
     
-            else:
-                print("None")
+        else:
+            print("None")
     
 
 

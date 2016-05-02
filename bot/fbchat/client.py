@@ -188,7 +188,18 @@ class Client(object):
         }
 
         r = self._get(SearchURL, payload)
-        j = self.catchJson(r.text)
+        
+        try:
+            self.j = j = get_json(r.text)
+            
+        except Exception as e:
+            self.swagburyCounter += 1
+            print ("Jason Bradbury %s" % self.swagburyCounter)
+            print (e)
+            
+            handled = r.text.replace('\\n', ' ')
+            print(handled)
+            self.j = j = get_json(handled)
 		
         users = []
         for entry in j['payload']['entries']:
@@ -266,7 +277,16 @@ class Client(object):
         if not r.ok or len(r.text) == 0:
             return None
 
-        j = self.catchJson(r.text)
+        try:
+            j = get_json(r.text)
+            
+        except Exception as e:
+            self.swagburyCounter += 1
+            print ("Jason Bradbury %s" % self.swagburyCounter)
+            print (e)
+            
+            handled = r.text.replace('\\n', ' ')
+            j = get_json(handled)
             
         if not j['payload']:
             return None
@@ -297,7 +317,16 @@ class Client(object):
         if not r.ok or len(r.text) == 0:
             return None
 
-        j = self.catchJson(r.text)
+        try:
+            j = get_json(r.text)
+            
+        except Exception as e:
+            self.swagburyCounter += 1
+            print ("Jason Bradbury %s" % self.swagburyCounter)
+            print (e)
+            
+            handled = r.text.replace('\\n', ' ')
+            j = get_json(handled)
             
         # Get names for people
         participants={}
@@ -332,13 +361,21 @@ class Client(object):
         r = self._post(ThreadSyncURL, form)
         if not r.ok or len(r.text) == 0:
             return None
+
+        try:
+            j = get_json(r.text)
             
-        j = self.catchJson(r.text)
+        except Exception as e:
+            self.swagburyCounter += 1
+            print ("Jason Bradbury %s" % self.swagburyCounter)
+            print (e)
+            
+            handled = r.text.replace('\\n', ' ')
+            j = get_json(handled)
             
         result = {
             "message_counts": j['payload']['message_counts'],
             "unseen_threads": j['payload']['unseen_thread_ids']}
-            
         return result
 
     def markAsDelivered(self, userID, threadID):
@@ -384,7 +421,17 @@ class Client(object):
         data={ "msgs_recv": 0 }
 
         r = self._get(StickyURL, data)
-        j = self.catchJson(r.text)
+        
+        try:
+            j = get_json(r.text)
+            
+        except Exception as e:
+            self.swagburyCounter += 1
+            print ("Jason Bradbury %s" % self.swagburyCounter)
+            print (e)
+            
+            handled = r.text.replace('\\n', ' ')
+            j = get_json(handled)
 
         if 'lb_info' not in j:
             raise Exception('Get sticky pool error')
@@ -405,48 +452,20 @@ class Client(object):
         }
 
         r = self._get(StickyURL, data)
-        j = self.catchJson(r.text)
-        
-        return j
-        
-    def catchJson(self, text):
         try:
-            j = get_json(text)
-
+            j = get_json(r.text)
+			
         except Exception as e:
             self.swagburyCounter += 1
             print ("Jason Bradbury %s" % self.swagburyCounter)
             print (e)
             
-            handled = text.replace('\\n', ' ')
+            handled = r.text.replace('\\n', ' ')
+            j = get_json(handled)
             
-            try:
-                j = get_json(handled)
-                self.seq = j.get('seq', '0')
-                
-            except:
-                j = {
-                    'message': {
-                        'mid':"998191603562029",
-                        'body':"Jason Swagbury strikes again!",
-                        'sender_fbid':"100011744288479",
-                        'sender_name':"json error",
-                        'thread_fbid':"998191603562029"
-                    },
-                    'payload': {
-                        'message_counts':0,
-                        'unseen_thread_ids':0
-                    },
-                    'lb_info': {
-                        'sticky':"",
-                        'pool':""
-                    }
-                }
-                
-                return j
-        
         self.seq = j.get('seq', '0')
         return j
+
 
     def _parseMessage(self, content):
         '''
@@ -454,15 +473,35 @@ class Client(object):
         May contains multiple messages in the content.
         '''
         if 'ms' not in content:
-            return content
+            return
         for m in content['ms']:
+            print("THIS IS AN M:")
+            print(m)
+            print("M ENDED!")
             if m['type'] in ['m_messaging', 'messaging']:
                 try:
                     mid     = m['message']['mid']
                     message = m['message']['body']
                     fbid    = m['message']['sender_fbid']
                     name    = m['message']['sender_name']
-                    return self.on_message(mid, fbid, name, message, m)
+                    
+                    if fbid == "100011744288479":
+                        return
+                    else:
+                        return self.on_message(mid, fbid, name, message, m)
+                except:
+                    pass
+            elif 'delta' in m and 'messageMetadata' in m['delta']:
+                try:
+                    mid     = m['delta']['messageMetadata']['messageId']
+                    message = m['delta']['body']
+                    fbid    = m['delta']['messageMetadata']['threadKey']['threadFbId']
+                    name    = m['delta']['messageMetadata']['actorFbId']
+                    
+                    if name == "100011744288479":
+                        return
+                    else:
+                        return self.on_message(mid, fbid, name, message, m)
                 except:
                     pass
             elif m['type'] in ['typ']:
@@ -473,9 +512,9 @@ class Client(object):
                     pass
             elif m['type'] in ['m_read_receipt']:
                 try:
-                    author  = m['author']
-                    reader  = m['reader']
-                    time    = m['time']
+                    author = m['author']
+                    reader = m['reader']
+                    time   = m['time']
                     self.on_read(author, reader, time)
                 except:
                     pass
@@ -490,7 +529,6 @@ class Client(object):
             print("Listening...")
 
         while self.listening:
-            print ("listening")
             try:
                 if markAlive: self.ping(sticky)
                 try:
