@@ -6,7 +6,7 @@
 		<template>
 			<random>
 				<li> The university offers a wide range of on and off campus accommodation. Courts is the on campus accommodation, it is a large student village made up of 17 buildings that house around 1,037 students. Our off campus accommodation includes Brayford Quay, Hayes Wharf, The Junxion, Park Court, Pavilion House and St Marks House. If you need more information, just got to the uni website and search for accommodation. :) </li>
-				<li> Answering a questions about a specific accommodation is tough so I reccommend that you go to this website to find out more https://www.lincoln.ac.uk/home/accommodation/ </li>
+				<li> If you want more information about our univeristys accommodation, I reccommend that you go to this website to find out more https://www.lincoln.ac.uk/home/accommodation/ </li>
 			</random>
 		</template>
     </category>
@@ -26,15 +26,10 @@
     <category>
         <pattern>OPEN ACCOMMODATION</pattern>
         <template>
-            Let me just get that for you
-            *You experienced a short wait time*
-            Mon 00:00 - 00:00
-            Tue 00:00 - 00:00
-            Wed 00:00 - 00:00
-            Thu 00:00 - 00:00
-            Fri 00:00 - 00:00
-            Sat 00:00 - 00:00
-            Sun 00:00 - 00:00
+            <random>
+                <li> For more information on Lincoln's accommodation, check out https://www.lincoln.ac.uk/home/accommodation/ </li>
+				<li> Please see this website for more information https://www.lincoln.ac.uk/home/accommodation/ </li>
+            </random>
         </template>
     </category>
     
@@ -64,7 +59,7 @@
 	<category>
         <pattern>DIRECTIONS COURTS </pattern>
         <template>
-		Ah, Courts. Courts is the On-Campus Accomodation
+			Ah, Courts. Courts is the On-Campus Accomodation
             <srai>
                 DIRECTIONS ACCOMMODATION
             </srai>
@@ -74,7 +69,7 @@
 	<category>
         <pattern>DIRECTIONS COURTS _</pattern>
         <template>
-		Ah, Courts. Courts is the On-Campus Accomodation
+			Ah, Courts. Courts is the On-Campus Accomodation
             <srai>
                 DIRECTIONS ACCOMMODATION
             </srai>
@@ -85,7 +80,7 @@
 	<category>
         <pattern>DIRECTIONS BRAYFORD QUAY </pattern>
         <template>
-		Brayford Quay you say? You cheeky bugger, you know that it's located near the Nandos
+			Brayford Quay you say? You cheeky bugger, you know that it's located near the Nandos
             <srai>
                 DIRECTIONS ACCOMMODATION
             </srai>
@@ -95,7 +90,7 @@
 	<category>
         <pattern>DIRECTIONS BRAYFORD QUAY _</pattern>
         <template>
-		Brayford Quay you say? You cheeky bugger, you know that it's located near the Nandos
+			Brayford Quay you say? You cheeky bugger, you know that it's located near the Nandos
             <srai>
                 DIRECTIONS ACCOMMODATION
             </srai>
@@ -106,7 +101,7 @@
 	<category>
         <pattern>DIRECTIONS HAYES WHARF </pattern>
         <template>
-		Hayes Wharf is the red brick building facing Carlhome Road
+			Hayes Wharf is the red brick building facing Carlhome Road
             <srai>
                 DIRECTIONS ACCOMMODATION
             </srai>
@@ -116,7 +111,7 @@
 	<category>
         <pattern>DIRECTIONS HAYES WHARF _</pattern>
         <template>
-		Hayes Wharf is the red brick building facing Carlhome Road
+			Hayes Wharf is the red brick building facing Carlhome Road
             <srai>
                 DIRECTIONS ACCOMMODATION
             </srai>
@@ -127,7 +122,7 @@
 	<category>
         <pattern>DIRECTIONS THE JUNXION </pattern>
         <template>
-		The Junxion is the huuuuuge building that looks over the library and the engine shed
+			The Junxion is the huuuuuge building that looks over the library and the engine shed
             <srai>
                 DIRECTIONS ACCOMMODATION
             </srai>
@@ -137,7 +132,7 @@
 	<category>
         <pattern>DIRECTIONS THE JUNXION _</pattern>
         <template>
-		The Junxion is the huuuuuge building that looks over the library and the engine shed
+			The Junxion is the huuuuuge building that looks over the library and the engine shed
             <srai>
                 DIRECTIONS ACCOMMODATION
             </srai>
@@ -147,7 +142,7 @@
 	<category>
         <pattern>DIRECTIONS JUNXION </pattern>
         <template>
-		The Junxion is the huuuuuge building that looks over the library and the engine shed
+			The Junxion is the huuuuuge building that looks over the library and the engine shed
             <srai>
                 DIRECTIONS ACCOMMODATION
             </srai>
@@ -157,7 +152,7 @@
 	<category>
         <pattern>DIRECTIONS JUNXION _</pattern>
         <template>
-		The Junxion is the huuuuuge building that looks over the library and the engine shed
+			The Junxion is the huuuuuge building that looks over the library and the engine shed
             <srai>
                 DIRECTIONS ACCOMMODATION
             </srai>

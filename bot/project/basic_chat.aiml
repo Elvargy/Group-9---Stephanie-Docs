@@ -197,8 +197,6 @@
 		</template>
 	</category>
 	
-	
-	
 	<category>
 		<pattern>TELL A JOKE </pattern>
 		<template>
@@ -467,6 +465,20 @@
 		<pattern>THANKS _</pattern>
 		<template>
 			<srai>THANK YOU</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>10/10</pattern>
+		<template>
+			BEST MEME 10/10 WOULD WRECK IT RALPH
+		</template>
+	</category>
+	
+	<category>
+		<pattern>10/10 _</pattern>
+		<template>
+			<srai>10/10</srai>
 		</template>
 	</category>
 	
