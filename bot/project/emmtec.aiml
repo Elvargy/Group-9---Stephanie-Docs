@@ -1,0 +1,145 @@
+<aiml version="1.0.1" encoding="UTF-8">
+
+<!-- RESPONSES -->
+    <!-- ABOUT -->
+    <category>
+        <pattern>ABOUT EMMTEC</pattern>
+		<template>
+			<random>
+				<li> ITEM 1 </li>
+				<li> ITEM 2 </li>
+			</random>
+		</template>
+    </category>
+    
+    <!-- DIRECTIONS -->
+    <category>
+        <pattern>DIRECTIONS EMMTEC</pattern>
+        <template>
+            <random>
+                <li> ITEM 1 </li>
+				<li> ITEM 2 </li>
+            </random>
+        </template>
+    </category>
+    
+    
+<!-- SRAI STATEMENTS -->
+    <!-- ABOUT  -->
+    <category>
+        <pattern>ABOUT EMMTEC _</pattern>
+		<template>
+			<srai>
+				ABOUT EMMTEC
+			</srai>
+		</template>
+    </category>
+    
+    <category>
+        <pattern>ABOUT EMMTEC</pattern>
+		<template>
+			<srai>
+				ABOUT EMMTEC
+			</srai>
+		</template>
+    </category>
+    
+    <category>
+        <pattern>ABOUT EMMTEC _</pattern>
+		<template>
+			<srai>
+				ABOUT EMMTEC
+			</srai>
+		</template>
+    </category>
+    
+    
+    <!-- DIRECTIONS -->
+    <category>
+        <pattern>DIRECTIONS EMMTEC _</pattern>
+        <template>
+            <srai>
+                DIRECTIONS EMMTEC
+            </srai>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>DIRECTIONS EMMTEC</pattern>
+        <template>
+            <srai>
+                DIRECTIONS EMMTEC
+            </srai>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>DIRECTIONS EMMTEC _</pattern>
+        <template>
+            <srai>
+                DIRECTIONS EMMTEC
+            </srai>
+        </template>
+    </category>
+	
+	
+	
+	
+	<!-- ABOUT  -->
+    <category>
+        <pattern>ABOUT MT _</pattern>
+		<template>
+			<srai>
+				ABOUT EMMTEC
+			</srai>
+		</template>
+    </category>
+    
+    <category>
+        <pattern>ABOUT MT</pattern>
+		<template>
+			<srai>
+				ABOUT EMMTEC
+			</srai>
+		</template>
+    </category>
+    
+    <category>
+        <pattern>ABOUT MT _</pattern>
+		<template>
+			<srai>
+				ABOUT EMMTEC
+			</srai>
+		</template>
+    </category>
+    
+    
+    <!-- DIRECTIONS -->
+    <category>
+        <pattern>DIRECTIONS MT _</pattern>
+        <template>
+            <srai>
+                DIRECTIONS EMMTEC
+            </srai>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>DIRECTIONS MT</pattern>
+        <template>
+            <srai>
+                DIRECTIONS EMMTEC
+            </srai>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>DIRECTIONS MT _</pattern>
+        <template>
+            <srai>
+                DIRECTIONS EMMTEC
+            </srai>
+        </template>
+    </category>
+    
+</aiml>

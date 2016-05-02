@@ -1,0 +1,218 @@
+<aiml version="1.0.1" encoding="UTF-8">
+
+<!-- RESPONSES -->
+    <!-- ABOUT -->
+    <category>
+        <pattern>ABOUT BRIDGE HOUSE</pattern>
+		<template>
+			<random>
+				<li> ITEM 1 </li>
+				<li> ITEM 2 </li>
+			</random>
+		</template>
+    </category>
+    
+    <!-- DIRECTIONS -->
+    <category>
+        <pattern>DIRECTIONS BRIDGE HOUSE</pattern>
+        <template>
+            <random>
+                <li> ITEM 1 </li>
+				<li> ITEM 2 </li>
+            </random>
+        </template>
+    </category>
+    
+    <!-- OPEN TIMES -->
+    <category>
+        <pattern>OPEN BRIDGE HOUSE</pattern>
+        <template>
+            Let me just get that for you
+            *You experienced a short wait time*
+            Mon 00:00 - 00:00
+            Tue 00:00 - 00:00
+            Wed 00:00 - 00:00
+            Thu 00:00 - 00:00
+            Fri 00:00 - 00:00
+            Sat 00:00 - 00:00
+            Sun 00:00 - 00:00
+        </template>
+    </category>
+    
+    
+<!-- SRAI STATEMENTS -->
+    <!-- ABOUT  -->
+    <category>
+        <pattern>ABOUT BRIDGE HOUSE _</pattern>
+		<template>
+			<srai>
+				ABOUT BRIDGE HOUSE
+			</srai>
+		</template>
+    </category>
+    
+    <category>
+        <pattern>ABOUT BRIDGE HOUSE</pattern>
+		<template>
+			<srai>
+				ABOUT BRIDGE HOUSE
+			</srai>
+		</template>
+    </category>
+    
+    <category>
+        <pattern>ABOUT BRIDGE HOUSE _</pattern>
+		<template>
+			<srai>
+				ABOUT BRIDGE HOUSE
+			</srai>
+		</template>
+    </category>
+    
+    
+    <!-- DIRECTIONS -->
+    <category>
+        <pattern>DIRECTIONS BRIDGE HOUSE _</pattern>
+        <template>
+            <srai>
+                DIRECTIONS BRIDGE HOUSE
+            </srai>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>DIRECTIONS BRIDGE HOUSE</pattern>
+        <template>
+            <srai>
+                DIRECTIONS BRIDGE HOUSE
+            </srai>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>DIRECTIONS BRIDGE HOUSE _</pattern>
+        <template>
+            <srai>
+                DIRECTIONS BRIDGE HOUSE
+            </srai>
+        </template>
+    </category>
+    
+    
+    <!-- OPEN TIMES -->    
+    <category>
+        <pattern>OPEN BRIDGE HOUSE _</pattern>
+        <template>
+            <srai>
+                OPEN BRIDGE HOUSE
+            </srai>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>OPEN BRIDGE HOUSE</pattern>
+        <template>
+            <srai>
+                OPEN BRIDGE HOUSE
+            </srai>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>OPEN BRIDGE HOUSE _</pattern>
+        <template>
+            <srai>
+                OPEN BRIDGE HOUSE
+            </srai>
+        </template>
+    </category>
+	
+	
+	
+	
+	<!-- ABOUT  -->
+    <category>
+        <pattern>ABOUT BH _</pattern>
+		<template>
+			<srai>
+				ABOUT BRIDGE HOUSE
+			</srai>
+		</template>
+    </category>
+    
+    <category>
+        <pattern>ABOUT BH</pattern>
+		<template>
+			<srai>
+				ABOUT BRIDGE HOUSE
+			</srai>
+		</template>
+    </category>
+    
+    <category>
+        <pattern>ABOUT BH _</pattern>
+		<template>
+			<srai>
+				ABOUT BRIDGE HOUSE
+			</srai>
+		</template>
+    </category>
+    
+    
+    <!-- DIRECTIONS -->
+    <category>
+        <pattern>DIRECTIONS BH _</pattern>
+        <template>
+            <srai>
+                DIRECTIONS BRIDGE HOUSE
+            </srai>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>DIRECTIONS BH</pattern>
+        <template>
+            <srai>
+                DIRECTIONS BRIDGE HOUSE
+            </srai>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>DIRECTIONS BH _</pattern>
+        <template>
+            <srai>
+                DIRECTIONS BRIDGE HOUSE
+            </srai>
+        </template>
+    </category>
+    
+    
+    <!-- OPEN TIMES -->    
+    <category>
+        <pattern>OPEN BH _</pattern>
+        <template>
+            <srai>
+                OPEN BRIDGE HOUSE
+            </srai>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>OPEN BH</pattern>
+        <template>
+            <srai>
+                OPEN BRIDGE HOUSE
+            </srai>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>OPEN BH _</pattern>
+        <template>
+            <srai>
+                OPEN BRIDGE HOUSE
+            </srai>
+        </template>
+    </category>
+</aiml>

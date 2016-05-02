@@ -1,0 +1,221 @@
+<aiml version="1.0.1" encoding="UTF-8">
+
+<!-- RESPONSES -->
+    <!-- ABOUT -->
+    <category>
+        <pattern>ABOUT WITHAM WHARF</pattern>
+		<template>
+			<random>
+				<li> ITEM 1 </li>
+				<li> ITEM 2 </li>
+			</random>
+		</template>
+    </category>
+    
+    <!-- DIRECTIONS -->
+    <category>
+        <pattern>DIRECTIONS WITHAM WHARF</pattern>
+        <template>
+            <random>
+                <li> ITEM 1 </li>
+				<li> ITEM 2 </li>
+            </random>
+        </template>
+    </category>
+    
+    <!-- OPEN TIMES -->
+    <category>
+        <pattern>OPEN WITHAM WHARF</pattern>
+        <template>
+            Let me just get that for you
+            *You experienced a short wait time*
+            Mon 00:00 - 00:00
+            Tue 00:00 - 00:00
+            Wed 00:00 - 00:00
+            Thu 00:00 - 00:00
+            Fri 00:00 - 00:00
+            Sat 00:00 - 00:00
+            Sun 00:00 - 00:00
+        </template>
+    </category>
+    
+    
+<!-- SRAI STATEMENTS -->
+    <!-- ABOUT  -->
+    <category>
+        <pattern>ABOUT WITHAM WHARF _</pattern>
+		<template>
+			<srai>
+				ABOUT WITHAM WHARF
+			</srai>
+		</template>
+    </category>
+    
+    <category>
+        <pattern>ABOUT WITHAM WHARF</pattern>
+		<template>
+			<srai>
+				ABOUT WITHAM WHARF
+			</srai>
+		</template>
+    </category>
+    
+    <category>
+        <pattern>ABOUT WITHAM WHARF _</pattern>
+		<template>
+			<srai>
+				ABOUT WITHAM WHARF
+			</srai>
+		</template>
+    </category>
+    
+    
+    <!-- DIRECTIONS -->
+    <category>
+        <pattern>DIRECTIONS WITHAM WHARF _</pattern>
+        <template>
+            <srai>
+                DIRECTIONS WITHAM WHARF
+            </srai>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>DIRECTIONS WITHAM WHARF</pattern>
+        <template>
+            <srai>
+                DIRECTIONS WITHAM WHARF
+            </srai>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>DIRECTIONS WITHAM WHARF _</pattern>
+        <template>
+            <srai>
+                DIRECTIONS WITHAM WHARF
+            </srai>
+        </template>
+    </category>
+    
+    
+    <!-- OPEN TIMES -->    
+    <category>
+        <pattern>OPEN WITHAM WHARF _</pattern>
+        <template>
+            <srai>
+                OPEN WITHAM WHARF
+            </srai>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>OPEN WITHAM WHARF</pattern>
+        <template>
+            <srai>
+                OPEN WITHAM WHARF
+            </srai>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>OPEN WITHAM WHARF _</pattern>
+        <template>
+            <srai>
+                OPEN WITHAM WHARF
+            </srai>
+        </template>
+    </category>
+	
+	
+	
+	
+	
+	
+	
+	<!-- ABOUT  -->
+    <category>
+        <pattern>ABOUT WIW _</pattern>
+		<template>
+			<srai>
+				ABOUT WITHAM WHARF
+			</srai>
+		</template>
+    </category>
+    
+    <category>
+        <pattern>ABOUT WIW</pattern>
+		<template>
+			<srai>
+				ABOUT WITHAM WHARF
+			</srai>
+		</template>
+    </category>
+    
+    <category>
+        <pattern>ABOUT WIW _</pattern>
+		<template>
+			<srai>
+				ABOUT WITHAM WHARF
+			</srai>
+		</template>
+    </category>
+    
+    
+    <!-- DIRECTIONS -->
+    <category>
+        <pattern>DIRECTIONS WIW _</pattern>
+        <template>
+            <srai>
+                DIRECTIONS WITHAM WHARF
+            </srai>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>DIRECTIONS WIW</pattern>
+        <template>
+            <srai>
+                DIRECTIONS WITHAM WHARF
+            </srai>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>DIRECTIONS WIW _</pattern>
+        <template>
+            <srai>
+                DIRECTIONS WITHAM WHARF
+            </srai>
+        </template>
+    </category>
+    
+    
+    <!-- OPEN TIMES -->    
+    <category>
+        <pattern>OPEN WIW _</pattern>
+        <template>
+            <srai>
+                OPEN WITHAM WHARF
+            </srai>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>OPEN WIW</pattern>
+        <template>
+            <srai>
+                OPEN WITHAM WHARF
+            </srai>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>OPEN WIW _</pattern>
+        <template>
+            <srai>
+                OPEN WITHAM WHARF
+            </srai>
+        </template>
+    </category>
+</aiml>
