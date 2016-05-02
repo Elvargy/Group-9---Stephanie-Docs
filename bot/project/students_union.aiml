@@ -26,18 +26,12 @@
         </template>
     </category>
     
-    <!-- OPEN TIMES -->
+   <!-- OPEN TIMES -->
     <category>
         <pattern>OPEN STUDENTS UNION</pattern>
         <template>
-            Let me just get that for you [p]3[p] /n
-            Mon 00:00 - 00:00 /n
-            Tue 00:00 - 00:00 /n
-            Wed 00:00 - 00:00 /n
-            Thu 00:00 - 00:00 /n
-            Fri 00:00 - 00:00 /n
-            Sat 00:00 - 00:00 /n
-            Sun 00:00 - 00:00 /n
+            Let me just get that for you [p]5[p] /n
+            The opening times are 9:30am-5pm Monday-Friday. Hope this helps :)
         </template>
     </category>
     
