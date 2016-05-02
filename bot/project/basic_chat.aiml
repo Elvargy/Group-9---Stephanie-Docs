@@ -147,11 +147,57 @@
 		</template>
 	</category>
 	
-	<!-- 'Who' Responses -->
+	<!-- about steph Responses -->
     <category>
         <pattern>WHO ARE YOU</pattern>
         <template>
             I am Steph from the Student Union. If you need assitance around the university, I'm here to help! :)
+        </template>
+    </category>
+	
+	<category>
+        <pattern>WHO ARE YOU _</pattern>
+        <template>
+            <srai>WHO ARE YOU</srai>
+        </template>
+    </category>
+	
+	<category>
+        <pattern>ABOUT YOURSELF</pattern>
+        <template>
+            I am Steph from the Student Union. If you need assitance around the university, I'm here to help! :)
+        </template>
+    </category>
+	
+	<category>
+        <pattern>ABOUT YOURSELF _</pattern>
+        <template>
+            <srai>WHO ARE YOU</srai>
+        </template>
+    </category>
+	
+	<category>
+        <pattern>HOW OLD ARE YOU</pattern>
+        <template>
+		<random>
+            <li>I am 20 years old :) </li>
+			<li>20 :) </li>
+			<li>It should say on my profile page :P </li> 
+		</random> 
+        </template>
+    </category>
+	
+	<category>
+        <pattern>HOW OLD ARE YOU _</pattern>
+        <template>
+            <srai>HOW OLD ARE YOU</srai>
+        </template>
+    </category>
+	
+	<category>
+        <pattern>WHAT IS YOUR AGE</pattern>
+        <template>
+            <srai>HOW OLD ARE YOU</srai>
         </template>
     </category>
     
@@ -166,14 +212,55 @@
         </template>
     </category>
 	
+	<category>
+        <pattern>WHAT IS YOUR NAME</pattern>
+        <template>
+		<random>
+				<li>Steph :)</li>
+				<li>Stephanie :)</li>
+				<li>Steph</li>
+				<li>Stephanie</li>
+		</random>
+        </template>
+    </category>
+	
+	
+	
+	<category>
+        <pattern>WHAT IS YOUR NAME _</pattern>
+        <template>
+				<srai>WHAT IS YOUR NAME</srai>
+        </template>
+    </category>
+	
+	
+	<category>
+        <pattern>YOUR NAME</pattern>
+        <template>
+				<srai>WHAT IS YOUR NAME</srai>
+        </template>
+    </category>
+	
+	<category>
+        <pattern>YOUR NAME _</pattern>
+        <template>
+				<srai>WHAT IS YOUR NAME</srai>
+        </template>
+    </category>
+	
+
+	
+	
 	<!-- 'How' Responses -->
 	
 	<category>
         <pattern>HOW ARE YOU</pattern>
         <template>
+            <random>
 				<li> Yeah, I'm good. :)</li>
 				<li> I'm good thanks.</li>
 				<li> Good thanks! :)</li>
+			</random>
         </template>
     </category>
 	
@@ -246,6 +333,13 @@
 		</template>
 	</category>
 	
+		<category>
+		<pattern>CHEERS _</pattern>
+		<template>
+			<srai>THANK YOU</srai>
+		</template>
+	</category>
+	
 	<category>
 		<pattern>THANKS</pattern>
 		<template>
@@ -253,6 +347,13 @@
 		</template>
 	</category>
 
+	<category>
+		<pattern>THANKS _</pattern>
+		<template>
+			<srai>THANK YOU</srai>
+		</template>
+	</category>
+	
 	<!-- Fallthrough Responses-->
 	<category>
 		<pattern>*</pattern>
