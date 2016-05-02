@@ -1,0 +1,157 @@
+<aiml version="1.0.1" encoding="UTF-8">
+
+<!-- RESPONSES -->
+    <!-- ABOUT -->
+    <category>
+        <pattern>ABOUT LINCOLN</pattern>
+		<template>
+			Personally, I love studiying here, but to describe what the university is about, I will reference the uni website :) "The University of Lincoln has some of the most satisfied students in the UK. 
+			Lincoln is in the top third nationally for student satisfaction as ranked by our students.
+			The University has established an international reputation for the quality of teaching and research, with academics and 
+			students working together on major projects across areas as varied as cancer treatment, water conservation and low-carbon technology." A Combination of both statisfied students and great research abilties 
+			ensures that the University of Lincoln is great for students. :)
+		</template>
+    </category>
+    
+    <!-- DIRECTIONS -->
+    <category>
+        <pattern>DIRECTIONS LINCOLN</pattern>
+        <template>
+		Road access is via the A1 with intersections at Newark (A46) from the South and near Retford (A57) from the North.
+		The city is 40 miles east of Nottingham on the A46 and 40 miles south of the Humber Bridge on the A15. Lincoln is less
+		than an hour's drive from the M1.
+        </template>
+    </category>
+    
+    
+<!-- SRAI STATEMENTS -->
+    <!-- ABOUT  -->
+    <category>
+        <pattern>ABOUT LINCOLN _</pattern>
+		<template>
+			<srai>
+				ABOUT LINCOLN
+			</srai>
+		</template>
+    </category>
+	
+	<category>
+        <pattern>ABOUT LINCOLN UNIVERSITY</pattern>
+		<template>
+			<srai>
+				ABOUT LINCOLN
+			</srai>
+		</template>
+    </category>
+	
+	<category>
+        <pattern>ABOUT LINCOLN UNIVERSITY _</pattern>
+		<template>
+			<srai>
+				ABOUT LINCOLN
+			</srai>
+		</template>
+    </category>
+	
+	<category>
+        <pattern>ABOUT UNIVERSITY OF LINCOLN</pattern>
+		<template>
+			<srai>
+				ABOUT LINCOLN
+			</srai>
+		</template>
+    </category>
+	
+	<category>
+        <pattern>ABOUT UNIVERSITY OF LINCOLN  _</pattern>
+		<template>
+			<srai>
+				ABOUT LINCOLN
+			</srai>
+		</template>
+    </category>
+	
+	<category>
+        <pattern>ABOUT THE UNIVERSITY</pattern>
+		<template>
+			<srai>
+				ABOUT LINCOLN
+			</srai>
+		</template>
+    </category>
+	
+	<category>
+        <pattern>ABOUT THE UNIVERSITY _</pattern>
+		<template>
+			<srai>
+				ABOUT LINCOLN
+			</srai>
+		</template>
+    </category>
+    
+    
+    <!-- DIRECTIONS -->
+    <category>
+        <pattern>DIRECTIONS LINCOLN _</pattern>
+        <template>
+            <srai>
+                DIRECTIONS LINCOLN
+            </srai>
+        </template>
+    </category>
+	
+	<category>
+        <pattern>DIRECTIONS LINCOLN UNIVERSITY</pattern>
+        <template>
+            <srai>
+                DIRECTIONS LINCOLN
+            </srai>
+        </template>
+    </category>
+	
+	<category>
+        <pattern>DIRECTIONS LINCOLN UNIVERSITY _</pattern>
+        <template>
+            <srai>
+                DIRECTIONS LINCOLN
+            </srai>
+        </template>
+    </category>
+	
+	<category>
+        <pattern>DIRECTIONS UNIVERSITY OF LINCOLN</pattern>
+        <template>
+            <srai>
+                DIRECTIONS LINCOLN
+            </srai>
+        </template>
+    </category>
+	
+	<category>
+        <pattern>DIRECTIONS UNIVERSITY OF LINCOLN _</pattern>
+        <template>
+            <srai>
+                DIRECTIONS LINCOLN
+            </srai>
+        </template>
+    </category>
+	
+	<category>
+        <pattern>DIRECTIONS THE UNIVERSITY</pattern>
+        <template>
+            <srai>
+                DIRECTIONS LINCOLN
+            </srai>
+        </template>
+    </category>
+	
+	<category>
+        <pattern>DIRECTIONS THE UNIVERSITY _</pattern>
+        <template>
+            <srai>
+                DIRECTIONS LINCOLN
+            </srai>
+        </template>
+    </category>
+	
+</aiml>
