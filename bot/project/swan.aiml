@@ -53,7 +53,6 @@
     <category>
         <pattern>ABOUT SHED</pattern>
         <template>
-			The Shed is what The Swan used to be named.
             <srai>
                 ABOUT SWAN
             </srai>
