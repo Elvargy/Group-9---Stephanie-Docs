@@ -61,6 +61,15 @@
             </srai>
         </template>
     </category>
+	
+	<category>
+        <pattern>_ DIRECT ME TO *</pattern>
+        <template>
+            <srai>
+                DIRECTIONS <star index="2"/> 
+            </srai>
+        </template>
+    </category>
     
     <!-- GET TO -->
     <category>
