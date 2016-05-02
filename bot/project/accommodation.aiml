@@ -63,6 +63,7 @@
 	<category>
         <pattern>DIRECTIONS COURTS </pattern>
         <template>
+		Ah, Courts. Courts is the On-Campus Accomodation,
             <srai>
                 DIRECTIONS ACCOMMODATION
             </srai>
