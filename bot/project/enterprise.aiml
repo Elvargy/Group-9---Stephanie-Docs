@@ -7,7 +7,7 @@
 		<template>
 			<random>
 				<li> Yeah, it is home to the Careers and Employability Service, a team of advisors who offer students the advice and support to maximise the opportunities available upon graduating. This building is also home to our business incubation unit, Sparkhouse Studios, where entrepreneurial students can access expertise and resources to support a fledgling business :). </li>
-				<li> ITEM 2 </li>
+				<li> The enterprise building is the place dedicated to helping students by offering advice and support with the steps after graduation. As a result of this, it contains the Careers and Employability Service. </li>
 			</random>
 		</template>
     </category>
@@ -17,8 +17,8 @@
         <pattern>DIRECTIONS ENTERPRISE BUILDING</pattern>
         <template>
             <random>
-                <li> ITEM 1 </li>
-				<li> ITEM 2 </li>
+                <li> The Enterprise Building is the building that is situated next to the library (or the back depending on which way you look at it). The easiest landmark to find is obviously the library, however, if you're unfamiliar with the whereabouts of the library, simply head to the SU/Tower Bar on the south side of campus :) </li>
+				<li> Okay, the Enterprise Building is the very odd looking structure that is near the library. Simply head to where the library is on the south side of campus and you can access it by walking around the back of the library. </li>
             </random>
         </template>
     </category>
