@@ -1,21 +1,4 @@
 <aiml version="1.0.1" encoding="UTF-8">
-<category>
-        <pattern>ABOUT MHT</pattern>
-        <template>
-           
-        </template>
-    </category>
-    
-    <category>
-        <pattern>ABOUT MHT _</pattern>
-        <template>
-            <srai>
-                ABOUT MHT
-            </srai>
-        </template>
-    </category>
-	
-	
 <!-- RESPONSES -->
     <!-- ABOUT -->
     <category>
@@ -60,15 +43,6 @@
     <!-- ABOUT  -->
     <category>
         <pattern>ABOUT MHT _</pattern>
-		<template>
-			<srai>
-				ABOUT MHT
-			</srai>
-		</template>
-    </category>
-    
-    <category>
-        <pattern>ABOUT MHT</pattern>
 		<template>
 			<srai>
 				ABOUT MHT

@@ -54,15 +54,6 @@
     </category>
     
     <category>
-        <pattern>ABOUT SWAN</pattern>
-		<template>
-			<srai>
-				ABOUT SWAN
-			</srai>
-		</template>
-    </category>
-    
-    <category>
         <pattern>ABOUT SWAN _</pattern>
 		<template>
 			<srai>
