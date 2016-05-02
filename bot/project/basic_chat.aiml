@@ -386,6 +386,24 @@
 		</template>
 	</category>
 	
+	<category>
+		<pattern> JOKE </pattern>
+		<template>
+			<srai>Your Life</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern> JOKE _ </pattern>
+		<template>
+			<srai>Your Life</srai>
+		</template>
+	</category>
+	
+	
+	
+	
+	
 	<!-- Fallthrough Responses-->
 	<category>
 		<pattern>*</pattern>
