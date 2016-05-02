@@ -55,6 +55,16 @@
         </template>
     </category>
 	
+	<!-- OPEN TIMES -->        
+    <category>
+        <pattern>OPEN ACCOMMODATION _</pattern>
+        <template>
+            <srai>
+                OPEN ACCOMMODATION
+            </srai>
+        </template>
+    </category>
+	
 	<!-- COURTS -->
 	<category>
         <pattern>DIRECTIONS COURTS </pattern>
@@ -215,26 +225,5 @@
             </srai>
         </template>
     </category>
-   
-   
-   
-    
-<!-- OPEN TIMES -->    
-    <category>
-        <pattern>OPEN ACCOMMODATION _</pattern>
-        <template>
-            <srai>
-                OPEN ACCOMMODATION
-            </srai>
-        </template>
-    </category>
-    
-    <category>
-        <pattern>OPEN ACCOMMODATION _</pattern>
-        <template>
-            <srai>
-                OPEN ACCOMMODATION
-            </srai>
-        </template>
-    </category>
+
 </aiml>
