@@ -6,8 +6,8 @@
         <pattern>ABOUT SWAN</pattern>
 		<template>
 			<random>
-				<li> The Swan or Shed (the swans older name) is a uni owned pub that is located near the MHT building.  </li>
-				<li> ITEM 2 </li>
+				<li> The Swan is student bar that is formely known as The Shed. It serves many different kinds of drinks and caters to all crowds. </li>
+				<li> The Swan is the Student Union's own bar that is completely run by the SU themselves. It serves many different kind of drinks and food. </li>
 			</random>
 		</template>
     </category>
@@ -17,10 +17,8 @@
         <pattern>DIRECTIONS SWAN</pattern>
         <template>
             <random>
-                <li> The Swan is student bar that is formely known as The Shed.
-				It serves many different kinds of drinks and caters to all crowds. </li>
-				<li> The Swan is the Student Union's own bar that is completely run by the SU themselves.
-					it serves many different kind of drinks and food.</li>
+                <li> The Swan is located on the North side of Campus. It is inbetween the Main Admin Building and the MHT Building. You can't miss it! </li>
+				<li> The Swan is ride outside of the EMMTEC building. Right next to the Main Admin Building and MHT Building </li>
             </random>
         </template>
     </category>
