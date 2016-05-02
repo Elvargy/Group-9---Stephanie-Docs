@@ -1,0 +1,147 @@
+Remove them from the list when you complete them
+
+Could also write your name next to one and sync before 
+you start working on it to avoid multiple people working
+on the same thing
+
+BRIDGE HOUSE
+| About:
+    - Item 1
+    - Item 2   
+| Directions:
+    - Item 1
+    - Item 2  
+| Open Times.
+
+
+CHARLOTTE SCOTT BUILDING
+| About:
+    - Item 2
+| Directions:
+    - Item 1
+    - Item 2
+| Open Times.
+
+
+ENGINEERING HUB
+| About:
+    - Item 2
+| Directions:
+    - Item 2
+| Open Times.
+
+
+ENTERPRISE BUILDING
+| About:
+    - Item 2
+| Directions:
+    - Item 1
+    - Item 2
+    
+
+JOSEPH BANKS LABORATORIES
+| About:
+    - Item 2
+| Directions:
+    - Item 1 (Not sure about this one)
+    - Item 2
+| Open Times.
+
+
+MHT
+| About:
+    - Item 2
+| Directions:
+    - Item 1
+    - Item 2
+| Open Times.
+
+
+MINSTER HOUSE
+| About:
+    - Item 1 (Currently very brief)
+    - Item 2
+| Directions:
+    - Item 1 (Again, not sure about pointing people to Google maps)
+    - Item 2
+| Open Times (Very brief)
+
+
+ONE CAMPUS WAY
+| About:
+    - Item 2
+| Directions:
+    - Item 2
+| Open Times.
+
+
+SCIENCE CENTRE
+| About:
+    - Item 1 (Make it sound a bit more like a sentence)
+    - Item 2
+| Directions:
+    - Item 1 (Brief af)
+    - Item 2
+| Open Times. (Be more specific)
+
+
+SPORTS CENTRE
+| About:
+    - Item 1
+    - Item 2
+| Directions:
+    - Item 1
+    - Item 2
+| Open Times.
+
+
+STUDENT WELLBEING CENTER
+| About:
+    - Item 1
+    - Item 2
+| Directions:
+    - Item 1
+    - Item 2
+| Open Times.
+
+
+SWAN
+| About:
+    - Item 2
+
+
+THINK TANK
+| About:
+    - Item 2
+| Directions:
+    - Item 1
+    - Item 2
+
+
+VILLAGE HALL
+| About:
+    - Item 1
+    - Item 2
+| Directions:
+    - Item 1
+    - Item 2
+| Open Times.
+
+
+WITHAM HOUSE
+| About:
+    - Item 1
+    - Item 2
+| Directions:
+    - Item 1
+    - Item 2
+| Open Times.
+
+
+WITHAM WHARF
+| About:
+    - Item 2
+| Directions:
+    - Item 1
+    - Item 2
+| Open Times.

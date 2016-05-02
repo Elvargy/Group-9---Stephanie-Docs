@@ -52,7 +52,7 @@
     </category>
     
 	<category>
-        <pattern>ABOUT HP</pattern>
+        <pattern>ABOUT SC</pattern>
 		<template>
 			<srai>
 				ABOUT SPORTS CENTRE
@@ -61,7 +61,7 @@
     </category>
 	
 	<category>
-        <pattern>ABOUT HP _</pattern>
+        <pattern>ABOUT SC _</pattern>
 		<template>
 			<srai>
 				ABOUT SPORTS CENTRE
@@ -80,7 +80,7 @@
     </category>
 	
 	<category>
-        <pattern>DIRECTIONS HP</pattern>
+        <pattern>DIRECTIONS SC</pattern>
         <template>
             <srai>
                 DIRECTIONS SPORTS CENTRE
@@ -89,7 +89,7 @@
     </category>
 
 	<category>
-        <pattern>DIRECTIONS HP _</pattern>
+        <pattern>DIRECTIONS SC _</pattern>
         <template>
             <srai>
                 DIRECTIONS SPORTS CENTRE
@@ -108,7 +108,7 @@
     </category>
     
     <category>
-        <pattern>OPEN HP</pattern>
+        <pattern>OPEN SC</pattern>
         <template>
             <srai>
                 OPEN SPORTS CENTRE
@@ -117,7 +117,7 @@
     </category>    
 	
 	<category>
-        <pattern>OPEN HP _</pattern>
+        <pattern>OPEN SC _</pattern>
         <template>
             <srai>
                 OPEN SPORTS CENTRE

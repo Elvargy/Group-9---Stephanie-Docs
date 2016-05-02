@@ -27,12 +27,12 @@
     <category>
         <pattern>OPEN EMMTEC</pattern>
         <template>
-            		<random>
-            			<li>Let me just get that for you. [p]5[p] \n The opening times are 7:30am until when the building is vacant, depending on what is going on that day. Hope this helps :)</li> 
-        			<li>One moment.[p]5[p] \n EMMTEC is open everyday from 7:30am and closes when everyone has left. Hope this helps :)</li> 
-            			<li>One moment. [p]5[p] \n The opening times are 7:30am until late, when everyone has left, and it is open everyday. Hope this helps :)</li> 
-            			<li>Let me just get that for you. [p]5[p] \n EMMTEC is open everyday from 7am until the bulding is vacant. Hope this helps :)</li>
-        		</random>
+            <random>
+            	<li>Let me just get that for you. [p]5[p] \n The opening times are 7:30am until when the building is vacant, depending on what is going on that day. Hope this helps :)</li> 
+        		<li>One moment.[p]5[p] \n EMMTEC is open everyday from 7:30am and closes when everyone has left. Hope this helps :)</li> 
+            	<li>One moment. [p]5[p] \n The opening times are 7:30am until late, when everyone has left, and it is open everyday. Hope this helps :)</li> 
+            	<li>Let me just get that for you. [p]5[p] \n EMMTEC is open everyday from 7am until the bulding is vacant. Hope this helps :)</li>
+        	</random>
         </template>
     </category>
     

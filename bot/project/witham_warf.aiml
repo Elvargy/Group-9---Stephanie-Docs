@@ -28,8 +28,8 @@
         <pattern>OPEN WITHAM WHARF</pattern>
         <template>
 			<random>
-            <li> Yeah, hold on while I get that for you [p]13[p] The opening times are 8am-6pm all week </li>
-			<li> Yes, let me just get them for you [p]7[p] Witham Wharf opens from 8am-6pm everyday </li>
+            <li> Yeah, hold on while I get that for you [p]5[p] The opening times are 8am-6pm all week </li>
+			<li> Yes, let me just get them for you [p]5[p] Witham Wharf opens from 8am-6pm everyday </li>
 			</random>
         </template>
     </category>
@@ -46,8 +46,8 @@
 		</template>
     </category>
     
-	<category>
-        <pattern>ABOUT WIW _</pattern>
+    <category>
+        <pattern>ABOUT WIW</pattern>
 		<template>
 			<srai>
 				ABOUT WITHAM WHARF
@@ -55,8 +55,8 @@
 		</template>
     </category>
     
-    <category>
-        <pattern>ABOUT WIW</pattern>
+	<category>
+        <pattern>ABOUT WIW _</pattern>
 		<template>
 			<srai>
 				ABOUT WITHAM WHARF
@@ -74,8 +74,8 @@
         </template>
     </category>
 	
-	<category>
-        <pattern>DIRECTIONS WIW _</pattern>
+    <category>
+        <pattern>DIRECTIONS WIW</pattern>
         <template>
             <srai>
                 DIRECTIONS WITHAM WHARF
@@ -83,8 +83,8 @@
         </template>
     </category>
     
-    <category>
-        <pattern>DIRECTIONS WIW</pattern>
+	<category>
+        <pattern>DIRECTIONS WIW _</pattern>
         <template>
             <srai>
                 DIRECTIONS WITHAM WHARF
@@ -101,15 +101,6 @@
             </srai>
         </template>
     </category>
-	
-    <category>
-        <pattern>OPEN WIW _</pattern>
-        <template>
-            <srai>
-                OPEN WITHAM WHARF
-            </srai>
-        </template>
-    </category>
     
     <category>
         <pattern>OPEN WIW</pattern>
@@ -120,4 +111,13 @@
         </template>
     </category>   
     
+        <category>
+        <pattern>OPEN WIW _</pattern>
+        <template>
+            <srai>
+                OPEN WITHAM WHARF
+            </srai>
+        </template>
+    </category>
+
 </aiml>

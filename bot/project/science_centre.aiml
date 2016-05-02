@@ -27,10 +27,9 @@
     <category>
         <pattern>OPEN SCIENCE CENTRE</pattern>
         <template>
-           <random>
-		   <li> let me get the times for you [p]14[p] \n the building is open from 6.30am to late. </li>
-		   
-		   </random>
+            <random>
+                <li> let me get the times for you [p]5[p] \n the building is open from 6.30am to late. </li>
+            </random>
         </template>
     </category>
     

@@ -1,15 +1,13 @@
 <aiml version="1.0.1" encoding="UTF-8">
 
-
  <!-- Subjects -->
-		
 	<category>
         <pattern>COURSE</pattern>
         <template>
-		<random>
-			<li>Hold on a sec :) [p]5[p] \n Here's a link with information on all our courses at Lincoln https://www.lincoln.ac.uk/home/studyatlincoln/undergraduatecourses/ </li>
-			<li> Yeah sure, one sec. [p]5[p] \n This is a link to our uni course page :) https://www.lincoln.ac.uk/home/studyatlincoln/undergraduatecourses/ </li>
-        </random>
+            <random>
+                <li>Hold on a sec :) [p]5[p] \n Here's a link with information on all our courses at Lincoln https://www.lincoln.ac.uk/home/studyatlincoln/undergraduatecourses/ </li>
+                <li> Yeah sure, one sec. [p]5[p] \n This is a link to our uni course page :) https://www.lincoln.ac.uk/home/studyatlincoln/undergraduatecourses/ </li>
+            </random>
 		</template>
     </category>
 	

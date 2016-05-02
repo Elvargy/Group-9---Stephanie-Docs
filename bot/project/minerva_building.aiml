@@ -25,12 +25,12 @@
     <category>
         <pattern>OPEN MINERVA BUILDING</pattern>
         <template>
-            		<random>
-            			<li>Let me just get that for you. [p]5[p] \n The opening times are 6:00am-10pm, 7 days a week. Hope this helps :)</li> 
-        			<li>One moment.[p]5[p] \n Minerva is open everyday from 6am-10pm. Hope this helps :)</li> 
-            			<li>One moment. [p]5[p] \n The opening times are 6am until 10pm, and it is open everyday. Hope this helps :)</li> 
-            			<li>Let me just get that for you. [p]5[p] \n Minerva is open everyday from 6am until 10pm. Hope this helps :)</li>
-        		</random>
+            <random>
+            	<li>Let me just get that for you. [p]5[p] \n The opening times are 6:00am-10pm, 7 days a week. Hope this helps :)</li> 
+        		<li>One moment.[p]5[p] \n Minerva is open everyday from 6am-10pm. Hope this helps :)</li> 
+            	<li>One moment. [p]5[p] \n The opening times are 6am until 10pm, and it is open everyday. Hope this helps :)</li> 
+            	<li>Let me just get that for you. [p]5[p] \n Minerva is open everyday from 6am until 10pm. Hope this helps :)</li>
+        	</random>
         </template>
     </category>
     
