@@ -30,15 +30,14 @@
     <category>
         <pattern>OPEN STUDENTS UNION</pattern>
         <template>
-            Let me just get that for you
-            *You experienced a short wait time*
-            Mon 00:00 - 00:00
-            Tue 00:00 - 00:00
-            Wed 00:00 - 00:00
-            Thu 00:00 - 00:00
-            Fri 00:00 - 00:00
-            Sat 00:00 - 00:00
-            Sun 00:00 - 00:00
+            Let me just get that for you [p]3[p] /n
+            Mon 00:00 - 00:00 /n
+            Tue 00:00 - 00:00 /n
+            Wed 00:00 - 00:00 /n
+            Thu 00:00 - 00:00 /n
+            Fri 00:00 - 00:00 /n
+            Sat 00:00 - 00:00 /n
+            Sun 00:00 - 00:00 /n
         </template>
     </category>
     
