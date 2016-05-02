@@ -6,7 +6,7 @@
         <pattern>ABOUT ONE CAMPUS WAY</pattern>
 		<template>
 			<random>
-				<li> ITEM 1 </li>
+				<li> One Campus Way is the address of the Graduate School, a building dedicated to Postgraduate study.</li>
 				<li> ITEM 2 </li>
 			</random>
 		</template>
@@ -17,7 +17,7 @@
         <pattern>DIRECTIONS ONE CAMPUS WAY</pattern>
         <template>
             <random>
-                <li> ITEM 1 </li>
+                <li> One Campus Way is in the midst of the Courts accomodation near the mini roundabout and closest to the Sports Centre.  </li>
 				<li> ITEM 2 </li>
             </random>
         </template>
