@@ -4,7 +4,22 @@ write answers to questions in aiml
 	- I made it easy to add more locations later
 	- add variety random responses
 	- add errors in some messages
-
+	
+Buildings to add -
+	-EMMTEC (MT)
+	-Studetn Wellbeing Center (SS)
+	-Bridge House (BH)
+	-Village Hall (Building at back of court 15) (VH)
+	-One Campus Way (Laundry place for courts) (OCW)
+	-Sports Centre (HP)
+	-Witham House (Dont know what this building is tbf) (WH)
+	-Science Centre (Lab building opposite side of tracks to MHT) (SB)
+	-Engineering Hub (building which is gunna be Issac Newton Building) (ENG)
+	-Enterprise Building (Swanky looking building behind libary) (S)
+	-Witham Wharf (Comp Sci off campus building for masters students [near indoor carpark]) (WIW)
+	-Think Tank (THT)
+	-Minster House (Next to Think tank/ JBL) (MIH)
+	- Charlotte Scott Building (CSB)
 
 Give fallthrough responses a 'patience' level
 	- every time a fall-through response is used increased by n
