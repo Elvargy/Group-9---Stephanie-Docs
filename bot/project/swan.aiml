@@ -29,16 +29,13 @@
     <category>
         <pattern>OPEN SWAN</pattern>
         <template>
-            Let me just get that for you
-            *You experienced a short wait time*
-            Mon 00:00 - 00:00
-            Tue 00:00 - 00:00
-            Wed 00:00 - 00:00
-            Thu 00:00 - 00:00
-            Fri 00:00 - 00:00
-            Sat 00:00 - 00:00
-            Sun 00:00 - 00:00
-        </template>
+			<random>
+				<li>Let me just get that for you. [p]5[p] /n	The opening times are 11:30am-12am Monday-Friday, 12pm-12am Saturdays, and 12pm-11pm Sundays. Hope this helps :) </li>
+				<li>Sure, one moment :) [p]5[p] /n	The Swan is open 11:30am-12am Monday-Friday, 12pm-12am Saturdays, and 12pm-11pm Sundays. Hope this helps :) </li>
+				<li>Sure, one moment :) [p]5[p] /n	The opening times are 11:30am-12am Monday-Friday, 12pm-12am Saturdays, and 12pm-11pm Sundays. Hope this helps :) </li>
+				<li>Let me just get that for you. [p]5[p] /n	The Swan is open 11:30am-12am Monday-Friday, 12pm-12am Saturdays, and 12pm-11pm Sundays. Hope this helps :) </li>
+			</random>
+		</template>
     </category>
     
     
