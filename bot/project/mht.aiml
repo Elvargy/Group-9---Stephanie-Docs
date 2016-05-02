@@ -86,25 +86,7 @@
             </srai>
         </template>
     </category>
-    
-    <category>
-        <pattern>DIRECTIONS MHT</pattern>
-        <template>
-            <srai>
-                DIRECTIONS MHT
-            </srai>
-        </template>
-    </category>
-    
-    <category>
-        <pattern>DIRECTIONS MHT _</pattern>
-        <template>
-            <srai>
-                DIRECTIONS MHT
-            </srai>
-        </template>
-    </category>
-    
+   
     <category>
         <pattern>DIRECTIONS MEDIA BUILDING</pattern>
         <template>
@@ -142,30 +124,4 @@
         </template>
     </category>
     
-    <category>
-        <pattern>OPEN MHT _</pattern>
-        <template>
-            <srai>
-                OPEN MHT
-            </srai>
-        </template>
-    </category>
-    
-    <category>
-        <pattern>DIRECTIONS MEDIA BUILDING</pattern>
-        <template>
-            <srai>
-                DIRECTIONS MHT
-            </srai>
-		</template>
-    </category>
-    
-    <category>
-        <pattern>DIRECTIONS MEDIA BUILDING_</pattern>
-        <template>
-            <srai>
-                DIRECTIONS MHT
-            </srai>
-        </template>
-    </category>
 </aiml>
