@@ -1,34 +1,25 @@
-"""
-This file contains the PyAIML stress test.  It creates two bots, and connects
-them in a cyclic loop.  A lot of output is generated; piping the results to
-a log file is highly recommended.
-"""
-
 import aiml
+import time
 
-# Create the kernels
-kern1 = aiml.Kernel()
-kern1.verbose(False)
-kern2 = aiml.Kernel()
-kern2.verbose(False)
+kernel = aiml.Kernel()
+kernel.bootstrap(learnFiles = "std-project.xml", commands = "load aiml b")
 
-# Initialize the kernels
-print("Initializing Kernel #1")
-kern1.bootstrap(learnFiles="std-startup.xml", commands="load aiml b")
-kern1.saveBrain("standard.brn")
-print("\nInitializing Kernel #2")
-kern2.bootstrap(brainFile="standard.brn")
+kernel2 = aiml.Kernel()
+kernel2.bootstrap(learnFiles = "std-project.xml", commands = "load aiml b")
 
-# Start the bots off with some basic input.
-response = "askquestion"
-
-# Off they go!
+response = "Hello!"
+responseList = []
 while True:
-    response = kern1.respond(response).strip()
-    print("1:", response)
-    response = kern2.respond(response).strip()
-    print("2:", response)
-    # If the robots have run out of things to say, force one of them
-    # to break the ice.
+    response = kernel.respond(response).strip()
+    responseList.append(response)
+    for item in responseList:
+        print(item)
+    
+    response = kernel2.respond(response).strip()
+    responseList.append(response)
+    for item in responseList:
+        print(item)
+    
+    
     if response == "":
-        response = "askquestion"
+        response = "Hello!"
