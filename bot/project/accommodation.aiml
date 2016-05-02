@@ -49,26 +49,7 @@
 			</srai>
 		</template>
     </category>
-    
-    <category>
-        <pattern>ABOUT ACCOMMODATION</pattern>
-		<template>
-			<srai>
-				ABOUT ACCOMMODATION
-			</srai>
-		</template>
-    </category>
-    
-    <category>
-        <pattern>ABOUT ACCOMMODATION _</pattern>
-		<template>
-			<srai>
-				ABOUT ACCOMMODATION
-			</srai>
-		</template>
-    </category>
-    
-    
+       
     <!-- DIRECTIONS -->
     <category>
         <pattern>DIRECTIONS ACCOMMODATION _</pattern>
@@ -78,38 +59,11 @@
             </srai>
         </template>
     </category>
+   
     
-    <category>
-        <pattern>DIRECTIONS ACCOMMODATION</pattern>
-        <template>
-            <srai>
-                DIRECTIONS ACCOMMODATION
-            </srai>
-        </template>
-    </category>
-    
-    <category>
-        <pattern>DIRECTIONS ACCOMMODATION _</pattern>
-        <template>
-            <srai>
-                DIRECTIONS ACCOMMODATION
-            </srai>
-        </template>
-    </category>
-    
-    
-    <!-- OPEN TIMES -->    
+<!-- OPEN TIMES -->    
     <category>
         <pattern>OPEN ACCOMMODATION _</pattern>
-        <template>
-            <srai>
-                OPEN ACCOMMODATION
-            </srai>
-        </template>
-    </category>
-    
-    <category>
-        <pattern>OPEN ACCOMMODATION</pattern>
         <template>
             <srai>
                 OPEN ACCOMMODATION
