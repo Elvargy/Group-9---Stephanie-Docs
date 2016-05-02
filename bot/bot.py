@@ -114,13 +114,6 @@ class Commands:
 
 c = Commands(path)
 
-
-fallback = [
-    "Sorry I didn't understand that, could you please clarify your question?",
-    "I don't understand",
-    "Suck my dick you pixie wanker"
-    ]
-
 api = fbchat.Client("13393724@students.lincoln.ac.uk", "group9")
 
 while True:
@@ -146,11 +139,11 @@ while True:
             name    = metadata['delta']['messageMetadata']['actorFbId']
 
         else:
-            mid     = " "
-            message = " "
-            fbid    = " "
-            tid     = " "
-            name    = " "
+            mid     = None
+            message = None
+            fbid    = None
+            tid     = None
+            name    = None
             
         print (mid)
         print (message)
@@ -158,7 +151,7 @@ while True:
         print (name)
         print (metadata)            
 
-        if tid != None and fbid != 100011744288479:
+        if tid != None:
             try:
                 command = getattr(c, "command_" + message)()
                 response = ""
@@ -168,11 +161,11 @@ while True:
             if response != "" and tid == "963983477056732":
                 print (response)
                 api.send(tid, response)
-            elif tid == "963983477056732":
-                api.send(tid, random.choice(fallback))
+            elif tid != "963983477056732":
+                print("tid != '963983477056732'")
     
         else:
-            print("None")
+            print("tid == None")
     
 
 
