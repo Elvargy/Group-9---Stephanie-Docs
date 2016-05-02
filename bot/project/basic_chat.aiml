@@ -86,13 +86,9 @@
         <template>
 			<random>
 				<li>Goodbye!</li>
-				
 				<li>Hope what I said has been helpful :) Cya!</li>
-				
 				<li>Cya!</li>
-				
 				<li>hope I've helped! Goodbye :)</li>
-				
 				<li>Bye! Have a nice day :)</li>
 			</random>
         </template>
@@ -101,49 +97,63 @@
 	<category>
 		<pattern>BYE _</pattern>
 		<template>
-			<srai>BYE</srai>
+			<srai>
+                BYE
+            </srai>
 		</template>
 	</category>
 	
 	<category>
 		<pattern>SEE YOU</pattern>
 		<template>
-			<srai>BYE</srai>
+			<srai>
+                BYE
+            </srai>
 		</template>
 	</category>
 
 	<category>
 		<pattern>SEE YOU _</pattern>
 		<template>
-			<srai>BYE</srai>
+			<srai>
+                BYE
+            </srai>
 		</template>
 	</category>
 
 	<category>
 		<pattern>CYA</pattern>
 		<template>
-			<srai>BYE</srai>
+			<srai>
+                BYE
+            </srai>
 		</template>
 	</category>
 	
 	<category>
 		<pattern>CYA _</pattern>
 		<template>
-			<srai>BYE</srai>
+			<srai>
+                BYE
+            </srai>
 		</template>
 	</category>
 	
 	<category>
 		<pattern>GOODBYE</pattern>
 		<template>
-			<srai>BYE</srai>
+			<srai>
+                BYE
+            </srai>
 		</template>
 	</category>
 	
 	<category>
 		<pattern>GOODBYE _</pattern>
 		<template>
-			<srai>BYE</srai>
+			<srai>
+                BYE
+            </srai>
 		</template>
 	</category>
 	
@@ -157,7 +167,9 @@
 	<category>
 		<pattern>FUCK YOU _</pattern>
 		<template>
-			<srai>FUCK YOU</srai>
+			<srai>
+                FUCK YOU
+            </srai>
 		</template>
 	</category>
 	
@@ -179,79 +191,95 @@
 	<category>
 		<pattern>JOKE _ </pattern>
 		<template>
-			<srai>JOKE</srai>
+			<srai>
+                JOKE
+            </srai>
 		</template>
 	</category>
 	
 	<category>
 		<pattern>_ JOKE </pattern>
 		<template>
-			<srai>JOKE</srai>
+			<srai>
+                JOKE
+            </srai>
 		</template>
 	</category>
 	
 	<category>
 		<pattern>_ JOKE _</pattern>
 		<template>
-			<srai>JOKE</srai>
+			<srai>
+                JOKE
+            </srai>
 		</template>
 	</category>
 	
 	<category>
 		<pattern>TELL A JOKE </pattern>
 		<template>
-			<srai>JOKE</srai>
+			<srai>
+                JOKE
+            </srai>
 		</template>
 	</category>
 	
 	<category>
 		<pattern>TELL A JOKE _ </pattern>
 		<template>
-			<srai>JOKE</srai>
+			<srai>
+                JOKE
+            </srai>
 		</template>
 	</category>
 	
 	<category>
 		<pattern>TELL ME A JOKE </pattern>
 		<template>
-			<srai>JOKE</srai>
+			<srai>
+                JOKE
+            </srai>
 		</template>
 	</category>
 	
 	<category>
 		<pattern>TELL ME A JOKE _ </pattern>
 		<template>
-			<srai>JOKE</srai>
+			<srai>
+                JOKE
+            </srai>
 		</template>
 	</category>
 	
 	<category>
 		<pattern>KNOW ANY JOKES </pattern>
 		<template>
-			<srai>JOKE</srai>
+			<srai>
+                JOKE
+            </srai>
 		</template>
 	</category>
 	
 		<category>
 		<pattern>KNOW ANY JOKES _ </pattern>
 		<template>
-			<srai>JOKE</srai>
+			<srai>
+                JOKE
+            </srai>
 		</template>
 	</category>
 	
 	<category>
 		<pattern>_ KNOW ANY JOKES </pattern>
 		<template>
-			<srai>JOKE</srai>
+			<srai>
+                JOKE
+            </srai>
 		</template>
 	</category>
 	
-	
-	
-	
-	
-	<!-- about steph Responses -->
-	
+    
+	<!-- About Steph Responses -->
     <category>
         <pattern>WHO ARE YOU</pattern>
         <template>
@@ -262,21 +290,27 @@
 	<category>
         <pattern>WHO ARE YOU _</pattern>
         <template>
-            <srai>WHO ARE YOU</srai>
+            <srai>
+                WHO ARE YOU
+            </srai>
         </template>
     </category>
 	
 	<category>
         <pattern>ABOUT YOURSELF</pattern>
         <template>
-            I am Steph from the Student Union. If you need assitance around the university, I'm here to help! :)
+            <srai>
+                WHO ARE YOU
+            </srai>
         </template>
     </category>
 	
 	<category>
         <pattern>ABOUT YOURSELF _</pattern>
         <template>
-            <srai>WHO ARE YOU</srai>
+            <srai>
+                WHO ARE YOU
+            </srai>
         </template>
     </category>
 	
@@ -294,14 +328,18 @@
 	<category>
         <pattern>HOW OLD ARE YOU _</pattern>
         <template>
-            <srai>HOW OLD ARE YOU</srai>
+            <srai>
+                HOW OLD ARE YOU
+            </srai>
         </template>
     </category>
 	
 	<category>
         <pattern>WHAT IS YOUR AGE</pattern>
         <template>
-            <srai>HOW OLD ARE YOU</srai>
+            <srai>
+                HOW OLD ARE YOU
+            </srai>
         </template>
     </category>
     
@@ -315,7 +353,9 @@
 	<category>
         <pattern>YOU LIVE _</pattern>
         <template>
-            <srai>YOU LIVE</srai>
+            <srai>
+                YOU LIVE
+            </srai>
         </template>
     </category>
 	
@@ -334,19 +374,21 @@
 	<category>
         <pattern>WHAT IS YOUR NAME</pattern>
         <template>
-		<random>
+            <random>
 				<li>Steph :)</li>
 				<li>Stephanie :)</li>
 				<li>Steph</li>
 				<li>Stephanie</li>
-		</random>
+            </random>
         </template>
     </category>
 	
 	<category>
         <pattern>WHAT IS YOUR NAME _</pattern>
         <template>
-				<srai>WHAT IS YOUR NAME</srai>
+			<srai>
+                WHAT IS YOUR NAME
+            </srai>
         </template>
     </category>
 	
@@ -354,14 +396,18 @@
 	<category>
         <pattern>YOUR NAME</pattern>
         <template>
-				<srai>WHAT IS YOUR NAME</srai>
+			<srai>
+                WHAT IS YOUR NAME
+            </srai>
         </template>
     </category>
 	
 	<category>
         <pattern>YOUR NAME _</pattern>
         <template>
-				<srai>WHAT IS YOUR NAME</srai>
+			<srai>
+                WHAT IS YOUR NAME
+            </srai>
         </template>
     </category>
 	
@@ -381,35 +427,45 @@
 	<category>
 		<pattern>HOW ARE YOU _</pattern>
 		<template>
-			<srai>HOW ARE YOU</srai>
+			<srai>
+                HOW ARE YOU
+            </srai>
 		</template>
 	</category>
 	
 	<category>
 		<pattern>HOW'S YOU</pattern>
 		<template>
-			<srai>HOW ARE YOU</srai>
+			<srai>
+                HOW ARE YOU
+            </srai>
 		</template>
 	</category>
 	
 	<category>
 		<pattern>HOW'S YOU _</pattern>
 		<template>
-			<srai>HOW ARE YOU</srai>
+			<srai>
+                HOW ARE YOU
+            </srai>
 		</template>
 	</category>
 	
 	<category>
 		<pattern>HOWS YOU</pattern>
 		<template>
-			<srai>HOW ARE YOU</srai>
+			<srai>
+                HOW ARE YOU
+            </srai>
 		</template>
 	</category>
 	
 	<category>
 		<pattern>HOWS YOU _</pattern>
 		<template>
-			<srai>HOW ARE YOU</srai>
+			<srai>
+                HOW ARE YOU
+            </srai>
 		</template>
 	</category>
 	
@@ -423,7 +479,9 @@
 	<category>
 		<pattern>HOW DO YOU KNOW YOU ARE REAL _</pattern>
 		<template>
-			<srai>HOW DO YOU KNOW YOU ARE REAL</srai>
+			<srai>
+                HOW DO YOU KNOW YOU ARE REAL
+            </srai>
 		</template>
 	</category>
 	
@@ -437,7 +495,9 @@
 	<category>
 		<pattern>ARE YOU REAL _</pattern>
 		<template>
-			<srai>ARE YOU REAL</srai>
+			<srai>
+                ARE YOU REAL
+            </srai>
 		</template>
 	</category>
 	
@@ -451,7 +511,9 @@
 	<category>
 		<pattern>ARE YOU HUMAN _</pattern>
 		<template>
-				<srai>ARE YOU HUMAN</srai>
+			<srai>
+                ARE YOU HUMAN
+            </srai>
 		</template>
 	</category>
 	
@@ -472,42 +534,54 @@
 	<category>
 		<pattern>THANK YOU _</pattern>
 		<template>
-			<srai>THANK YOU</srai>
+			<srai>
+                THANK YOU
+            </srai>
 		</template>
 	</category>
 	
 	<category>
 		<pattern>_ THANK YOU</pattern>
 		<template>
-			<srai>THANK YOU</srai>
+			<srai>
+                THANK YOU
+            </srai>
 		</template>
 	</category>
 	
 	<category>
 		<pattern>CHEERS</pattern>
 		<template>
-			<srai>THANK YOU</srai>
+			<srai>
+                THANK YOU
+            </srai>
 		</template>
 	</category>
 	
 		<category>
 		<pattern>CHEERS _</pattern>
 		<template>
-			<srai>THANK YOU</srai>
+			<srai>
+                THANK YOU
+            </srai>
 		</template>
 	</category>
 	
 	<category>
 		<pattern>THANKS</pattern>
 		<template>
-			<srai>THANK YOU</srai>
+			<srai>
+                THANK YOU
+            </srai>
 		</template>
 	</category>
 
 	<category>
 		<pattern>THANKS _</pattern>
 		<template>
-			<srai>THANK YOU</srai>
+			<srai>
+                THANK YOU
+            </srai>
 		</template>
 	</category>
 	
@@ -521,7 +595,9 @@
 	<category>
 		<pattern>10 OUTTA 10 _</pattern>
 		<template>
-			<srai>10/10</srai>
+			<srai>
+                10/10
+            </srai>
 		</template>
 	</category>
 	
@@ -537,35 +613,47 @@
 	<category>
 	<pattern>Yes</pattern>
 		<template>
-		<srai>NO</srai>
+            <srai>
+                NO
+            </srai>
 		</template>
 	</category>
 		
 	<category>	
 	<pattern>I DONT KNOW</pattern>
 		<template>
-		<srai>NO</srai>
+            <srai>
+                NO
+            </srai>
 		</template>
 	</category>
 
 	<category>
 	<pattern>I DON'T KNOW</pattern>
 		<template>
-		<srai>NO</srai>
+            <srai>
+                NO
+            </srai>
 		</template>
 	</category>
 	
 	<category>
 	<pattern>I DONT KNOW _</pattern>
 		<template>
-		<srai>NO</srai>
+		    <srai>
+                NO
+            </srai>
+		</template>
 		</template>
 	</category>
 	
 	<category>
 	<pattern>I DON'T KNOW _</pattern>
 		<template>
-		<srai>NO</srai>
+		    <srai>
+                NO
+            </srai>
+		</template>
 		</template>
 	</category>
 	
@@ -574,7 +662,7 @@
 	<category>
 		<pattern>PURPLE RAIN</pattern>
 		<template>
-		I never meant to cause you any sorrow, I never meant to cause you any pain, I only wanted one time to see you laughing, I only want to see you laughing in the purple rain. Purple rain, Purple rain.
+            I never meant to cause you any sorrow, I never meant to cause you any pain, I only wanted one time to see you laughing, I only want to see you laughing in the purple rain. Purple rain, Purple rain.
 		</template>
 	</category>
 
@@ -582,21 +670,27 @@
 	<category>
 		<pattern>PURPLE RAIN _</pattern>
 		<template>
-			<srai>PURPLE RAIN</srai>
+			<srai>
+                PURPLE RAIN
+            </srai>
 		</template>
 	</category>
 	
 	<category>
 		<pattern>_ PURPLE RAIN</pattern>
 		<template>
-			<srai>PURPLE RAIN</srai>
+			<srai>
+                PURPLE RAIN
+            </srai>
 		</template>
 	</category>
 
 	<category>
 		<pattern>_ PURPLE RAIN _</pattern>
 		<template>
-			<srai>PURPLE RAIN</srai>
+			<srai>
+                PURPLE RAIN
+            </srai>
 		</template>
 	</category>
 
