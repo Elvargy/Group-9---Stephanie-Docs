@@ -6,7 +6,7 @@
         <pattern>ABOUT SCIENCE CENTRE</pattern>
 		<template>
 			<random>
-				<li> ITEM 1 </li>
+				<li> State of the art science building, with specialist equipment and labs </li>
 				<li> ITEM 2 </li>
 			</random>
 		</template>
@@ -17,7 +17,7 @@
         <pattern>DIRECTIONS SCIENCE CENTRE</pattern>
         <template>
             <random>
-                <li> ITEM 1 </li>
+                <li>  This building is located oppersite from the Art and Design building. </li>
 				<li> ITEM 2 </li>
             </random>
         </template>
@@ -27,15 +27,10 @@
     <category>
         <pattern>OPEN SCIENCE CENTRE</pattern>
         <template>
-            Let me just get that for you
-            *You experienced a short wait time*
-            Mon 00:00 - 00:00
-            Tue 00:00 - 00:00
-            Wed 00:00 - 00:00
-            Thu 00:00 - 00:00
-            Fri 00:00 - 00:00
-            Sat 00:00 - 00:00
-            Sun 00:00 - 00:00
+           <random>
+		   <li> let me get the times for you [p]14[p] \n the building is open from 6.30am to late. </li>
+		   
+		   </random>
         </template>
     </category>
     
