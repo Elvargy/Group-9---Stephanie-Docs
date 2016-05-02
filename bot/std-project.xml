@@ -29,7 +29,7 @@
 			<learn>project/village_hall.aiml</learn>
 			<learn>project/witham_house.aiml</learn>
 			<learn>project/witham_warf.aiml</learn>
-
+			<learn>project/subjects.aiml</learn>
 	
         </template>
         
