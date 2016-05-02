@@ -6,8 +6,8 @@
         <pattern>ABOUT EMMTEC</pattern>
 		<template>
 			<random>
-				<li> ITEM 1 </li>
-				<li> ITEM 2 </li>
+				<li> EMMTEC is the building located inbetween The Swan and the MHT building. It houses the biggest lecture hall! </li>
+				<li> The EMMTEC building is the building that's close to The Swan, the health centre and the MHT building. It's my favourite place to have lectures so you're lucky if you get it! </li>
 			</random>
 		</template>
     </category>
@@ -17,8 +17,8 @@
         <pattern>DIRECTIONS EMMTEC</pattern>
         <template>
             <random>
-                <li> ITEM 1 </li>
-				<li> ITEM 2 </li>
+                <li> EMMTEC is the building located inbetween The Swan and the MHT building. It houses the biggest lecture hall! </li>
+				<li> The EMMTEC building is the building that's close to The Swan, the health centre and the MHT building. It's my favourite place to have lectures so you're lucky if you get it! </li>
             </random>
         </template>
     </category>
