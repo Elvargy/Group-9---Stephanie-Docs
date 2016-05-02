@@ -166,6 +166,52 @@
         </template>
     </category>
 	
+	<!-- 'How' Responses -->
+	
+	<category>
+        <pattern>HOW ARE YOU</pattern>
+        <template>
+				<li> Yeah, I'm good. :)</li>
+				<li> I'm good thanks.</li>
+				<li> Good thanks! :)</li>
+        </template>
+    </category>
+	
+	<category>
+		<pattern>HOW ARE YOU _</pattern>
+		<template>
+			<srai>HOW ARE YOU</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>HOW'S YOU</pattern>
+		<template>
+			<srai>HOW ARE YOU</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>HOW'S YOU _</pattern>
+		<template>
+			<srai>HOW ARE YOU</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>HOWS YOU</pattern>
+		<template>
+			<srai>HOW ARE YOU</srai>
+		</template>
+	</category>
+	
+		<category>
+		<pattern>HOWS YOU _</pattern>
+		<template>
+			<srai>HOW ARE YOU</srai>
+		</template>
+	</category>
+	
 	<!-- 'Thank you' Responses-->
 	<category>
 		<pattern>THANK YOU</pattern>
