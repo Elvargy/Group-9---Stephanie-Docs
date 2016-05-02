@@ -6,8 +6,9 @@
         <pattern>ABOUT LIBRARY</pattern>
 		<template>
 			<random>
-				<li> ITEM 1 </li>
-				<li> ITEM 2 </li>
+				<li> Okay, The Library provides a wide range of Library services and facilities, as well as support and guidance to students on the use of information services and study skills. :)</li>
+				<li> The Library is a great place to study in peace, if you roommates are making a little too much noise,
+				you can retreat to a nice quite corner of the library. The library has a great student to computer ratio.</li>
 			</random>
 		</template>
     </category>
@@ -17,8 +18,9 @@
         <pattern>DIRECTIONS LIBRARY</pattern>
         <template>
             <random>
-                <li> ITEM 1 </li>
-				<li> ITEM 2 </li>
+                <li> The library is near Tower Bar and next to the engineering building. If your coming from the 
+					town center, cross the train tracks and head towards the university, it's quite hard to miss. :)</li>
+				<li> Yeah, the libary is near the train crossing, it is across from Junxion</li>
             </random>
         </template>
     </category>
@@ -27,15 +29,7 @@
     <category>
         <pattern>OPEN LIBRARY</pattern>
         <template>
-            Let me just get that for you
-            *You experienced a short wait time*
-            Mon 00:00 - 00:00
-            Tue 00:00 - 00:00
-            Wed 00:00 - 00:00
-            Thu 00:00 - 00:00
-            Fri 00:00 - 00:00
-            Sat 00:00 - 00:00
-            Sun 00:00 - 00:00
+			The Library is open 24/7 during term time. The times vary in holidays, so you should double check the website. :)
         </template>
     </category>
     
@@ -70,4 +64,14 @@
             </srai>
         </template>
     </category>
+	
+	<category>
+        <pattern>_ LIBRARY OPEN _</pattern>
+        <template>
+            <srai>
+                OPEN LIBRARY
+            </srai>
+        </template>
+    </category>
+	
 </aiml>
