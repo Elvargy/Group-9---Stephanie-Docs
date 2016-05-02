@@ -163,6 +163,63 @@
             </srai>
         </template>
     </category>
+	
+	<!-- PARK COURT -->
+	<category>
+        <pattern>DIRECTIONS PARK COURT </pattern>
+        <template>
+		    <srai>
+                DIRECTIONS ACCOMMODATION
+            </srai>
+        </template>
+    </category>
+	
+	<category>
+        <pattern>DIRECTIONS PARK COURT _</pattern>
+        <template>
+            <srai>
+                DIRECTIONS ACCOMMODATION
+            </srai>
+        </template>
+    </category>
+		
+	<!-- PAVILLION HOUSE -->
+	category>
+        <pattern>DIRECTIONS PAVILLION HOUSE </pattern>
+        <template>
+		    <srai>
+                DIRECTIONS ACCOMMODATION
+            </srai>
+        </template>
+    </category>
+	
+	<category>
+        <pattern>DIRECTIONS PAVILLION HOUSE _</pattern>
+        <template>
+            <srai>
+                DIRECTIONS ACCOMMODATION
+            </srai>
+        </template>
+    </category>	
+	
+	<!-- ST MARKS HOUSE -->
+	category>
+        <pattern>DIRECTIONS ST MARKS HOUSE </pattern>
+        <template>
+		    <srai>
+                DIRECTIONS ACCOMMODATION
+            </srai>
+        </template>
+    </category>
+	
+	<category>
+        <pattern>DIRECTIONS ST MARKS HOUSE _</pattern>
+        <template>
+            <srai>
+                DIRECTIONS ACCOMMODATION
+            </srai>
+        </template>
+    </category>
    
    
    
