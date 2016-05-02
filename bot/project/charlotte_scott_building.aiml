@@ -6,7 +6,7 @@
         <pattern>ABOUT CHARLOTTE SCOTT BUILDING</pattern>
 		<template>
 			<random>
-				<li> ITEM 1 </li>
+				<li> The Charlotte Scott building houses office space for the schools of Engineering, Mathematics and Physics and is named after the Lincoln-born Mathematician Charlotte Scott!</li>
 				<li> ITEM 2 </li>
 			</random>
 		</template>
