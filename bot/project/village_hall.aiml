@@ -50,16 +50,8 @@
 			</srai>
 		</template>
     </category>
-    <category>
-        <pattern>ABOUT VILLAGE HALL _</pattern>
-		<template>
-			<srai>
-				ABOUT VILLAGE HALL
-			</srai>
-		</template>
-    </category>
-    
-    
+
+
     <!-- DIRECTIONS -->
     <category>
         <pattern>DIRECTIONS VILLAGE HALL _</pattern>
@@ -70,15 +62,7 @@
         </template>
     </category>
     
-    <category>
-        <pattern>DIRECTIONS VILLAGE HALL _</pattern>
-        <template>
-            <srai>
-                DIRECTIONS VILLAGE HALL
-            </srai>
-        </template>
-    </category>
-    
+
     
     <!-- OPEN TIMES -->    
     <category>
@@ -90,15 +74,7 @@
         </template>
     </category>
 
-    <category>
-        <pattern>OPEN VILLAGE HALL _</pattern>
-        <template>
-            <srai>
-                OPEN VILLAGE HALL
-            </srai>
-        </template>
-    </category>
-	
+
 	
 	 <!-- ABOUT  -->
     <category>
@@ -112,15 +88,6 @@
     
     <category>
         <pattern>ABOUT VH</pattern>
-		<template>
-			<srai>
-				ABOUT VILLAGE HALL
-			</srai>
-		</template>
-    </category>
-    
-    <category>
-        <pattern>ABOUT VH _</pattern>
 		<template>
 			<srai>
 				ABOUT VILLAGE HALL
@@ -148,16 +115,7 @@
         </template>
     </category>
     
-    <category>
-        <pattern>DIRECTIONS VH _</pattern>
-        <template>
-            <srai>
-                DIRECTIONS VILLAGE HALL
-            </srai>
-        </template>
-    </category>
-    
-    
+
     <!-- OPEN TIMES -->    
     <category>
         <pattern>OPEN VH _</pattern>
@@ -177,12 +135,5 @@
         </template>
     </category>
     
-    <category>
-        <pattern>OPEN VH _</pattern>
-        <template>
-            <srai>
-                OPEN VILLAGE HALL
-            </srai>
-        </template>
-    </category>
+
 </aiml>

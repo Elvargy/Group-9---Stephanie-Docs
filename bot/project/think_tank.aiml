@@ -51,15 +51,6 @@
 		</template>
     </category>
     
-    <category>
-        <pattern>ABOUT THINK TANK _</pattern>
-		<template>
-			<srai>
-				ABOUT THINK TANK
-			</srai>
-		</template>
-    </category>
-    
     
     <!-- DIRECTIONS -->
     <category>
@@ -71,16 +62,7 @@
         </template>
     </category>
     
-    <category>
-        <pattern>DIRECTIONS THINK TANK _</pattern>
-        <template>
-            <srai>
-                DIRECTIONS THINK TANK
-            </srai>
-        </template>
-    </category>
-    
-    
+
     <!-- OPEN TIMES -->    
     <category>
         <pattern>OPEN THINK TANK _</pattern>
@@ -91,15 +73,6 @@
         </template>
     </category>
     
-    <category>
-        <pattern>OPEN THINK TANK _</pattern>
-        <template>
-            <srai>
-                OPEN THINK TANK
-            </srai>
-        </template>
-    </category>
-	
 	<!-- ABOUT  -->
     <category>
         <pattern>ABOUT THT _</pattern>
@@ -119,16 +92,7 @@
 		</template>
     </category>
     
-    <category>
-        <pattern>ABOUT THT _</pattern>
-		<template>
-			<srai>
-				ABOUT THINK TANK
-			</srai>
-		</template>
-    </category>
-    
-    
+
     <!-- DIRECTIONS -->
     <category>
         <pattern>DIRECTIONS THT _</pattern>
@@ -148,16 +112,7 @@
         </template>
     </category>
     
-    <category>
-        <pattern>DIRECTIONS THT _</pattern>
-        <template>
-            <srai>
-                DIRECTIONS THINK TANK
-            </srai>
-        </template>
-    </category>
-    
-    
+
     <!-- OPEN TIMES -->    
     <category>
         <pattern>OPEN THT _</pattern>
@@ -177,12 +132,4 @@
         </template>
     </category>
     
-    <category>
-        <pattern>OPEN THT _</pattern>
-        <template>
-            <srai>
-                OPEN THINK TANK
-            </srai>
-        </template>
-    </category>
 </aiml>

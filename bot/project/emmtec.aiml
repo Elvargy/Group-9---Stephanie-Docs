@@ -34,17 +34,7 @@
 			</srai>
 		</template>
     </category>
-    
-    
-    <category>
-        <pattern>ABOUT EMMTEC _</pattern>
-		<template>
-			<srai>
-				ABOUT EMMTEC
-			</srai>
-		</template>
-    </category>
-    
+   
     
     <!-- DIRECTIONS -->
     <category>
@@ -55,17 +45,6 @@
             </srai>
         </template>
     </category>
-	
-    <category>
-        <pattern>DIRECTIONS EMMTEC _</pattern>
-        <template>
-            <srai>
-                DIRECTIONS EMMTEC
-            </srai>
-        </template>
-    </category>
-	
-	
 	
 	
 	<!-- ABOUT  -->
@@ -87,16 +66,7 @@
 		</template>
     </category>
     
-    <category>
-        <pattern>ABOUT MT _</pattern>
-		<template>
-			<srai>
-				ABOUT EMMTEC
-			</srai>
-		</template>
-    </category>
-    
-    
+ 
     <!-- DIRECTIONS -->
     <category>
         <pattern>DIRECTIONS MT _</pattern>
@@ -115,14 +85,5 @@
             </srai>
         </template>
     </category>
-    
-    <category>
-        <pattern>DIRECTIONS MT _</pattern>
-        <template>
-            <srai>
-                DIRECTIONS EMMTEC
-            </srai>
-        </template>
-    </category>
-    
+   
 </aiml>

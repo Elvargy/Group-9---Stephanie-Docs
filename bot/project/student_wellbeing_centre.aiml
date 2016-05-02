@@ -51,26 +51,8 @@
 		</template>
     </category>
     
-    <category>
-        <pattern>ABOUT STUDENT WELLBEING CENTER _</pattern>
-		<template>
-			<srai>
-				ABOUT STUDENT WELLBEING CENTER
-			</srai>
-		</template>
-    </category>
-    
     
     <!-- DIRECTIONS -->
-    <category>
-        <pattern>DIRECTIONS STUDENT WELLBEING CENTER _</pattern>
-        <template>
-            <srai>
-                DIRECTIONS STUDENT WELLBEING CENTER
-            </srai>
-        </template>
-    </category>
-    
     <category>
         <pattern>DIRECTIONS STUDENT WELLBEING CENTER _</pattern>
         <template>
@@ -91,17 +73,6 @@
         </template>
     </category>
 
-    <category>
-        <pattern>OPEN STUDENT WELLBEING CENTER _</pattern>
-        <template>
-            <srai>
-                OPEN STUDENT WELLBEING CENTER
-            </srai>
-        </template>
-    </category>
-	
-	
-	
 	
 	<!-- ABOUT  -->
     <category>
@@ -115,15 +86,6 @@
     
     <category>
         <pattern>ABOUT SS</pattern>
-		<template>
-			<srai>
-				ABOUT STUDENT WELLBEING CENTER
-			</srai>
-		</template>
-    </category>
-    
-    <category>
-        <pattern>ABOUT SS _</pattern>
 		<template>
 			<srai>
 				ABOUT STUDENT WELLBEING CENTER
@@ -150,17 +112,7 @@
             </srai>
         </template>
     </category>
-    
-    <category>
-        <pattern>DIRECTIONS SS _</pattern>
-        <template>
-            <srai>
-                DIRECTIONS STUDENT WELLBEING CENTER
-            </srai>
-        </template>
-    </category>
-    
-    
+
     <!-- OPEN TIMES -->    
     <category>
         <pattern>OPEN SS _</pattern>
@@ -179,13 +131,5 @@
             </srai>
         </template>
     </category>
-    
-    <category>
-        <pattern>OPEN SS _</pattern>
-        <template>
-            <srai>
-                OPEN STUDENT WELLBEING CENTER
-            </srai>
-        </template>
-    </category>
+
 </aiml>

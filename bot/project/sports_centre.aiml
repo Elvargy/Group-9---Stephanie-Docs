@@ -51,14 +51,7 @@
 		</template>
     </category>
     
-    <category>
-        <pattern>ABOUT SPORTS CENTRE _</pattern>
-		<template>
-			<srai>
-				ABOUT SPORTS CENTRE
-			</srai>
-		</template>
-    </category>
+
     
     
     <!-- DIRECTIONS -->
@@ -70,15 +63,7 @@
             </srai>
         </template>
     </category>
-    <category>
-        <pattern>DIRECTIONS SPORTS CENTRE _</pattern>
-        <template>
-            <srai>
-                DIRECTIONS SPORTS CENTRE
-            </srai>
-        </template>
-    </category>
-    
+
     
     <!-- OPEN TIMES -->    
     <category>
@@ -89,20 +74,7 @@
             </srai>
         </template>
     </category>
-    
-    <category>
-        <pattern>OPEN SPORTS CENTRE _</pattern>
-        <template>
-            <srai>
-                OPEN SPORTS CENTRE
-            </srai>
-        </template>
-    </category>
-	
-	
-	
-	
-	
+
 	<!-- ABOUT  -->
     <category>
         <pattern>ABOUT HP _</pattern>
@@ -115,15 +87,6 @@
     
     <category>
         <pattern>ABOUT HP</pattern>
-		<template>
-			<srai>
-				ABOUT SPORTS CENTRE
-			</srai>
-		</template>
-    </category>
-    
-    <category>
-        <pattern>ABOUT HP _</pattern>
 		<template>
 			<srai>
 				ABOUT SPORTS CENTRE
@@ -150,17 +113,7 @@
             </srai>
         </template>
     </category>
-    
-    <category>
-        <pattern>DIRECTIONS HP _</pattern>
-        <template>
-            <srai>
-                DIRECTIONS SPORTS CENTRE
-            </srai>
-        </template>
-    </category>
-    
-    
+        
     <!-- OPEN TIMES -->    
     <category>
         <pattern>OPEN HP _</pattern>
@@ -180,12 +133,4 @@
         </template>
     </category>
     
-    <category>
-        <pattern>OPEN HP _</pattern>
-        <template>
-            <srai>
-                OPEN SPORTS CENTRE
-            </srai>
-        </template>
-    </category>
 </aiml>

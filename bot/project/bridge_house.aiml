@@ -50,45 +50,9 @@
 			</srai>
 		</template>
     </category>
-    
-    <category>
-        <pattern>ABOUT BRIDGE HOUSE</pattern>
-		<template>
-			<srai>
-				ABOUT BRIDGE HOUSE
-			</srai>
-		</template>
-    </category>
-    
-    <category>
-        <pattern>ABOUT BRIDGE HOUSE _</pattern>
-		<template>
-			<srai>
-				ABOUT BRIDGE HOUSE
-			</srai>
-		</template>
-    </category>
-    
+
     
     <!-- DIRECTIONS -->
-    <category>
-        <pattern>DIRECTIONS BRIDGE HOUSE _</pattern>
-        <template>
-            <srai>
-                DIRECTIONS BRIDGE HOUSE
-            </srai>
-        </template>
-    </category>
-    
-    <category>
-        <pattern>DIRECTIONS BRIDGE HOUSE</pattern>
-        <template>
-            <srai>
-                DIRECTIONS BRIDGE HOUSE
-            </srai>
-        </template>
-    </category>
-    
     <category>
         <pattern>DIRECTIONS BRIDGE HOUSE _</pattern>
         <template>
@@ -108,28 +72,8 @@
             </srai>
         </template>
     </category>
-    
-    <category>
-        <pattern>OPEN BRIDGE HOUSE</pattern>
-        <template>
-            <srai>
-                OPEN BRIDGE HOUSE
-            </srai>
-        </template>
-    </category>
-    
-    <category>
-        <pattern>OPEN BRIDGE HOUSE _</pattern>
-        <template>
-            <srai>
-                OPEN BRIDGE HOUSE
-            </srai>
-        </template>
-    </category>
-	
-	
-	
-	
+
+
 	<!-- ABOUT  -->
     <category>
         <pattern>ABOUT BH _</pattern>
@@ -142,15 +86,6 @@
     
     <category>
         <pattern>ABOUT BH</pattern>
-		<template>
-			<srai>
-				ABOUT BRIDGE HOUSE
-			</srai>
-		</template>
-    </category>
-    
-    <category>
-        <pattern>ABOUT BH _</pattern>
 		<template>
 			<srai>
 				ABOUT BRIDGE HOUSE
@@ -178,15 +113,6 @@
         </template>
     </category>
     
-    <category>
-        <pattern>DIRECTIONS BH _</pattern>
-        <template>
-            <srai>
-                DIRECTIONS BRIDGE HOUSE
-            </srai>
-        </template>
-    </category>
-    
     
     <!-- OPEN TIMES -->    
     <category>
@@ -207,12 +133,4 @@
         </template>
     </category>
     
-    <category>
-        <pattern>OPEN BH _</pattern>
-        <template>
-            <srai>
-                OPEN BRIDGE HOUSE
-            </srai>
-        </template>
-    </category>
 </aiml>

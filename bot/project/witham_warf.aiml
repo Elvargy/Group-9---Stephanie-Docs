@@ -51,16 +51,7 @@
 		</template>
     </category>
     
-    <category>
-        <pattern>ABOUT WITHAM WHARF _</pattern>
-		<template>
-			<srai>
-				ABOUT WITHAM WHARF
-			</srai>
-		</template>
-    </category>
-    
-    
+
     <!-- DIRECTIONS -->
     <category>
         <pattern>DIRECTIONS WITHAM WHARF _</pattern>
@@ -71,16 +62,7 @@
         </template>
     </category>
     
-    <category>
-        <pattern>DIRECTIONS WITHAM WHARF _</pattern>
-        <template>
-            <srai>
-                DIRECTIONS WITHAM WHARF
-            </srai>
-        </template>
-    </category>
-    
-    
+
     <!-- OPEN TIMES -->    
     <category>
         <pattern>OPEN WITHAM WHARF _</pattern>
@@ -91,18 +73,7 @@
         </template>
     </category>
     
-    
-    <category>
-        <pattern>OPEN WITHAM WHARF _</pattern>
-        <template>
-            <srai>
-                OPEN WITHAM WHARF
-            </srai>
-        </template>
-    </category>
 
-	
-	
 	<!-- ABOUT  -->
     <category>
         <pattern>ABOUT WIW _</pattern>
@@ -115,15 +86,6 @@
     
     <category>
         <pattern>ABOUT WIW</pattern>
-		<template>
-			<srai>
-				ABOUT WITHAM WHARF
-			</srai>
-		</template>
-    </category>
-    
-    <category>
-        <pattern>ABOUT WIW _</pattern>
 		<template>
 			<srai>
 				ABOUT WITHAM WHARF
@@ -151,16 +113,7 @@
         </template>
     </category>
     
-    <category>
-        <pattern>DIRECTIONS WIW _</pattern>
-        <template>
-            <srai>
-                DIRECTIONS WITHAM WHARF
-            </srai>
-        </template>
-    </category>
-    
-    
+
     <!-- OPEN TIMES -->    
     <category>
         <pattern>OPEN WIW _</pattern>
@@ -180,12 +133,4 @@
         </template>
     </category>
     
-    <category>
-        <pattern>OPEN WIW _</pattern>
-        <template>
-            <srai>
-                OPEN WITHAM WHARF
-            </srai>
-        </template>
-    </category>
 </aiml>

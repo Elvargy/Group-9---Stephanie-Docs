@@ -51,14 +51,6 @@
 		</template>
     </category>
     
-    <category>
-        <pattern>ABOUT MINSTER HOUSE _</pattern>
-		<template>
-			<srai>
-				ABOUT MINSTER HOUSE
-			</srai>
-		</template>
-    </category>
     
     
     <!-- DIRECTIONS -->
@@ -71,14 +63,6 @@
         </template>
     </category>
     
-    <category>
-        <pattern>DIRECTIONS MINSTER HOUSE _</pattern>
-        <template>
-            <srai>
-                DIRECTIONS MINSTER HOUSE
-            </srai>
-        </template>
-    </category>
     
     
     <!-- OPEN TIMES -->    
@@ -90,19 +74,7 @@
             </srai>
         </template>
     </category>
-    
-    <category>
-        <pattern>OPEN MINSTER HOUSE _</pattern>
-        <template>
-            <srai>
-                OPEN MINSTER HOUSE
-            </srai>
-        </template>
-    </category>
-	
-	
-	
-	
+   
 	
 	<!-- ABOUT  -->
     <category>
@@ -122,16 +94,7 @@
 			</srai>
 		</template>
     </category>
-    
-    <category>
-        <pattern>ABOUT MIH _</pattern>
-		<template>
-			<srai>
-				ABOUT MINSTER HOUSE
-			</srai>
-		</template>
-    </category>
-    
+      
     
     <!-- DIRECTIONS -->
     <category>
@@ -145,15 +108,6 @@
     
     <category>
         <pattern>DIRECTIONS MIH</pattern>
-        <template>
-            <srai>
-                DIRECTIONS MINSTER HOUSE
-            </srai>
-        </template>
-    </category>
-    
-    <category>
-        <pattern>DIRECTIONS MIH _</pattern>
         <template>
             <srai>
                 DIRECTIONS MINSTER HOUSE
@@ -181,12 +135,4 @@
         </template>
     </category>
     
-    <category>
-        <pattern>OPEN MIH _</pattern>
-        <template>
-            <srai>
-                OPEN MINSTER HOUSE
-            </srai>
-        </template>
-    </category>
 </aiml>

@@ -50,27 +50,9 @@
 			</srai>
 		</template>
     </category>
-
-    <category>
-        <pattern>ABOUT CHARLOTTE SCOTT BUILDING _</pattern>
-		<template>
-			<srai>
-				ABOUT CHARLOTTE SCOTT BUILDING
-			</srai>
-		</template>
-    </category>
     
     
     <!-- DIRECTIONS -->
-    <category>
-        <pattern>DIRECTIONS CHARLOTTE SCOTT BUILDING _</pattern>
-        <template>
-            <srai>
-                DIRECTIONS CHARLOTTE SCOTT BUILDING
-            </srai>
-        </template>
-    </category>
-    
     <category>
         <pattern>DIRECTIONS CHARLOTTE SCOTT BUILDING _</pattern>
         <template>
@@ -90,21 +72,7 @@
             </srai>
         </template>
     </category>
-    
-    
-    <category>
-        <pattern>OPEN CHARLOTTE SCOTT BUILDING _</pattern>
-        <template>
-            <srai>
-                OPEN CHARLOTTE SCOTT BUILDING
-            </srai>
-        </template>
-    </category>
-	
-	
-	
-	
-	
+
 	<!-- ABOUT  -->
     <category>
         <pattern>ABOUT CSB _</pattern>
@@ -114,25 +82,7 @@
 			</srai>
 		</template>
     </category>
-    
-    <category>
-        <pattern>ABOUT CSB</pattern>
-		<template>
-			<srai>
-				ABOUT CHARLOTTE SCOTT BUILDING
-			</srai>
-		</template>
-    </category>
-    
-    <category>
-        <pattern>ABOUT CSB _</pattern>
-		<template>
-			<srai>
-				ABOUT CHARLOTTE SCOTT BUILDING
-			</srai>
-		</template>
-    </category>
-    
+   
     
     <!-- DIRECTIONS -->
     <category>
@@ -152,16 +102,7 @@
             </srai>
         </template>
     </category>
-    
-    <category>
-        <pattern>DIRECTIONS CSB _</pattern>
-        <template>
-            <srai>
-                DIRECTIONS CHARLOTTE SCOTT BUILDING
-            </srai>
-        </template>
-    </category>
-    
+
     
     <!-- OPEN TIMES -->    
     <category>
@@ -182,12 +123,4 @@
         </template>
     </category>
     
-    <category>
-        <pattern>OPEN CSB _</pattern>
-        <template>
-            <srai>
-                OPEN CHARLOTTE SCOTT BUILDING
-            </srai>
-        </template>
-    </category>
 </aiml>

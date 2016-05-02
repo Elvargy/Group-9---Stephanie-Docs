@@ -51,14 +51,7 @@
 		</template>
     </category>
     
-    <category>
-        <pattern>ABOUT SCIENCE CENTRE _</pattern>
-		<template>
-			<srai>
-				ABOUT SCIENCE CENTRE
-			</srai>
-		</template>
-    </category>
+
     
     
     <!-- DIRECTIONS -->
@@ -71,14 +64,7 @@
         </template>
     </category>
     
-    <category>
-        <pattern>DIRECTIONS SCIENCE CENTRE _</pattern>
-        <template>
-            <srai>
-                DIRECTIONS SCIENCE CENTRE
-            </srai>
-        </template>
-    </category>
+
     
     
     <!-- OPEN TIMES -->    
@@ -91,17 +77,6 @@
         </template>
     </category>
     
-    <category>
-        <pattern>OPEN SCIENCE CENTRE _</pattern>
-        <template>
-            <srai>
-                OPEN SCIENCE CENTRE
-            </srai>
-        </template>
-    </category>
-	
-	
-	
 	
 	<!-- ABOUT  -->
     <category>
@@ -115,15 +90,6 @@
     
     <category>
         <pattern>ABOUT SB</pattern>
-		<template>
-			<srai>
-				ABOUT SCIENCE CENTRE
-			</srai>
-		</template>
-    </category>
-    
-    <category>
-        <pattern>ABOUT SB _</pattern>
 		<template>
 			<srai>
 				ABOUT SCIENCE CENTRE
@@ -151,15 +117,7 @@
         </template>
     </category>
     
-    <category>
-        <pattern>DIRECTIONS SB _</pattern>
-        <template>
-            <srai>
-                DIRECTIONS SCIENCE CENTRE
-            </srai>
-        </template>
-    </category>
-    
+
     
     <!-- OPEN TIMES -->    
     <category>
@@ -180,12 +138,5 @@
         </template>
     </category>
     
-    <category>
-        <pattern>OPEN SB _</pattern>
-        <template>
-            <srai>
-                OPEN SCIENCE CENTRE
-            </srai>
-        </template>
-    </category>
+
 </aiml>

@@ -50,27 +50,9 @@
 			</srai>
 		</template>
     </category>
-    
-    <category>
-        <pattern>ABOUT ENGINEERING HUB _</pattern>
-		<template>
-			<srai>
-				ABOUT ENGINEERING HUB
-			</srai>
-		</template>
-    </category>
-    
+      
     
     <!-- DIRECTIONS -->
-    <category>
-        <pattern>DIRECTIONS ENGINEERING HUB _</pattern>
-        <template>
-            <srai>
-                DIRECTIONS ENGINEERING HUB
-            </srai>
-        </template>
-    </category>
-    
     <category>
         <pattern>DIRECTIONS ENGINEERING HUB _</pattern>
         <template>
@@ -91,17 +73,6 @@
         </template>
     </category>
     
-    <category>
-        <pattern>OPEN ENGINEERING HUB _</pattern>
-        <template>
-            <srai>
-                OPEN ENGINEERING HUB
-            </srai>
-        </template>
-    </category>
-	
-	
-	
 	
 	<!-- ABOUT  -->
     <category>
@@ -115,15 +86,6 @@
     
     <category>
         <pattern>ABOUT ENG</pattern>
-		<template>
-			<srai>
-				ABOUT ENGINEERING HUB
-			</srai>
-		</template>
-    </category>
-    
-    <category>
-        <pattern>ABOUT ENG _</pattern>
 		<template>
 			<srai>
 				ABOUT ENGINEERING HUB
@@ -150,16 +112,7 @@
             </srai>
         </template>
     </category>
-    
-    <category>
-        <pattern>DIRECTIONS ENG _</pattern>
-        <template>
-            <srai>
-                DIRECTIONS ENGINEERING HUB
-            </srai>
-        </template>
-    </category>
-    
+      
     
     <!-- OPEN TIMES -->    
     <category>
@@ -180,12 +133,4 @@
         </template>
     </category>
     
-    <category>
-        <pattern>OPEN ENG _</pattern>
-        <template>
-            <srai>
-                OPEN ENGINEERING HUB
-            </srai>
-        </template>
-    </category>
 </aiml>

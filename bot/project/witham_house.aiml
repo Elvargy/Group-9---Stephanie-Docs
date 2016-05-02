@@ -51,16 +51,7 @@
 		</template>
     </category>
     
-    
-    <category>
-        <pattern>ABOUT WITHAM HOUSE _</pattern>
-		<template>
-			<srai>
-				ABOUT WITHAM HOUSE
-			</srai>
-		</template>
-    </category>
-    
+
     
     <!-- DIRECTIONS -->
     <category>
@@ -72,15 +63,7 @@
         </template>
     </category>
     
-    <category>
-        <pattern>DIRECTIONS WITHAM HOUSE _</pattern>
-        <template>
-            <srai>
-                DIRECTIONS WITHAM HOUSE
-            </srai>
-        </template>
-    </category>
-    
+
     
     <!-- OPEN TIMES -->    
     <category>
@@ -92,15 +75,7 @@
         </template>
     </category>
     
-    <category>
-        <pattern>OPEN WITHAM HOUSE _</pattern>
-        <template>
-            <srai>
-                OPEN WITHAM HOUSE
-            </srai>
-        </template>
-    </category>
-	
+
 	
 	<!-- ABOUT  -->
     <category>
@@ -120,16 +95,7 @@
 			</srai>
 		</template>
     </category>
-    
-    <category>
-        <pattern>ABOUT WH _</pattern>
-		<template>
-			<srai>
-				ABOUT WITHAM HOUSE
-			</srai>
-		</template>
-    </category>
-    
+   
     
     <!-- DIRECTIONS -->
     <category>
@@ -150,14 +116,6 @@
         </template>
     </category>
     
-    <category>
-        <pattern>DIRECTIONS WH _</pattern>
-        <template>
-            <srai>
-                DIRECTIONS WITHAM HOUSE
-            </srai>
-        </template>
-    </category>
     
     
     <!-- OPEN TIMES -->    
@@ -179,12 +137,5 @@
         </template>
     </category>
     
-    <category>
-        <pattern>OPEN WH _</pattern>
-        <template>
-            <srai>
-                OPEN WITHAM HOUSE
-            </srai>
-        </template>
-    </category>
+
 </aiml>
