@@ -6,7 +6,7 @@
         <pattern>ABOUT THINK TANK</pattern>
 		<template>
 			<random>
-				<li> ITEM 1 </li>
+				<li> Think Tank is a specially designed building which houses workspaces, conference rooms and meeting pods which are available to rent. </li>
 				<li> ITEM 2 </li>
 			</random>
 		</template>
@@ -27,21 +27,27 @@
     <category>
         <pattern>OPEN THINK TANK</pattern>
         <template>
-            Let me just get that for you
-            *You experienced a short wait time*
-            Mon 00:00 - 00:00
-            Tue 00:00 - 00:00
-            Wed 00:00 - 00:00
-            Thu 00:00 - 00:00
-            Fri 00:00 - 00:00
-            Sat 00:00 - 00:00
-            Sun 00:00 - 00:00
+        		<random>
+            			<li>Let me just get that for you. [p]5[p] \n The opening times are 7:00am until when the building is vacant everyday. Hope this helps :)</li> 
+        			<li>One moment.[p]5[p] \n Think Tank is open everyday from 7am and closes when everyone has left. Hope this helps :)</li> 
+            			<li>One moment. [p]5[p] \n The opening times are 7am until late, when everyone has left, and it is open everyday. Hope this helps :)</li> 
+            			<li>Let me just get that for you. [p]5[p] \n Think Tank is open everyday from 7am until the bulding is vacant. Hope this helps :)</li>
+        		</random>
         </template>
     </category>
     
     
 <!-- SRAI STATEMENTS -->
     <!-- ABOUT  -->
+    <category>
+        <pattern>ABOUT THINK TANK _</pattern>
+		<template>
+			<srai>
+				ABOUT THINK TANK
+			</srai>
+		</template>
+    </category>
+    
     <category>
         <pattern>ABOUT THINK TANK _</pattern>
 		<template>
@@ -62,7 +68,16 @@
         </template>
     </category>
     
-
+    <category>
+        <pattern>DIRECTIONS THINK TANK _</pattern>
+        <template>
+            <srai>
+                DIRECTIONS THINK TANK
+            </srai>
+        </template>
+    </category>
+    
+    
     <!-- OPEN TIMES -->    
     <category>
         <pattern>OPEN THINK TANK _</pattern>
@@ -73,6 +88,15 @@
         </template>
     </category>
     
+    <category>
+        <pattern>OPEN THINK TANK _</pattern>
+        <template>
+            <srai>
+                OPEN THINK TANK
+            </srai>
+        </template>
+    </category>
+	
 	<!-- ABOUT  -->
     <category>
         <pattern>ABOUT THT _</pattern>
@@ -92,7 +116,16 @@
 		</template>
     </category>
     
-
+    <category>
+        <pattern>ABOUT THT _</pattern>
+		<template>
+			<srai>
+				ABOUT THINK TANK
+			</srai>
+		</template>
+    </category>
+    
+    
     <!-- DIRECTIONS -->
     <category>
         <pattern>DIRECTIONS THT _</pattern>
@@ -112,7 +145,16 @@
         </template>
     </category>
     
-
+    <category>
+        <pattern>DIRECTIONS THT _</pattern>
+        <template>
+            <srai>
+                DIRECTIONS THINK TANK
+            </srai>
+        </template>
+    </category>
+    
+    
     <!-- OPEN TIMES -->    
     <category>
         <pattern>OPEN THT _</pattern>
@@ -132,4 +174,12 @@
         </template>
     </category>
     
+    <category>
+        <pattern>OPEN THT _</pattern>
+        <template>
+            <srai>
+                OPEN THINK TANK
+            </srai>
+        </template>
+    </category>
 </aiml>
