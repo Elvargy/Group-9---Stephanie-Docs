@@ -165,6 +165,20 @@
 		</template>
 	</category>
 
+	
+	<category>
+		<pattern>*</pattern>
+		<template>
+			<random>
+				<li>I'm sorry, I don't understand what you mean...</li>
+				<li>I'm not sure what you mean by that</li>
+				<li>Can you explain what you mean?</li>
+				<li>Could you rephrase that?</li>
+				<li>I'm not sure I know about that.</li>
+				<li>What do you mean?</li>
+			</random>
+		</template>
+	</category>
 
     
 </aiml>
