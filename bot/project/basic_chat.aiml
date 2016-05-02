@@ -469,14 +469,14 @@
 	</category>
 	
 	<category>
-		<pattern>10/10</pattern>
+		<pattern>10 OUTTA 10</pattern>
 		<template>
 			BEST MEME 10/10 WOULD WRECK IT RALPH
 		</template>
 	</category>
 	
 	<category>
-		<pattern>10/10 _</pattern>
+		<pattern>10 OUTTA 10 _</pattern>
 		<template>
 			<srai>10/10</srai>
 		</template>
