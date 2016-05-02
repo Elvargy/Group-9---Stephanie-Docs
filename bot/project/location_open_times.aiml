@@ -43,6 +43,25 @@
         </template>
     </category>
     
+    <category>
+        <pattern>OPEN TIME *</pattern>
+        <template>
+            <srai>
+                OPEN <star/>
+            </srai>
+        </template>
+    </category>
+	
+    <category>
+        <pattern>_ OPEN TIME *</pattern>
+        <template>
+            <srai>
+                OPEN <star index="2"/>
+            </srai>
+        </template>
+    </category>
+    
+    
 	<!-- CLOSE TIMES -->
 	<category>
         <pattern>CLOSE TIMES *</pattern>
@@ -62,6 +81,24 @@
         </template>
     </category>
 	
+    <category>
+        <pattern>CLOSE TIME *</pattern>
+        <template>
+            <srai>
+                OPEN <star/>
+            </srai>
+        </template>
+    </category>
+	
+    <category>
+        <pattern>_ CLOSE TIME *</pattern>
+        <template>
+            <srai>
+                OPEN <star index="2"/>
+            </srai>
+        </template>
+    </category>
+    
     <!-- OPEN DOES -->
 	<category>
         <pattern>DOES * OPEN</pattern>

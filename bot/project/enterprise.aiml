@@ -47,7 +47,6 @@
 			</srai>
 		</template>
     </category>
-
     
     <!-- DIRECTIONS -->
     <category>
@@ -58,7 +57,6 @@
             </srai>
         </template>
     </category>
-    
 	
     <!-- OPEN TIMES -->    
     <category>
@@ -69,15 +67,5 @@
             </srai>
         </template>
     </category>
-	
-	<category>
-        <pattern>_ TIME _ ENTERPRISE _</pattern>
-        <template>
-            <srai>
-                OPEN ENTERPRISE
-            </srai>
-        </template>
-    </category>
-	
  
 </aiml>
