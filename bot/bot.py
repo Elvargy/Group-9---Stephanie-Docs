@@ -1,5 +1,6 @@
 import os
 import aiml
+import time
 import fbchat
 import random
 
@@ -65,54 +66,70 @@ while invalidSelection:
         invalidSelection = False
 
 
-class Commands:
+##class Commands:
+##
+##    def __init__(self, path):
+##        self.path = path
+##        
+##    def command_ping(self):
+##        # Tests responsiveness
+##        print("ping")
+##    
+##    def command_quit(self):
+##        # Quits the bot
+##        exit(0)
+##        
+##    def command_learntest(self):
+##        # Loads the aiml files for the project folder
+##        kernel.bootstrap(learnFiles = "std-project.xml", commands = "load aiml b")
+##        
+##    def command_learnstandard(self):
+##        # Loads the aiml files for the standard folder
+##        kernel.bootstrap(learnFiles = "std-standard.xml", commands = "load aiml b")
+##            
+##    def command_save(self):
+##        # Saves the currently loaded aiml files to the brain file
+##        # assuming one was selected at the beginning)
+##        # if not then you are asked to name the new brain file
+##        
+##        if os.path.isfile(self.path): 
+##            kernel.saveBrain(self.path)
+##        else:
+##            print("Name new brain file")
+##            inp = input(": ")
+##            self.path = "brains\\%s.brn" % inp
+##            kernel.saveBrain(self.path)
+##            
+##            
+##    def command_tlr(self):
+##        # Test location responses
+##        
+##        inp = ""
+##        for question in questionList:
+##            print(question)
+##            print(kernel.respond(question))
+##            print()
+##                                      
+##    def command_(self):
+##        bot_response = kernel.respond(message)
+##
+##c = Commands(path)
 
-    def __init__(self, path):
-        self.path = path
+def pause_in_line(line):
+    if "[p]" in line:
+        paused = line.split("[p]")
         
-    def command_ping(self):
-        # Tests responsiveness
-        print("ping")
-    
-    def command_quit(self):
-        # Quits the bot
-        exit(0)
-        
-    def command_learntest(self):
-        # Loads the aiml files for the project folder
-        kernel.bootstrap(learnFiles = "std-project.xml", commands = "load aiml b")
-        
-    def command_learnstandard(self):
-        # Loads the aiml files for the standard folder
-        kernel.bootstrap(learnFiles = "std-standard.xml", commands = "load aiml b")
-            
-    def command_save(self):
-        # Saves the currently loaded aiml files to the brain file
-        # assuming one was selected at the beginning)
-        # if not then you are asked to name the new brain file
-        
-        if os.path.isfile(self.path): 
-            kernel.saveBrain(self.path)
-        else:
-            print("Name new brain file")
-            inp = input(": ")
-            self.path = "brains\\%s.brn" % inp
-            kernel.saveBrain(self.path)
-            
-            
-    def command_tlr(self):
-        # Test location responses
-        
-        inp = ""
-        for question in questionList:
-            print(question)
-            print(kernel.respond(question))
-            print()
-                                      
-    def command_(self):
-        bot_response = kernel.respond(message)
+        time.sleep(len(paused[0]) / 6.5)
+        api.send(tid, paused[0])
 
-c = Commands(path)
+        try:
+            time.sleep(int(paused[1]))
+        except:
+            print("[p]#[/p] error")
+    else:
+        time.sleep(len(line) / 6.5)
+        api.send(tid, line)
+
 
 api = fbchat.Client("13393724@students.lincoln.ac.uk", "group9")
 
@@ -158,9 +175,15 @@ while True:
             except:
                 response = kernel.respond(message)
                 
-            if response != "" and tid == "963983477056732":
+            if response != "" and tid == "998191603562029":
                 print (response)
-                api.send(tid, response)
+                if "\\n" in response:
+                    lines = response.split(" \\n ")
+                    for l in lines:
+                        pause_in_line(l)
+                else:
+                    pause_in_line(response)
+                    
             elif tid != "963983477056732":
                 print("tid != '963983477056732'")
     
