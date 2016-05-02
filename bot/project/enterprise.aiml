@@ -27,10 +27,12 @@
     <category>
         <pattern>OPEN ENTERPRISE BUILDING</pattern>
         <template>
-           <li>Let me just get that for you. [p]5[p] /n The opening times are 8:30am-5pm Monday-Sunday. Hope this helps :)</li> 
-           <li>One moment.[p]5[p] /n The Enterprise Bulding is open 8:30am-5pm Monday-Sunday. Hope this helps :)</li> 
-           <li>One moment. [p]5[p] /n The opening times are 8:30am-5pm Monday-Sunday. Hope this helps :)</li> 
-           <li>Let me just get that for you. [p]5[p] /n The Enterprise Building is open 8:30am-5pm Monday-Sunday. Hope this helps :)</li>
+			<random>
+				<li>Let me just get that for you. [p]5[p] \n The opening times are 8:30am-5pm Monday-Sunday. Hope this helps :)</li> 
+				<li>One moment.[p]5[p] \n The Enterprise Bulding is open 8:30am-5pm Monday-Sunday. Hope this helps :)</li> 
+				<li>One moment. [p]5[p] \n The opening times are 8:30am-5pm Monday-Sunday. Hope this helps :)</li> 
+				<li>Let me just get that for you. [p]5[p] \n The Enterprise Building is open 8:30am-5pm Monday-Sunday. Hope this helps :)</li>
+			</random>
         </template>
     </category>
     
@@ -45,7 +47,15 @@
 			</srai>
 		</template>
     </category>
-   
+	
+	<category>
+        <pattern>ABOUT ENTERPRISE _</pattern>
+		<template>
+			<srai>
+				ABOUT ENTERPRISE BUILDING
+			</srai>
+		</template>
+    </category>
     
     <!-- DIRECTIONS -->
     <category>
@@ -56,8 +66,16 @@
             </srai>
         </template>
     </category>
-
-    
+	
+	<category>
+        <pattern>DIRECTIONS ENTERPRISE _</pattern>
+        <template>
+            <srai>
+                DIRECTIONS ENTERPRISE BUILDING
+            </srai>
+        </template>
+    </category>
+	
     <!-- OPEN TIMES -->    
     <category>
         <pattern>OPEN ENTERPRISE BUILDING _</pattern>
@@ -67,6 +85,14 @@
             </srai>
         </template>
     </category>
-    
+	
+	<category>
+        <pattern>OPEN ENTERPRISE _</pattern>
+        <template>
+            <srai>
+                OPEN ENTERPRISE BUILDING
+            </srai>
+        </template>
+    </category>
  
 </aiml>

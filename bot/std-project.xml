@@ -6,7 +6,8 @@
             <learn>project/basic_chat.aiml</learn>
             <learn>project/location_directions.aiml</learn>
             <learn>project/location_about.aiml</learn>
-            
+            <learn>project/location_open_times.aiml</learn>
+			
             <learn>project/accommodation.aiml</learn>
             <learn>project/enterprise.aiml</learn>
             <learn>project/joseph_banks_laboratories.aiml</learn>

@@ -31,10 +31,10 @@
         <pattern>OPEN STUDENTS UNION</pattern>
         <template>
             <random>
-				<li>Let me just get that for you. [p]5[p] /n  The opening times are 9:30am-5pm Monday-Friday, and closed Saturday and Sunday. Hope this helps :)</li>
-				<li>One moment.[p]5[p] /n  The Student Union is open 9:30am-5pm Monday-Friday, and closed weekends. Hope this helps :)</li>
-				<li>One moment. [p]5[p] /n  The opening times are 9:30am-5pm Monday-Friday, and closed Saturday and Sunday. Hope this helps :)</li>
-				<li>Let me just get that for you. [p]5[p] /n  The Student Union is open 9:30am-5pm Monday-Friday, and closed weekends. Hope this helps :)</li>
+				<li>Let me just get that for you. [p]5[p] \n  The opening times are 9:30am-5pm Monday-Friday, and closed Saturday and Sunday. Hope this helps :)</li>
+				<li>One moment.[p]5[p] \n  The Student Union is open 9:30am-5pm Monday-Friday, and closed weekends. Hope this helps :)</li>
+				<li>One moment. [p]5[p] \n  The opening times are 9:30am-5pm Monday-Friday, and closed Saturday and Sunday. Hope this helps :)</li>
+				<li>Let me just get that for you. [p]5[p] \n  The Student Union is open 9:30am-5pm Monday-Friday, and closed weekends. Hope this helps :)</li>
 			</random>
         </template>
     </category>

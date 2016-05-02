@@ -26,6 +26,9 @@ def pause_in_line(line):
 while True:
     inp = input(":> ")
     response = kernel.respond(inp)
+
+    #time.sleep(3)
+    #Facebook seen message here
     
     if response != "":
         if "\\n" in response:

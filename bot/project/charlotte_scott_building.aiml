@@ -1,0 +1,193 @@
+<aiml version="1.0.1" encoding="UTF-8">
+
+<!-- RESPONSES -->
+    <!-- ABOUT -->
+    <category>
+        <pattern>ABOUT CHARLOTTE SCOTT BUILDING</pattern>
+		<template>
+			<random>
+				<li> ITEM 1 </li>
+				<li> ITEM 2 </li>
+			</random>
+		</template>
+    </category>
+    
+    <!-- DIRECTIONS -->
+    <category>
+        <pattern>DIRECTIONS CHARLOTTE SCOTT BUILDING</pattern>
+        <template>
+            <random>
+                <li> ITEM 1 </li>
+				<li> ITEM 2 </li>
+            </random>
+        </template>
+    </category>
+    
+    <!-- OPEN TIMES -->
+    <category>
+        <pattern>OPEN CHARLOTTE SCOTT BUILDING</pattern>
+        <template>
+            Let me just get that for you
+            *You experienced a short wait time*
+            Mon 00:00 - 00:00
+            Tue 00:00 - 00:00
+            Wed 00:00 - 00:00
+            Thu 00:00 - 00:00
+            Fri 00:00 - 00:00
+            Sat 00:00 - 00:00
+            Sun 00:00 - 00:00
+        </template>
+    </category>
+    
+    
+<!-- SRAI STATEMENTS -->
+    <!-- ABOUT  -->
+    <category>
+        <pattern>ABOUT CHARLOTTE SCOTT BUILDING _</pattern>
+		<template>
+			<srai>
+				ABOUT CHARLOTTE SCOTT BUILDING
+			</srai>
+		</template>
+    </category>
+
+    <category>
+        <pattern>ABOUT CHARLOTTE SCOTT BUILDING _</pattern>
+		<template>
+			<srai>
+				ABOUT CHARLOTTE SCOTT BUILDING
+			</srai>
+		</template>
+    </category>
+    
+    
+    <!-- DIRECTIONS -->
+    <category>
+        <pattern>DIRECTIONS CHARLOTTE SCOTT BUILDING _</pattern>
+        <template>
+            <srai>
+                DIRECTIONS CHARLOTTE SCOTT BUILDING
+            </srai>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>DIRECTIONS CHARLOTTE SCOTT BUILDING _</pattern>
+        <template>
+            <srai>
+                DIRECTIONS CHARLOTTE SCOTT BUILDING
+            </srai>
+        </template>
+    </category>
+    
+    
+    <!-- OPEN TIMES -->    
+    <category>
+        <pattern>OPEN CHARLOTTE SCOTT BUILDING _</pattern>
+        <template>
+            <srai>
+                OPEN CHARLOTTE SCOTT BUILDING
+            </srai>
+        </template>
+    </category>
+    
+    
+    <category>
+        <pattern>OPEN CHARLOTTE SCOTT BUILDING _</pattern>
+        <template>
+            <srai>
+                OPEN CHARLOTTE SCOTT BUILDING
+            </srai>
+        </template>
+    </category>
+	
+	
+	
+	
+	
+	<!-- ABOUT  -->
+    <category>
+        <pattern>ABOUT CSB _</pattern>
+		<template>
+			<srai>
+				ABOUT CHARLOTTE SCOTT BUILDING
+			</srai>
+		</template>
+    </category>
+    
+    <category>
+        <pattern>ABOUT CSB</pattern>
+		<template>
+			<srai>
+				ABOUT CHARLOTTE SCOTT BUILDING
+			</srai>
+		</template>
+    </category>
+    
+    <category>
+        <pattern>ABOUT CSB _</pattern>
+		<template>
+			<srai>
+				ABOUT CHARLOTTE SCOTT BUILDING
+			</srai>
+		</template>
+    </category>
+    
+    
+    <!-- DIRECTIONS -->
+    <category>
+        <pattern>DIRECTIONS CSB _</pattern>
+        <template>
+            <srai>
+                DIRECTIONS CHARLOTTE SCOTT BUILDING
+            </srai>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>DIRECTIONS CSB</pattern>
+        <template>
+            <srai>
+                DIRECTIONS CHARLOTTE SCOTT BUILDING
+            </srai>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>DIRECTIONS CSB _</pattern>
+        <template>
+            <srai>
+                DIRECTIONS CHARLOTTE SCOTT BUILDING
+            </srai>
+        </template>
+    </category>
+    
+    
+    <!-- OPEN TIMES -->    
+    <category>
+        <pattern>OPEN CSB _</pattern>
+        <template>
+            <srai>
+                OPEN CHARLOTTE SCOTT BUILDING
+            </srai>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>OPEN CSB</pattern>
+        <template>
+            <srai>
+                OPEN CHARLOTTE SCOTT BUILDING
+            </srai>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>OPEN CSB _</pattern>
+        <template>
+            <srai>
+                OPEN CHARLOTTE SCOTT BUILDING
+            </srai>
+        </template>
+    </category>
+</aiml>

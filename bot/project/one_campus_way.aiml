@@ -1,0 +1,195 @@
+<aiml version="1.0.1" encoding="UTF-8">
+
+<!-- RESPONSES -->
+    <!-- ABOUT -->
+    <category>
+        <pattern>ABOUT ONE CAMPUS WAY</pattern>
+		<template>
+			<random>
+				<li> ITEM 1 </li>
+				<li> ITEM 2 </li>
+			</random>
+		</template>
+    </category>
+    
+    <!-- DIRECTIONS -->
+    <category>
+        <pattern>DIRECTIONS ONE CAMPUS WAY</pattern>
+        <template>
+            <random>
+                <li> ITEM 1 </li>
+				<li> ITEM 2 </li>
+            </random>
+        </template>
+    </category>
+    
+    <!-- OPEN TIMES -->
+    <category>
+        <pattern>OPEN ONE CAMPUS WAY</pattern>
+        <template>
+            Let me just get that for you
+            *You experienced a short wait time*
+            Mon 00:00 - 00:00
+            Tue 00:00 - 00:00
+            Wed 00:00 - 00:00
+            Thu 00:00 - 00:00
+            Fri 00:00 - 00:00
+            Sat 00:00 - 00:00
+            Sun 00:00 - 00:00
+        </template>
+    </category>
+    
+    
+<!-- SRAI STATEMENTS -->
+    <!-- ABOUT  -->
+    <category>
+        <pattern>ABOUT ONE CAMPUS WAY _</pattern>
+		<template>
+			<srai>
+				ABOUT ONE CAMPUS WAY
+			</srai>
+		</template>
+    </category>
+    
+    
+    <category>
+        <pattern>ABOUT ONE CAMPUS WAY _</pattern>
+		<template>
+			<srai>
+				ABOUT ONE CAMPUS WAY
+			</srai>
+		</template>
+    </category>
+    
+    
+    <!-- DIRECTIONS -->
+    <category>
+        <pattern>DIRECTIONS ONE CAMPUS WAY _</pattern>
+        <template>
+            <srai>
+                DIRECTIONS ONE CAMPUS WAY
+            </srai>
+        </template>
+    </category>
+    
+    
+    <category>
+        <pattern>DIRECTIONS ONE CAMPUS WAY _</pattern>
+        <template>
+            <srai>
+                DIRECTIONS ONE CAMPUS WAY
+            </srai>
+        </template>
+    </category>
+    
+    
+    <!-- OPEN TIMES -->    
+    <category>
+        <pattern>OPEN ONE CAMPUS WAY _</pattern>
+        <template>
+            <srai>
+                OPEN ONE CAMPUS WAY
+            </srai>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>OPEN ONE CAMPUS WAY _</pattern>
+        <template>
+            <srai>
+                OPEN ONE CAMPUS WAY
+            </srai>
+        </template>
+    </category>
+	
+	
+	
+	
+	
+	
+	<!-- ABOUT  -->
+    <category>
+        <pattern>ABOUT OCW _</pattern>
+		<template>
+			<srai>
+				ABOUT ONE CAMPUS WAY
+			</srai>
+		</template>
+    </category>
+    
+    <category>
+        <pattern>ABOUT OCW</pattern>
+		<template>
+			<srai>
+				ABOUT ONE CAMPUS WAY
+			</srai>
+		</template>
+    </category>
+    
+    <category>
+        <pattern>ABOUT OCW _</pattern>
+		<template>
+			<srai>
+				ABOUT ONE CAMPUS WAY
+			</srai>
+		</template>
+    </category>
+    
+    
+    <!-- DIRECTIONS -->
+    <category>
+        <pattern>DIRECTIONS OCW _</pattern>
+        <template>
+            <srai>
+                DIRECTIONS ONE CAMPUS WAY
+            </srai>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>DIRECTIONS OCW</pattern>
+        <template>
+            <srai>
+                DIRECTIONS ONE CAMPUS WAY
+            </srai>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>DIRECTIONS OCW _</pattern>
+        <template>
+            <srai>
+                DIRECTIONS ONE CAMPUS WAY
+            </srai>
+        </template>
+    </category>
+    
+    
+    <!-- OPEN TIMES -->    
+    <category>
+        <pattern>OPEN OCW _</pattern>
+        <template>
+            <srai>
+                OPEN ONE CAMPUS WAY
+            </srai>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>OPEN OCW</pattern>
+        <template>
+            <srai>
+                OPEN ONE CAMPUS WAY
+            </srai>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>OPEN OCW _</pattern>
+        <template>
+            <srai>
+                OPEN ONE CAMPUS WAY
+            </srai>
+        </template>
+    </category>
+</aiml>

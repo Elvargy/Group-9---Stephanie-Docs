@@ -27,8 +27,10 @@
     <category>
         <pattern>OPEN JOSEPH BANKS LABORATORIES</pattern>
         <template>
-            <li>Let me just get that for you. [p]5[p] /n Joseph Banks is open 24 hours a day, 7 days a week. Hope this helps :)</li> 
-            <li>One moment.[p]5[p] /n Joseph banks is open all day, every day! Hope this helps :)</li> 
+			<random>
+				<li>Let me just get that for you. [p]5[p] \n Joseph Banks is open 24 hours a day, 7 days a week. Hope this helps :)</li> 
+				<li>One moment.[p]5[p] \n Joseph banks is open all day, every day! Hope this helps :)</li> 
+			</random>
         </template>
     </category>
     

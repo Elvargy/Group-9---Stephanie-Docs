@@ -50,16 +50,6 @@
 			</srai>
 		</template>
     </category>
-    
-    <category>
-        <pattern>ABOUT BUILDINGNAMEHERE</pattern>
-		<template>
-			<srai>
-				ABOUT BUILDINGNAMEHERE
-			</srai>
-		</template>
-    </category>
-    
     <category>
         <pattern>ABOUT BUILDINGNAMEHERE _</pattern>
 		<template>
@@ -73,15 +63,6 @@
     <!-- DIRECTIONS -->
     <category>
         <pattern>DIRECTIONS BUILDINGNAMEHERE _</pattern>
-        <template>
-            <srai>
-                DIRECTIONS BUILDINGNAMEHERE
-            </srai>
-        </template>
-    </category>
-    
-    <category>
-        <pattern>DIRECTIONS BUILDINGNAMEHERE</pattern>
         <template>
             <srai>
                 DIRECTIONS BUILDINGNAMEHERE
@@ -108,16 +89,7 @@
             </srai>
         </template>
     </category>
-    
-    <category>
-        <pattern>OPEN BUILDINGNAMEHERE</pattern>
-        <template>
-            <srai>
-                OPEN BUILDINGNAMEHERE
-            </srai>
-        </template>
-    </category>
-    
+
     <category>
         <pattern>OPEN BUILDINGNAMEHERE _</pattern>
         <template>
