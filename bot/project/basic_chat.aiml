@@ -692,7 +692,31 @@
 		</template>
 	</category>
 
-	<!-- Fallthrough Responses-->
+    <!-- Repetition -->
+	<category>
+		<pattern>23165498649878498</pattern>
+		<template>
+			<random>
+				<li>We've been through this before :P</li>
+                <li>We already said that</li>
+			</random>
+		</template>
+	</category>
+    
+    <!-- Patience Thinning -->
+	<category>
+		<pattern>92759827359872985</pattern>
+		<template>
+			<random>
+				<li>You're not making any sense</li>
+                <li>Do you actually have a question?</li>
+                <li>I can't understand you</li>
+                <li>Is this even English?</li>
+			</random>
+		</template>
+	</category>
+    
+    <!-- Fallthrough Responses -->
 	<category>
 		<pattern>*</pattern>
 		<template>
@@ -703,10 +727,8 @@
 				<li>Could you rephrase that?</li>
 				<li>I'm not sure I know about that.</li>
 				<li>What do you mean?</li>
-				<li>Suck my dick you pixie wanker</li>
 			</random>
 		</template>
 	</category>
-
     
 </aiml>

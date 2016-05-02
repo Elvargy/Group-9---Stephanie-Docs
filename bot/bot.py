@@ -130,6 +130,22 @@ def pause_in_line(line):
         time.sleep(len(line) / 6.5)
         api.send(tid, line)
 
+fallthrough = [
+        "I'm sorry, I don't understand what you mean...",
+        "I'm not sure what you mean by that",
+        "Can you explain what you mean?",
+        "Could you rephrase that?",
+        "I'm not sure I know about that.",
+        "What do you mean?",
+        "You're not making any sense",
+        "Do you actually have a question?",
+        "I can't understand you",
+        "Is this even English?"
+    ]
+fallen = 0
+
+responsesList = []
+questionsList = []
 
 api = fbchat.Client("13393724@students.lincoln.ac.uk", "group9")
 
@@ -174,18 +190,36 @@ while True:
                 response = ""
             except:
                 response = kernel.respond(message)
-                
-            if response != "" and tid == "998191603562029":
-                print (response)
-                if "\\n" in response:
-                    lines = response.split(" \\n ")
-                    for l in lines:
-                        pause_in_line(l)
-                else:
-                    pause_in_line(response)
+        
+                if tid == "998191603562029":
+                    if response in fallthrough:
+                        fallen += 1
+                        print("Fallen")
+                    else:
+                        fallen = 0
+
+                        if response in responsesList:
+                            response = kernel.respond("23165498649878498")
+                            print("Repeated response")
+                        else:
+                            responsesList.append(response)
+
+                    if fallen > 3:
+                        print("Hit the ground")
+                        continue
+                    elif fallen == 3:
+                        response = kernel.respond("92759827359872985")
+                        print("Almost fallen to the ground")
                     
-            elif tid != "963983477056732":
-                print("tid != '963983477056732'")
+                    if "\\n" in response:
+                        lines = response.split(" \\n ")
+                        for l in lines:
+                            pause_in_line(l)
+                    else:
+                        pause_in_line(response)
+                        
+                else:
+                    print("tid != '998191603562029'")
     
         else:
             print("tid == None")
