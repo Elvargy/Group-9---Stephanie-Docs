@@ -50,14 +50,6 @@
 		</template>
     </category>
     
-    <category>
-        <pattern>ABOUT MHT _</pattern>
-		<template>
-			<srai>
-				ABOUT MHT
-			</srai>
-		</template>
-    </category>
     
     <category>
         <pattern>ABOUT MEDIA BUILDING</pattern>

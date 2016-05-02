@@ -45,25 +45,7 @@
 			</srai>
 		</template>
     </category>
-    
-    <category>
-        <pattern>ABOUT ENTERPRISE BUILDING</pattern>
-		<template>
-			<srai>
-				ABOUT ENTERPRISE BUILDING
-			</srai>
-		</template>
-    </category>
-    
-    <category>
-        <pattern>ABOUT ENTERPRISE BUILDING _</pattern>
-		<template>
-			<srai>
-				ABOUT ENTERPRISE BUILDING
-			</srai>
-		</template>
-    </category>
-    
+   
     
     <!-- DIRECTIONS -->
     <category>
@@ -74,25 +56,7 @@
             </srai>
         </template>
     </category>
-    
-    <category>
-        <pattern>DIRECTIONS ENTERPRISE BUILDING</pattern>
-        <template>
-            <srai>
-                DIRECTIONS ENTERPRISE BUILDING
-            </srai>
-        </template>
-    </category>
-    
-    <category>
-        <pattern>DIRECTIONS ENTERPRISE BUILDING _</pattern>
-        <template>
-            <srai>
-                DIRECTIONS ENTERPRISE BUILDING
-            </srai>
-        </template>
-    </category>
-    
+
     
     <!-- OPEN TIMES -->    
     <category>
@@ -104,21 +68,5 @@
         </template>
     </category>
     
-    <category>
-        <pattern>OPEN ENTERPRISE BUILDING</pattern>
-        <template>
-            <srai>
-                OPEN ENTERPRISE BUILDING
-            </srai>
-        </template>
-    </category>
-    
-    <category>
-        <pattern>OPEN ENTERPRISE BUILDING _</pattern>
-        <template>
-            <srai>
-                OPEN ENTERPRISE BUILDING
-            </srai>
-        </template>
-    </category>
+ 
 </aiml>

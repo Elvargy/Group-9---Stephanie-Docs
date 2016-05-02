@@ -45,25 +45,7 @@
 			</srai>
 		</template>
     </category>
-    
-    <category>
-        <pattern>ABOUT LINCOLN PERFORMING ARTS CENTRE</pattern>
-		<template>
-			<srai>
-				ABOUT LINCOLN PERFORMING ARTS CENTRE
-			</srai>
-		</template>
-    </category>
-    
-    <category>
-        <pattern>ABOUT LINCOLN PERFORMING ARTS CENTRE _</pattern>
-		<template>
-			<srai>
-				ABOUT LINCOLN PERFORMING ARTS CENTRE
-			</srai>
-		</template>
-    </category>
-    
+
     <category>
         <pattern>ABOUT LPAC</pattern>
         <template>
@@ -91,25 +73,7 @@
             </srai>
         </template>
     </category>
-    
-    <category>
-        <pattern>DIRECTIONS LINCOLN PERFORMING ARTS CENTRE</pattern>
-        <template>
-            <srai>
-                DIRECTIONS LINCOLN PERFORMING ARTS CENTRE
-            </srai>
-        </template>
-    </category>
-    
-    <category>
-        <pattern>DIRECTIONS LINCOLN PERFORMING ARTS CENTRE _</pattern>
-        <template>
-            <srai>
-                DIRECTIONS LINCOLN PERFORMING ARTS CENTRE
-            </srai>
-        </template>
-    </category>
-    
+     
     <category>
         <pattern>DIRECTIONS LPAC</pattern>
         <template>
@@ -137,25 +101,7 @@
             </srai>
         </template>
     </category>
-    
-    <category>
-        <pattern>OPEN LINCOLN PERFORMING ARTS CENTRE</pattern>
-        <template>
-            <srai>
-                OPEN LINCOLN PERFORMING ARTS CENTRE
-            </srai>
-        </template>
-    </category>
-    
-    <category>
-        <pattern>OPEN LINCOLN PERFORMING ARTS CENTRE _</pattern>
-        <template>
-            <srai>
-                OPEN LINCOLN PERFORMING ARTS CENTRE
-            </srai>
-        </template>
-    </category>
-    
+  
     <category>
         <pattern>OPEN LPAC</pattern>
         <template>
