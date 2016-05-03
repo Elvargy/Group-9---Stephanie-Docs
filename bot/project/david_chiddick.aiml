@@ -1,0 +1,122 @@
+<aiml version="1.0.1" encoding="UTF-8">
+
+<!-- RESPONSES -->
+    <!-- ABOUT -->
+    <category>
+        <pattern>ABOUT DAVID CHIDDICK</pattern>
+		<template>
+			<random>
+				<li> If you're looking for the building for business and law then look no futher. The David Chiddick building is a student-centred space, complete with ‘learning lounges’, lecture theatres and social spaces! </li>
+				<li> The David chiddick building is home to the schools of Business and Law. It is the best place to go for any student wishing to know more about these fields :)</li>
+			</random>
+		</template>
+    </category>
+    
+    <!-- DIRECTIONS -->
+    <category>
+        <pattern>DIRECTIONS DAVID CHIDDICK</pattern>
+        <template>
+            <random>
+                <li> This building is found on the other side of the River Witham to the rest of the uni. Head down to the engine shed and you'll see it straight across the bridge!</li>
+				<li> The David Chiddick building is real close the library. Head there then cross the bridge, its the building with the big 'LLMC' letters </li>
+            </random>
+        </template>
+    </category>
+    
+    <!-- OPEN TIMES -->
+    <category>
+        <pattern>OPEN DAVID CHIDDICK</pattern>
+        <template>
+            <random>
+				<li>Let me just get that for you. [p]5[p] \n David Chiddick Building from 7am till 9pm! Hope this helps :)</li> 
+				<li>One moment.[p]5[p] \n Its open from 7:00am until 9:30pm, hope this helps :)</li> 
+			</random>
+        </template>
+    </category>
+    
+    
+<!-- SRAI STATEMENTS -->
+    <!-- ABOUT  -->
+    <category>
+        <pattern>ABOUT DAVID CHIDDICK _</pattern>
+		<template>
+			<srai>
+				ABOUT DAVID CHIDDICK
+			</srai>
+		</template>
+    </category>
+	
+	<category>
+        <pattern>ABOUT ALTERNATEDAVID CHIDDICK</pattern>
+		<template>
+			<srai>
+				ABOUT DAVID CHIDDICK
+			</srai>
+		</template>
+    </category>
+	
+    <category>
+        <pattern>ABOUT ALTERNATEDAVID CHIDDICK _</pattern>
+		<template>
+			<srai>
+				ABOUT DAVID CHIDDICK
+			</srai>
+		</template>
+    </category>
+    
+    <!-- DIRECTIONS -->
+    <category>
+        <pattern>DIRECTIONS DAVID CHIDDICK _</pattern>
+        <template>
+            <srai>
+                DIRECTIONS DAVID CHIDDICK
+            </srai>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>DIRECTIONS ALTERNATEDAVID CHIDDICK</pattern>
+        <template>
+            <srai>
+                DIRECTIONS DAVID CHIDDICK
+            </srai>
+        </template>
+    </category>
+    
+	<category>
+        <pattern>DIRECTIONS ALTERNATEDAVID CHIDDICK _</pattern>
+        <template>
+            <srai>
+                DIRECTIONS DAVID CHIDDICK
+            </srai>
+        </template>
+    </category>
+    
+    <!-- OPEN TIMES -->    
+    <category>
+        <pattern>OPEN DAVID CHIDDICK _</pattern>
+        <template>
+            <srai>
+                OPEN DAVID CHIDDICK
+            </srai>
+        </template>
+    </category>
+	
+	<category>
+        <pattern>OPEN ALTERNATEDAVID CHIDDICK</pattern>
+        <template>
+            <srai>
+                OPEN DAVID CHIDDICK
+            </srai>
+        </template>
+    </category>
+	
+    <category>
+        <pattern>OPEN ALTERNATEDAVID CHIDDICK _</pattern>
+        <template>
+            <srai>
+                OPEN DAVID CHIDDICK
+            </srai>
+        </template>
+    </category>
+</aiml>
