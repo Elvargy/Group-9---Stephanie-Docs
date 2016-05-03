@@ -32,15 +32,6 @@ MHT
 | Open Times.
 
 
-MINSTER HOUSE
-| About:
-    - Item 1 (Currently very brief)
-    - Item 2
-| Directions:
-    - Item 1 (Again, not sure about pointing people to Google maps)
-    - Item 2
-| Open Times (Very brief)
-
 
 ONE CAMPUS WAY
 | About:

@@ -6,8 +6,8 @@
         <pattern>ABOUT MINSTER HOUSE</pattern>
 		<template>
 			<random>
-				<li> A building created to allow students and staff to use this building for resaerch and teaching </li>
-				<li> ITEM 2 </li>
+				<li> A building created to allow students and staff to use this building for resaerch and teaching in the schools of chemistry, life sciences and pharmacy!</li>
+				<li> The minister House was built alongside the Joseph Banks Building to give students and researchers more space for chemistry, life science and pharmacy studies!</li>
 			</random>
 		</template>
     </category>
@@ -17,8 +17,8 @@
         <pattern>DIRECTIONS MINSTER HOUSE</pattern>
         <template>
             <random>
-                <li> This is located next to the Joseph Banks laboratories located southwest from campus, if unsure look on google maps :)</li>
-				<li> ITEM 2 </li>
+                <li> This is located next to the Joseph Banks laboratories located southwest from campus, just opposite the think tank! :)</li>
+				<li> You can find this close by to the Pavillions. Head towards the back of this accommodation and towards Green Lane, it's right on the end next to the Joseph Banks Building </li>
             </random>
         </template>
     </category>
@@ -27,9 +27,10 @@
     <category>
         <pattern>OPEN MINSTER HOUSE</pattern>
         <template>
-          <random>
-		  <li>  this is open from 7.30am to 6.00pm </li>
-		  </random>
+            <random>
+				<li>Let me just get that for you. [p]5[p] \n The Minister House is open from 7:00am- 6:00pm :)</li> 
+        		<li>One moment.[p]5[p] \n You can access this building from as early as 7 in the morning up until 6 in the afternoon :)</li> 
+			</random>
         </template>
     </category>
     
