@@ -11,13 +11,3 @@ CHARLOTTE SCOTT BUILDING
     - Item 1
     - Item 2
 | Open Times.
-
-
-ONE CAMPUS WAY
-| About:
-    - Item 2
-| Directions:
-    - Item 2
-| Open Times.
-
-

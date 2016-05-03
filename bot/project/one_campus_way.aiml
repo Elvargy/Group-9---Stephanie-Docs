@@ -6,8 +6,8 @@
         <pattern>ABOUT ONE CAMPUS WAY</pattern>
 		<template>
 			<random>
-				<li> One Campus Way is the address of the Graduate School, a building dedicated to Postgraduate study.</li>
-				<li> ITEM 2 </li>
+				<li> One Campus Way is the address of the Graduate School, a building dedicated to Postgraduate study. However, it is also the laundrette and Reception for Courts</li>
+				<li> As a fresher, One Campus Way is where you will be able to wash your clothes and pick up your mail if you live in Courts! </li>
 			</random>
 		</template>
     </category>
@@ -18,26 +18,25 @@
         <template>
             <random>
                 <li> One Campus Way is in the midst of the Courts accomodation near the mini roundabout and closest to the Sports Centre.  </li>
-				<li> ITEM 2 </li>
+				<li> One Campus Ways is near the bottom of the student village. It's pretty much on the roundabout. </li>
             </random>
         </template>
     </category>
     
     <!-- OPEN TIMES -->
+    <!-- OPEN TIMES -->
     <category>
         <pattern>OPEN ONE CAMPUS WAY</pattern>
         <template>
-            Let me just get that for you
-            *You experienced a short wait time*
-            Mon 00:00 - 00:00
-            Tue 00:00 - 00:00
-            Wed 00:00 - 00:00
-            Thu 00:00 - 00:00
-            Fri 00:00 - 00:00
-            Sat 00:00 - 00:00
-            Sun 00:00 - 00:00
+            <random>
+                <li>Let me just get that for you. [p]5[p] \n The opening times are 9AM to 6PM. Hope this helps :)</li> 
+                <li>One moment.[p]5[p] \n One Campus Way is open every weekday from 9AM to 6PM. Hope this helps :)</li> 
+                <li>One moment. [p]5[p] \n The opening times are 9AM to 6PM. Hope this helps :)</li> 
+               
+            </random>
         </template>
     </category>
+
     
     
 <!-- SRAI STATEMENTS -->
