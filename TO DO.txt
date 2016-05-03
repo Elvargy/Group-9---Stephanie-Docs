@@ -50,16 +50,6 @@ ONE CAMPUS WAY
 | Open Times.
 
 
-SCIENCE CENTRE
-| About:
-    - Item 1 (Make it sound a bit more like a sentence)
-    - Item 2
-| Directions:
-    - Item 1 (Brief af)
-    - Item 2
-| Open Times. (Be more specific)
-
-
 STUDENT WELLBEING CENTER
 | About:
     - Item 1
@@ -76,12 +66,3 @@ THINK TANK
 | Directions:
     - Item 1
     - Item 2
-
-LIBRARY
-| About:
-    - Item 1
-    - Item 2
-| Directions:
-    - Item 1
-    - Item 2
-| Open Times.

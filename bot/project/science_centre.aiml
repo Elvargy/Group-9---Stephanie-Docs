@@ -6,8 +6,8 @@
         <pattern>ABOUT SCIENCE CENTRE</pattern>
 		<template>
 			<random>
-				<li> State of the art science building, with specialist equipment and labs </li>
-				<li> ITEM 2 </li>
+				<li> This state-of-the-art building is home to world-changing research, exceptional students and industry-leading academics! Great for any student in the fields of biology chemisty and physics</li>
+				<li> The science centre covers topics as varied as Biochemistry and Forensic Science, the laboratories and specialist equipment are all high-specification. The facilities are also used by external providers, oh you could meet some famous scientists here! Maybe .. ;)</li>
 			</random>
 		</template>
     </category>
@@ -17,8 +17,8 @@
         <pattern>DIRECTIONS SCIENCE CENTRE</pattern>
         <template>
             <random>
-                <li>  This building is located oppersite from the Art and Design building. </li>
-				<li> ITEM 2 </li>
+                <li> This building is located down the path from the Art and Design building, just past the bridge going across the train tracks. </li>
+				<li> Just like if you were heading to the sports building, you go past the architecture and engineering buildings. This time stop at the small path before the road bridge thing, it's the building on your right! :) </li>
             </random>
         </template>
     </category>
@@ -28,7 +28,8 @@
         <pattern>OPEN SCIENCE CENTRE</pattern>
         <template>
             <random>
-                <li> let me get the times for you [p]5[p] \n the building is open from 6.30am to late. </li>
+                <li> let me get the times for you [p]5[p] \n The building is open from 6.30am to late, usually whenever the last person leaves! </li>
+                <li> Hold on [p]5[p] \n The science centre opens at 6.30am and stays open until later, like the architecture building. When the last person leaves, they close up shop! </li>
             </random>
         </template>
     </category>
