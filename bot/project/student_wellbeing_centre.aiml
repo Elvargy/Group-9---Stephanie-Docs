@@ -3,39 +3,36 @@
 <!-- RESPONSES -->
     <!-- ABOUT -->
     <category>
-        <pattern>ABOUT STUDENT WELLBEING CENTER</pattern>
+        <pattern>ABOUT STUDENT WELLBEING</pattern>
 		<template>
 			<random>
-				<li> ITEM 1 </li>
-				<li> ITEM 2 </li>
+				<li> The Student Wellbeing Centre is there to offer support, advice and guidance with any issues or challenges that you may have during your studies. They offer Counselling Services, Disability          services, and a Chaplaincy Service. </li>
+				<li> The Wellbeing Centre is there to offer support to students with issues that they may face during their studies. They offer Counselling Services, Disability services, and a Chaplaincy Service. </li>
 			</random>
 		</template>
     </category>
     
     <!-- DIRECTIONS -->
     <category>
-        <pattern>DIRECTIONS STUDENT WELLBEING CENTER</pattern>
+        <pattern>DIRECTIONS STUDENT WELLBEING</pattern>
         <template>
             <random>
-                <li> ITEM 1 </li>
-				<li> ITEM 2 </li>
+                <li> The Student Wellbeing Centre, located on the First Floor of the Marina Building, which is right next to the Swan and EMMTEC building</li>
+				<li> The Wellbeing Centre is right night to the health centre. This is to the right of the EMMTEC builing on the north side of campus </li>
             </random>
         </template>
     </category>
     
-    <!-- OPEN TIMES -->
+   <!-- OPEN TIMES -->
     <category>
-        <pattern>OPEN STUDENT WELLBEING CENTER</pattern>
+        <pattern>OPEN SUDENT WELLBEING</pattern>
         <template>
-            Let me just get that for you
-            *You experienced a short wait time*
-            Mon 00:00 - 00:00
-            Tue 00:00 - 00:00
-            Wed 00:00 - 00:00
-            Thu 00:00 - 00:00
-            Fri 00:00 - 00:00
-            Sat 00:00 - 00:00
-            Sun 00:00 - 00:00
+            <random>
+                <li>Let me just get that for you. [p]5[p] \n The opening times are Monday-Friday between 12-2pm and on Thursday evenings (term-time) between 5-7pm. Hope this helps :)</li> 
+                <li>One moment please.[p]5[p] \n The Enterprise Bulding is open Monday-Friday between 12-2pm and on Thursday evenings (term-time) between 5-7pm. Hope this helps :)</li> 
+                <li>One moment. [p]5[p] \n The opening times are Monday-Friday between 12-2pm and on Thursday evenings (term-time) between 5-7pm. Hope this helps :)</li> 
+                <li>Let me just get that for you. [p]5[p] \n The Enterprise Building is open Monday-Friday between 12-2pm and on Thursday evenings (term-time) between 5-7pm. Hope this helps :)</li>
+            </random>
         </template>
     </category>
     
@@ -43,10 +40,10 @@
 <!-- SRAI STATEMENTS -->
     <!-- ABOUT  -->
     <category>
-        <pattern>ABOUT STUDENT WELLBEING CENTER _</pattern>
+        <pattern>ABOUT STUDENT WELLBEING _</pattern>
 		<template>
 			<srai>
-				ABOUT STUDENT WELLBEING CENTER
+				ABOUT STUDENT WELLBEING
 			</srai>
 		</template>
     </category>
@@ -55,7 +52,7 @@
         <pattern>ABOUT SS</pattern>
 		<template>
 			<srai>
-				ABOUT STUDENT WELLBEING CENTER
+				ABOUT STUDENT WELLBEING
 			</srai>
 		</template>
     </category>
@@ -64,17 +61,17 @@
         <pattern>ABOUT SS _</pattern>
 		<template>
 			<srai>
-				ABOUT STUDENT WELLBEING CENTER
+				ABOUT STUDENT WELLBEING
 			</srai>
 		</template>
     </category>
 
     <!-- DIRECTIONS -->
     <category>
-        <pattern>DIRECTIONS STUDENT WELLBEING CENTER _</pattern>
+        <pattern>DIRECTIONS STUDENT WELLBEING _</pattern>
         <template>
             <srai>
-                DIRECTIONS STUDENT WELLBEING CENTER
+                DIRECTIONS STUDENT WELLBEING
             </srai>
         </template>
     </category>
@@ -83,7 +80,7 @@
         <pattern>DIRECTIONS SS</pattern>
         <template>
             <srai>
-                DIRECTIONS STUDENT WELLBEING CENTER
+                DIRECTIONS STUDENT WELLBEING
             </srai>
         </template>
     </category>
@@ -92,17 +89,17 @@
         <pattern>DIRECTIONS SS _</pattern>
         <template>
             <srai>
-                DIRECTIONS STUDENT WELLBEING CENTER
+                DIRECTIONS STUDENT WELLBEING
             </srai>
         </template>
     </category>
 
     <!-- OPEN TIMES -->    
     <category>
-        <pattern>OPEN STUDENT WELLBEING CENTER _</pattern>
+        <pattern>OPEN STUDENT WELLBEING _</pattern>
         <template>
             <srai>
-                OPEN STUDENT WELLBEING CENTER
+                OPEN STUDENT WELLBEING
             </srai>
         </template>
     </category>
@@ -111,7 +108,7 @@
         <pattern>OPEN SS</pattern>
         <template>
             <srai>
-                OPEN STUDENT WELLBEING CENTER
+                OPEN STUDENT WELLBEING
             </srai>
         </template>
     </category>  
@@ -120,7 +117,7 @@
         <pattern>OPEN SS _</pattern>
         <template>
             <srai>
-                OPEN STUDENT WELLBEING CENTER
+                OPEN STUDENT WELLBEING
             </srai>
         </template>
     </category>
