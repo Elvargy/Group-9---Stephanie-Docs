@@ -21,15 +21,6 @@ CHARLOTTE SCOTT BUILDING
     - Item 1
     - Item 2
 | Open Times.
-
-
-ENGINEERING HUB
-| About:
-    - Item 2
-| Directions:
-    - Item 2
-| Open Times.
-
     
 
 JOSEPH BANKS LABORATORIES

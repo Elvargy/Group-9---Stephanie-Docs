@@ -6,8 +6,8 @@
         <pattern>ABOUT ENGINEERING HUB</pattern>
 		<template>
 			<random>
-				<li> The Engineering hub is a building that houses the school of Engineering students. </li>
-				<li> ITEM 2 </li>
+				<li> The Engineering hub is a building that houses the school of Engineering students and is one of the first of its kind in the UK </li>
+				<li> The Engineering hub is the home to the School of Engineering which works in collaboration with leading global engineering company, Siemens!</li>
 			</random>
 		</template>
     </category>
@@ -17,8 +17,8 @@
         <pattern>DIRECTIONS ENGINEERING HUB</pattern>
         <template>
             <random>
-                <li> The building is located on the south side of campus, opposite the student union building and near the library. It is hard to miss! </li>
-				<li> ITEM 2 </li>
+                <li> The building is located on the south side of campus, around the same area as  the student union building and library. It is hard to miss! </li>
+				<li> Near the library, just opposite the Architecture building. It's recently had a huge extension so you could find it in no time if you keep an eye out :)</li>
             </random>
         </template>
     </category>
