@@ -5,8 +5,8 @@
         <pattern>ABOUT MHT</pattern>
 		<template>
 			<random>
-				<li> the Media, Humanities and Technology building (or MHT) is fully equipped to industry standards with media suites providing the latest broadcast television, radio and sound equipment, as well as television and photographic studios and radio editing suites. We also have Siren FM, our on-campus community radio station, which is based here. </li>
-				<li> ITEM 2 </li>
+				<li> the Media, Humanities and Technology building is fully equipped to industry standards with media suites providing the latest broadcast television, radio and sound equipment, as well as television and photographic studios and radio editing suites</li>
+				<li> The MHT building has many facilities for media students as well as Siren FM, our on-campus community radio station, which is based here. You can also find the computer labs for the school of computer science students here!</li>
 			</random>
 		</template>
     </category>
@@ -16,8 +16,8 @@
         <pattern>DIRECTIONS MHT</pattern>
         <template>
             <random>
-                <li> ITEM 1 </li>
-				<li> ITEM 2 </li>
+                <li> You can find this place right next to the Swan pub, its the building with huge pillars holding up the most pointless skylight ;)</li>
+				<li> MHT is opposite the Minerva building, on the side with the bridge going across the train tracks. You can easily see it from the Swan :)</li>
             </random>
         </template>
     </category>
@@ -26,15 +26,10 @@
     <category>
         <pattern>OPEN MHT</pattern>
         <template>
-            Let me just get that for you
-            *You experienced a short wait time*
-            Mon 00:00 - 00:00
-            Tue 00:00 - 00:00
-            Wed 00:00 - 00:00
-            Thu 00:00 - 00:00
-            Fri 00:00 - 00:00
-            Sat 00:00 - 00:00
-            Sun 00:00 - 00:00
+            <random>
+                <li> let me get the times for you [p]5[p] \n MHT is open 7.30am-9.30pm however, students in the school of computing have recently had access to the computer labs 24/7! </li>
+                <li> Hold on [p]5[p] \n The media building is open from 7:30am until 9:30pm, and 24/7 for the computer labs, although you need to sign in for this one :) </li>
+            </random>
         </template>
     </category>
     
