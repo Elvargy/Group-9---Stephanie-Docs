@@ -1,0 +1,69 @@
+<aiml version="1.0.1" encoding="UTF-8">
+
+<!-- RESPONSES -->
+    <!-- ABOUT -->
+    <category>
+        <pattern>ABOUT ENGINE SHED</pattern>
+		<template>
+			<random>
+				<li> The Engine Shed is a music and entertainment venue located on the university campus, making it perfect for those staying in on campus accommodation! Check out their website for upcoming gigs and events http://www.engineshed.co.uk/gigs-and-live-music/ </li>
+				<li> This entertainment venue has been known to host many well known acts in the past such as Kings of Leon, Stereophonics, Gorillaz, Kasabian, 30 Seconds to Mars, Plan B, Manic Street Preachers and many more! Make sure you keep up to date on their website so you know what events are coming up! http://www.engineshed.co.uk/gigs-and-live-music/ </li>
+			</random>
+		</template>
+    </category>
+    
+    <!-- DIRECTIONS -->
+    <category>
+        <pattern>DIRECTIONS ENGINE SHED</pattern>
+        <template>
+            <random>
+                <li> You can find the Engine Shed opposite the library, right next to the Tower Bar. The student union is also located in this building. </li>
+				<li> If you walk just down the path from the Architecture building towards the library, you'll find a vertical sign with Engine Shed written down it to your left.</li>
+            </random>
+        </template>
+    </category>
+    
+    <!-- OPEN TIMES -->
+    <category>
+        <pattern>OPEN ENGINE SHED</pattern>
+        <template>
+            <random>
+                <li> let me get the times for you [p]5[p] \n The building is open from 9am to 5pm Mon-Fri and closes for the weekends</li>
+                <li> Hold on [p]5[p] \n The Engine Shed opens at 9 in the morning and shuts at 5 in the evening from Monday to Friday! </li>
+            </random>
+        </template>
+    </category>
+    
+    
+<!-- SRAI STATEMENTS -->
+    <!-- ABOUT  -->
+    <category>
+        <pattern>ABOUT ENGINE SHED _</pattern>
+		<template>
+			<srai>
+				ABOUT ENGINE SHED
+			</srai>
+		</template>
+    </category>
+    
+    <!-- DIRECTIONS -->
+    <category>
+        <pattern>DIRECTIONS ENGINE SHED _</pattern>
+        <template>
+            <srai>
+                DIRECTIONS ENGINE SHED
+            </srai>
+        </template>
+    </category>
+    
+    <!-- OPEN TIMES -->    
+    <category>
+        <pattern>OPEN ENGINE SHED _</pattern>
+        <template>
+            <srai>
+                OPEN ENGINE SHED
+            </srai>
+        </template>
+    </category>
+    
+</aiml>
