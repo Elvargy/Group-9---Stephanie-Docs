@@ -32,7 +32,8 @@
 			<learn>project/subjects.aiml</learn>
 			<learn>project/lincoln.aiml</learn>
 			<learn>project/library.aiml</learn>
-	
+            <learn>project/aad.aiml</learn> 
+            <learn>project/david_chiddick.aiml</learn>
         </template>
         
     </category>

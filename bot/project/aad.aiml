@@ -1,0 +1,177 @@
+<aiml version="1.0.1" encoding="UTF-8">
+
+<!-- RESPONSES -->
+    <!-- ABOUT -->
+    <category>
+        <pattern>ABOUT AAD</pattern>
+		<template>
+			<random>
+				<li> Designed by world-renowned architect Rick Mather, The Art, Architecture and Design building is the creative and technical hub for courses related to fine art, architecture and design. </li>
+				<li> THE AAD building is surprisngly home to all courses relating to art architecture and design, if that's what you're into then this is where you should be! </li>
+			</random>
+		</template>
+    </category>
+    
+    <!-- DIRECTIONS -->
+    <category>
+        <pattern>DIRECTIONS AAD</pattern>
+        <template>
+            <random>
+                <li> You can find this building opposite the engineering hub, not too far from the library and engine shed! </li>
+				<li> The AAD building is found just next to the bridge in the middle of the uni that crosses the train tracks. You can find it to the left as you exit on the side furthest away from the Brayford! </li>
+            </random>
+        </template>
+    </category>
+    
+    <!-- OPEN TIMES -->
+    <category>
+        <pattern>OPEN AAD</pattern>
+        <template>
+            <random>
+                <li> The Art, Architecture and design building is open from 6:45am until the last person leave! It's pretty much open until late night :) </li>
+                <li> AAD opens at 6:45 in the morning and doesn't shut until late evening, usually whenever the last person leaves! </li>
+            </random>
+        </template>
+    </category>
+    
+    
+<!-- SRAI STATEMENTS -->
+    <!-- ABOUT  -->
+    <category>
+        <pattern>ABOUT AAD _</pattern>
+		<template>
+			<srai>
+				ABOUT AAD
+			</srai>
+		</template>
+    </category>
+	
+	<category>
+        <pattern>ABOUT ART ARCHITECTURE DESIGN</pattern>
+		<template>
+			<srai>
+				ABOUT AAD
+			</srai>
+		</template>
+    </category>
+	
+    <category>
+        <pattern>ABOUT ART ARCHITECTURE DESIGN _</pattern>
+		<template>
+			<srai>
+				ABOUT AAD
+			</srai>
+		</template>
+    </category>
+    
+    <category>
+        <pattern>ABOUT ART ARCHITECTURE AND DESIGN</pattern>
+		<template>
+			<srai>
+				ABOUT AAD
+			</srai>
+		</template>
+    </category>
+	
+    <category>
+        <pattern>ABOUT ART ARCHITECTURE AND DESIGN _</pattern>
+		<template>
+			<srai>
+				ABOUT AAD
+			</srai>
+		</template>
+    </category>
+    
+    <!-- DIRECTIONS -->
+    <category>
+        <pattern>DIRECTIONS AAD _</pattern>
+        <template>
+            <srai>
+                DIRECTIONS AAD
+            </srai>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>DIRECTIONS ART ARCHITECTURE DESIGN</pattern>
+        <template>
+            <srai>
+                DIRECTIONS AAD
+            </srai>
+        </template>
+    </category>
+    
+	<category>
+        <pattern>DIRECTIONS ART ARCHITECTURE DESIGN _</pattern>
+        <template>
+            <srai>
+                DIRECTIONS AAD
+            </srai>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>DIRECTIONS ART ARCHITECTURE AND DESIGN</pattern>
+        <template>
+            <srai>
+                DIRECTIONS AAD
+            </srai>
+        </template>
+    </category>
+    
+	<category>
+        <pattern>DIRECTIONS ART ARCHITECTURE AND DESIGN _</pattern>
+        <template>
+            <srai>
+                DIRECTIONS AAD
+            </srai>
+        </template>
+    </category>
+    
+    <!-- OPEN TIMES -->    
+    <category>
+        <pattern>OPEN AAD _</pattern>
+        <template>
+            <srai>
+                OPEN AAD
+            </srai>
+        </template>
+    </category>
+	
+	<category>
+        <pattern>OPEN ART ARCHITECTURE DESIGN</pattern>
+        <template>
+            <srai>
+                OPEN AAD
+            </srai>
+        </template>
+    </category>
+	
+    <category>
+        <pattern>OPEN ART ARCHITECTURE DESIGN _</pattern>
+        <template>
+            <srai>
+                OPEN AAD
+            </srai>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>OPEN ART ARCHITECTURE AND DESIGN</pattern>
+        <template>
+            <srai>
+                OPEN AAD
+            </srai>
+        </template>
+    </category>
+	
+    <category>
+        <pattern>OPEN ART ARCHITECTURE AND DESIGN _</pattern>
+        <template>
+            <srai>
+                OPEN AAD
+            </srai>
+        </template>
+    </category>
+    
+</aiml>
