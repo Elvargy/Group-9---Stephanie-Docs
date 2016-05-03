@@ -47,7 +47,7 @@
     </category>
     
 	<category>
-        <pattern>ABOUT SC</pattern>
+        <pattern>ABOUT SPORTS CENTER</pattern>
 		<template>
 			<srai>
 				ABOUT SPORTS CENTRE
@@ -56,7 +56,7 @@
     </category>
 	
 	<category>
-        <pattern>ABOUT SC _</pattern>
+        <pattern>ABOUT SPORTS CENTER _</pattern>
 		<template>
 			<srai>
 				ABOUT SPORTS CENTRE
@@ -75,7 +75,7 @@
     </category>
 	
 	<category>
-        <pattern>DIRECTIONS SC</pattern>
+        <pattern>DIRECTIONS SPORTS CENTER</pattern>
         <template>
             <srai>
                 DIRECTIONS SPORTS CENTRE
@@ -84,7 +84,7 @@
     </category>
 
 	<category>
-        <pattern>DIRECTIONS SC _</pattern>
+        <pattern>DIRECTIONS SPORTS CENTER _</pattern>
         <template>
             <srai>
                 DIRECTIONS SPORTS CENTRE
@@ -103,7 +103,7 @@
     </category>
     
     <category>
-        <pattern>OPEN SC</pattern>
+        <pattern>OPEN SPORTS CENTER</pattern>
         <template>
             <srai>
                 OPEN SPORTS CENTRE
@@ -112,7 +112,7 @@
     </category>    
 	
 	<category>
-        <pattern>OPEN SC _</pattern>
+        <pattern>OPEN SPORTS CENTER _</pattern>
         <template>
             <srai>
                 OPEN SPORTS CENTRE

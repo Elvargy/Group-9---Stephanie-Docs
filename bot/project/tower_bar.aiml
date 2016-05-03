@@ -1,0 +1,68 @@
+<aiml version="1.0.1" encoding="UTF-8">
+
+<!-- RESPONSES -->
+    <!-- ABOUT -->
+    <category>
+        <pattern>ABOUT TOWER BAR</pattern>
+		<template>
+			<random>
+				<li> The Tower Bar is a bar! They sell all sorts of pub food like burgers, fries, steaks and salads as well as drinks. Some say its a little on the expensive side but they rate it highly nonetheless :P</li>
+				<li> The tower bar sells food and drinks. They usually sell cocktails on offer, perfect for a night out! </li>
+			</random>
+		</template>
+    </category>
+    
+    <!-- DIRECTIONS -->
+    <category>
+        <pattern>DIRECTIONS TOWER BAR</pattern>
+        <template>
+            <random>
+                <li> The tower bar is right next to the bridge near the library. Head over there and you'll be able to see it just sitting next to the engine shed </li>
+				<li> You should be able to see the Tower Bar from the path running alongside the Brayford Pool. You can't miss it, its the big square building with a huge light strips running around the top! :)</li>
+            </random>
+        </template>
+    </category>
+    
+    <!-- OPEN TIMES -->
+    <category>
+        <pattern>OPEN TOWER BAR</pattern>
+        <template>
+            <random>
+				<li>Let me just get that for you. [p]5[p] \n The opening times are 8:30am - 11:00pm Monday - Friday and 10:30am - 11:00 Sat-Sun. Hope this helps :)</li> 
+				<li>One moment.[p]5[p] \n The Tower Bar opens at 8:30 in the morning and closes 11:00 at night on Mondays to Fridays and opens 10:30am until 11:00pm on the weekend :)</li> 
+			</random>
+        </template>
+    </category>
+    
+<!-- SRAI STATEMENTS -->
+    <!-- ABOUT  -->
+    <category>
+        <pattern>ABOUT TOWER BAR _</pattern>
+		<template>
+			<srai>
+				ABOUT TOWER BAR
+			</srai>
+		</template>
+    </category>
+    
+    <!-- DIRECTIONS -->
+    <category>
+        <pattern>DIRECTIONS TOWER BAR _</pattern>
+        <template>
+            <srai>
+                DIRECTIONS TOWER BAR
+            </srai>
+        </template>
+    </category>
+    
+    <!-- OPEN TIMES -->    
+    <category>
+        <pattern>OPEN TOWER BAR _</pattern>
+        <template>
+            <srai>
+                OPEN TOWER BAR
+            </srai>
+        </template>
+    </category>
+
+</aiml>

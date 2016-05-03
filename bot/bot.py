@@ -191,7 +191,8 @@ while True:
             except:
                 response = kernel.respond(message)
         
-                if tid == "998191603562029":
+                #if tid == "998191603562029":
+                if tid == "784173268349961":
                     if response in fallthrough:
                         fallen += 1
                         print("Fallen")
@@ -219,7 +220,7 @@ while True:
                         pause_in_line(response)
                         
                 else:
-                    print("tid != '998191603562029'")
+                    print("tid != '784173268349961'")
     
         else:
             print("tid == None")

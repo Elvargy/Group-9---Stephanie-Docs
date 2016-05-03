@@ -44,6 +44,26 @@
         </template>
     </category>
     
+    <!-- WHAT'S -->
+    <category>
+        <pattern>WHAT'S *</pattern>
+        <template>
+            <srai>
+                ABOUT <star/>
+            </srai>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>_ WHAT'S *</pattern>
+        <template>
+            <srai>
+                ABOUT <star index="2"/>
+            </srai>
+        </template>
+    </category>
+    
+    <!-- WHAT * IS -->
     <category>
         <pattern>_ WHAT * IS</pattern>
         <template>
