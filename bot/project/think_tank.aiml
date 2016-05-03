@@ -7,7 +7,7 @@
 		<template>
 			<random>
 				<li> Think Tank is a specially designed building which houses workspaces, conference rooms and meeting pods which are available to rent. </li>
-				<li> ITEM 2 </li>
+				<li> The Think Tank is a new, hitech, energy efficient and cost effective workspace designed for innovative business. Perfect for sitting down to think ;) </li>
 			</random>
 		</template>
     </category>
@@ -17,8 +17,8 @@
         <pattern>DIRECTIONS THINK TANK</pattern>
         <template>
             <random>
-                <li> ITEM 1 </li>
-				<li> ITEM 2 </li>
+                <li> The Think Tank is around the same area as the Joseph Banks building. You can't miss the super sleek look :P </li>
+				<li> You can find this building down past pavs accommodation. it's the green looking building near Joseph Banks :) </li>
             </random>
         </template>
     </category>
