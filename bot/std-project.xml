@@ -3,37 +3,37 @@
     <category>
         <pattern>LOAD AIML B</pattern>
         <template>
-			<learn>project/accommodation.aiml</learn>
 			<learn>project/basic_chat.aiml</learn>
-			<learn>project/bridge_house.aiml</learn>
-			<learn>project/charlotte_scott_building.aiml</learn>
-			<learn>project/emmtec.aiml</learn>
-			<learn>project/engineering_hub.aiml</learn>
-			<learn>project/enterprise.aiml</learn>
-			<learn>project/joseph_banks_laboratories.aiml</learn>
-			<learn>project/lincoln_performing_arts_centre.aiml</learn>
-			<learn>project/location_about.aiml</learn>
-			<learn>project/location_directions.aiml</learn>
-			<learn>project/location_open_times.aiml</learn>
-			<learn>project/mht.aiml</learn>
-			<learn>project/minerva_building.aiml</learn>
-			<learn>project/minster_house.aiml</learn>
-			<learn>project/one_campus_way.aiml</learn>
-			<learn>project/science_centre.aiml</learn>
-			<learn>project/sports_centre.aiml</learn>
-			<learn>project/students_union.aiml</learn>
-			<learn>project/student_wellbeing_centre.aiml</learn>
-			<learn>project/swan.aiml</learn>
-			<learn>project/template.aiml</learn>
-			<learn>project/think_tank.aiml</learn>
-			<learn>project/village_hall.aiml</learn>
-			<learn>project/witham_house.aiml</learn>
-			<learn>project/witham_warf.aiml</learn>
-			<learn>project/subjects.aiml</learn>
-			<learn>project/lincoln.aiml</learn>
-			<learn>project/library.aiml</learn>
-            <learn>project/aad.aiml</learn> 
+            <learn>project/location_about.aiml</learn>
+            <learn>project/accommodation.aiml</learn>
+            <learn>project/location_directions.aiml</learn>
+            <learn>project/bridge_house.aiml</learn>
+            <learn>project/joseph_banks_laboratories.aiml</learn>
+            <learn>project/lincoln_performing_arts_centre.aiml</learn>
+            <learn>project/charlotte_scott_building.aiml</learn>
+            <learn>project/emmtec.aiml</learn>
+            <learn>project/engineering_hub.aiml</learn>
+            <learn>project/enterprise.aiml</learn>
+            <learn>project/mht.aiml</learn>
+            <learn>project/minster_house.aiml</learn>
+            <learn>project/one_campus_way.aiml</learn>
+            <learn>project/science_centre.aiml</learn>
+            <learn>project/sports_centre.aiml</learn>
+            <learn>project/student_wellbeing_centre.aiml</learn>
+            <learn>project/students_union.aiml</learn>
+            <learn>project/swan.aiml</learn>
+            <learn>project/template.aiml</learn>
+            <learn>project/think_tank.aiml</learn>
+            <learn>project/village_hall.aiml</learn>
+            <learn>project/witham_house.aiml</learn>
+            <learn>project/witham_warf.aiml</learn>
+            <learn>project/location_open_times.aiml</learn>
+            <learn>project/minerva_building.aiml</learn>
+            <learn>project/subjects.aiml</learn>
+            <learn>project/lincoln.aiml</learn>
+            <learn>project/library.aiml</learn>
             <learn>project/david_chiddick.aiml</learn>
+            <learn>project/aad.aiml</learn>
         </template>
         
     </category>

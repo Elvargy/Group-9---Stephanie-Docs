@@ -6,8 +6,8 @@
         <pattern>ABOUT BRIDGE HOUSE</pattern>
 		<template>
 			<random>
-				<li> ITEM 1 </li>
-				<li> ITEM 2 </li>
+				<li> The Bridge House is our international studies building. We have many foreign exchange students coming here to study in our university as well as learn English! This fills you with determination </li>
+				<li> The Bridge House houses are foreign students coming to the UK to study abroad! Many international students study in the bridge house where they recieve full time support from Lincolns lecturers and translators! </li>
 			</random>
 		</template>
     </category>
@@ -17,8 +17,8 @@
         <pattern>DIRECTIONS BRIDGE HOUSE</pattern>
         <template>
             <random>
-                <li> ITEM 1 </li>
-				<li> ITEM 2 </li>
+                <li> Head down past the Swan towards the courts. The Bridge House is just opposite Court 15! </li>
+				<li> If you head towards courts, just under that bridge near the MHT building you'll see the Bridge House as the next building on your left! :) </li>
             </random>
         </template>
     </category>
@@ -27,15 +27,10 @@
     <category>
         <pattern>OPEN BRIDGE HOUSE</pattern>
         <template>
-            Let me just get that for you
-            *You experienced a short wait time*
-            Mon 00:00 - 00:00
-            Tue 00:00 - 00:00
-            Wed 00:00 - 00:00
-            Thu 00:00 - 00:00
-            Fri 00:00 - 00:00
-            Sat 00:00 - 00:00
-            Sun 00:00 - 00:00
+            <random>
+				<li>Let me just get that for you. [p]5[p] \n The Bridhe House is open from 6:15am until the last person leaves. Although, most rooms will be fully booked until about 6:00pm due to international studies :)</li> 
+				<li>One moment.[p]5[p] \n This building opens at 6:15 in the morning and doesn't close until the building is vacant! Just like most of our study buildings! :)</li> 
+			</random>
         </template>
     </category>
     

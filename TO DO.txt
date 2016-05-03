@@ -4,16 +4,6 @@ Could also write your name next to one and sync before
 you start working on it to avoid multiple people working
 on the same thing
 
-BRIDGE HOUSE
-| About:
-    - Item 1
-    - Item 2   
-| Directions:
-    - Item 1
-    - Item 2  
-| Open Times.
-
-
 CHARLOTTE SCOTT BUILDING
 | About:
     - Item 2
@@ -21,7 +11,6 @@ CHARLOTTE SCOTT BUILDING
     - Item 1
     - Item 2
 | Open Times.
-
 
 
 ONE CAMPUS WAY
