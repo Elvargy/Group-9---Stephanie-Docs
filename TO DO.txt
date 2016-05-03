@@ -60,16 +60,6 @@ SCIENCE CENTRE
 | Open Times. (Be more specific)
 
 
-SPORTS CENTRE
-| About:
-    - Item 1
-    - Item 2
-| Directions:
-    - Item 1
-    - Item 2
-| Open Times.
-
-
 STUDENT WELLBEING CENTER
 | About:
     - Item 1

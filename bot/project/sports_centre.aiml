@@ -6,8 +6,8 @@
         <pattern>ABOUT SPORTS CENTRE</pattern>
 		<template>
 			<random>
-				<li> ITEM 1 </li>
-				<li> ITEM 2 </li>
+				<li> I'm not a sporty person so bear with me! [p]7[p] \n The University’s Sport and Recreation Centre boasts a large selection of modern, specialist facilities. These include a double sports hall, squash, badminton and tennis courts, football and outdoor pitches, a dance studio and saunas. </li>
+				<li> Sport is definitely not my forte, hold on one second [p]7[p] \n Here you can enjoy a wide range of sport facilities from footbal to tennis, from dance to saunas! They give out leaflets there with all the information you could ask for so try dropping by! </li>
 			</random>
 		</template>
     </category>
@@ -17,8 +17,8 @@
         <pattern>DIRECTIONS SPORTS CENTRE</pattern>
         <template>
             <random>
-                <li> ITEM 1 </li>
-				<li> ITEM 2 </li>
+                <li> You can find this place right next to the Pavillion House! There's a big grass pitch outside, you can't miss it </li>
+				<li> If you keep walking straight down the path from the library towards the architecture building, through a small path and under the bridge, you will be able to see it just around the green fence of the football pitch :) </li>
             </random>
         </template>
     </category>
@@ -27,15 +27,10 @@
     <category>
         <pattern>OPEN SPORTS CENTRE</pattern>
         <template>
-            Let me just get that for you
-            *You experienced a short wait time*
-            Mon 00:00 - 00:00
-            Tue 00:00 - 00:00
-            Wed 00:00 - 00:00
-            Thu 00:00 - 00:00
-            Fri 00:00 - 00:00
-            Sat 00:00 - 00:00
-            Sun 00:00 - 00:00
+            <random>
+				<li>Let me just get that for you. [p]5[p] \n The opening times are 8:00am-10:00pm week long. Hope this helps :)</li> 
+				<li>One moment.[p]5[p] \n The Enterprise Bulding is open 8 early morning until  10 at night all week!. Hope this helps :)</li> 
+			</random>
         </template>
     </category>
     
