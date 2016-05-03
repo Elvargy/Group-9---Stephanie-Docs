@@ -6,8 +6,8 @@
         <pattern>ABOUT JOSEPH BANKS LABORATORIES</pattern>
 		<template>
 			<random>
-				<li> Sure thing :), the Joseph Banks Laboratories provides science students in the Schools of Chemistry, Maths and Physics, Life Sciences and Pharmacy with state-of-the-art, professional-standard facilities in which to study. </li>
-				<li> ITEM 2 </li>
+				<li> Sure thing :) the Joseph Banks Laboratories provides science students in the Schools of Chemistry, Maths and Physics, Life Sciences and Pharmacy with state-of-the-art, professional-standard facilities in which to study. </li>
+				<li> Joseph Banks Laboratories is all about science! If you're looking for information into our chemistry, maths, physics, life or pharmacy courses, that would be the place to go! </li>
 			</random>
 		</template>
     </category>
@@ -17,8 +17,8 @@
         <pattern>DIRECTIONS JOSEPH BANKS LABORATORIES</pattern>
         <template>
             <random>
-                <li> located near minster house, south west from uni campus, look on google maps if unsure </li>
-				<li> ITEM 2 </li>
+                <li> This on is pretty tough to find. It's near the Pavilions, Minister House, and the Think Tank if that helps. You can find it on the southern most section of the university </li>
+				<li> If you make you're way to Beevor Street, you should be able to see a really long building across the grass. that is Joseph Banks Labs :) </li>
             </random>
         </template>
     </category>

@@ -21,15 +21,6 @@ CHARLOTTE SCOTT BUILDING
     - Item 1
     - Item 2
 | Open Times.
-    
-
-JOSEPH BANKS LABORATORIES
-| About:
-    - Item 2
-| Directions:
-    - Item 1 (Not sure about this one)
-    - Item 2
-| Open Times.
 
 
 MHT
