@@ -7,8 +7,7 @@
 		<template>
 			<random>
 				<li> Okay, The Library provides a wide range of Library services and facilities, as well as support and guidance to students on the use of information services and study skills. :)</li>
-				<li> The Library is a great place to study in peace, if you roommates are making a little too much noise,
-				you can retreat to a nice quite corner of the library. The library has a great student to computer ratio.</li>
+				<li> The Library is a great place to study in peace, if you roommates are making a little too much noise, you can retreat to a nice quite corner of the library. The library has a great student to computer ratio.</li>
 			</random>
 		</template>
     </category>
@@ -18,8 +17,7 @@
         <pattern>DIRECTIONS LIBRARY</pattern>
         <template>
             <random>
-                <li> The library is near Tower Bar and next to the engineering building. If your coming from the 
-					town center, cross the train tracks and head towards the university, it's quite hard to miss. :)</li>
+                <li> The library is near Tower Bar and next to the engineering building. If your coming from the town center, cross the train tracks and head towards the university, it's quite hard to miss. :)</li>
 				<li> Yeah, the libary is near the train crossing, it is across from Junxion</li>
             </random>
         </template>
@@ -29,7 +27,10 @@
     <category>
         <pattern>OPEN LIBRARY</pattern>
         <template>
-			The Library is open 24/7 during term time. The times vary in holidays, so you should double check the website. :)
+            <random>
+                <li> The Library is open 24/7 during term time. The times vary in holidays, so you should double check the website. :) </li>
+                <li> Its open 24 hours a day in term time, check out the univeristy timetable to find out when they are! </li>
+            </random>
         </template>
     </category>
     
@@ -58,15 +59,6 @@
     <!-- OPEN TIMES -->    
     <category>
         <pattern>OPEN LIBRARY _</pattern>
-        <template>
-            <srai>
-                OPEN LIBRARY
-            </srai>
-        </template>
-    </category>
-	
-	<category>
-        <pattern>_ LIBRARY OPEN _</pattern>
         <template>
             <srai>
                 OPEN LIBRARY

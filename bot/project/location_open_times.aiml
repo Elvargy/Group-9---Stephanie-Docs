@@ -155,4 +155,59 @@
         </template>
     </category>
 	
+    <!-- OPEN IS -->
+	<category>
+        <pattern>IS * OPEN</pattern>
+        <template>
+            <srai>
+                OPEN <star/>
+            </srai>
+        </template>
+    </category>
+	
+	<category>
+        <pattern>_ IS * OPEN</pattern>
+        <template>
+            <srai>
+                OPEN <star index="2"/>
+            </srai>
+        </template>
+    </category>    
+	
+	<category>
+        <pattern>IS * OPEN _</pattern>
+        <template>
+            <srai>
+                OPEN <star/>
+            </srai>
+        </template>
+    </category>
+    
+    <!-- CLOSE IS-->
+	 <category>
+        <pattern>IS * CLOSE</pattern>
+        <template>
+            <srai>
+                CLOSE <star/>
+            </srai>
+        </template>
+    </category>
+	
+	<category>
+        <pattern>_ IS * CLOSE</pattern>
+        <template>
+            <srai>
+                CLOSE <star index="2"/>
+            </srai>
+        </template>
+    </category>
+	
+    <category>
+        <pattern>IS * CLOSE _</pattern>
+        <template>
+            <srai>
+                CLOSE <star/>
+            </srai>
+        </template>
+    </category>
 </aiml>
