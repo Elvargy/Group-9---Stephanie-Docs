@@ -3,50 +3,48 @@
 <!-- RESPONSES -->
     <!-- ABOUT -->
     <category>
-        <pattern>ABOUT CHARLOTTE SCOTT BUILDING</pattern>
+        <pattern>ABOUT CHARLOTTE SCOTT </pattern>
 		<template>
 			<random>
 				<li> The Charlotte Scott building houses office space for the schools of Engineering, Mathematics and Physics and is named after the Lincoln-born Mathematician Charlotte Scott!</li>
-				<li> ITEM 2 </li>
+				<li> The Charlotte Scott building is where the schools of Psyhics, Maths, and Engineering are based.</li>
 			</random>
 		</template>
     </category>
     
     <!-- DIRECTIONS -->
     <category>
-        <pattern>DIRECTIONS CHARLOTTE SCOTT BUILDING</pattern>
+        <pattern>DIRECTIONS CHARLOTTE SCOTT </pattern>
         <template>
             <random>
-                <li> ITEM 1 </li>
-				<li> ITEM 2 </li>
+                <li> The Charlotte Scott building is located opposite the Think Tank which is located at the back of the Pavillions Accommodation! </li>
+				<li> The Charlotte Scott building is a tricky one to find, it is hidden all the way to the back of the Pavillions Halls of Residence. Head to the back of Pavs and you should see sign posts. Hope this helps! </li>
             </random>
         </template>
     </category>
     
     <!-- OPEN TIMES -->
-    <category>
-        <pattern>OPEN CHARLOTTE SCOTT BUILDING</pattern>
-        <template>
-            Let me just get that for you
-            *You experienced a short wait time*
-            Mon 00:00 - 00:00
-            Tue 00:00 - 00:00
-            Wed 00:00 - 00:00
-            Thu 00:00 - 00:00
-            Fri 00:00 - 00:00
-            Sat 00:00 - 00:00
-            Sun 00:00 - 00:00
-        </template>
-    </category>
+   <!-- OPEN TIMES -->
+<category>
+    <pattern>OPEN CHARLOTTE SCOTT</pattern>
+    <template>
+        <random>
+        	<li>Let me just get that for you. [p]5[p] \n The opening times are 7:30am until when the building is vacant, depending on what is going on that day. Hope this helps :)</li> 
+    		<li>One moment.[p]5[p] \n EMMTEC is open everyday from 7:30am and closes when everyone has left. Hope this helps :)</li> 
+        	<li>One moment. [p]5[p] \n The opening times are 7:30am until late, when everyone has left, and it is open everyday. Hope this helps :)</li> 
+        	<li>Let me just get that for you. [p]5[p] \n EMMTEC is open everyday from 7am until the bulding is vacant. Hope this helps :)</li>
+    	</random>
+    </template>
+</category>
     
     
 <!-- SRAI STATEMENTS -->
     <!-- ABOUT  -->
     <category>
-        <pattern>ABOUT CHARLOTTE SCOTT BUILDING _</pattern>
+        <pattern>ABOUT CHARLOTTE SCOTT _</pattern>
 		<template>
 			<srai>
-				ABOUT CHARLOTTE SCOTT BUILDING
+				ABOUT CHARLOTTE SCOTT
 			</srai>
 		</template>
     </category>
@@ -55,7 +53,7 @@
         <pattern>ABOUT CSB</pattern>
 		<template>
 			<srai>
-				ABOUT CHARLOTTE SCOTT BUILDING
+				ABOUT CHARLOTTE SCOTT
 			</srai>
 		</template>
     </category>
@@ -64,7 +62,7 @@
         <pattern>ABOUT CSB _</pattern>
 		<template>
 			<srai>
-				ABOUT CHARLOTTE SCOTT BUILDING
+				ABOUT CHARLOTTE SCOTT
 			</srai>
 		</template>
     </category>
@@ -72,10 +70,10 @@
     
     <!-- DIRECTIONS -->
     <category>
-        <pattern>DIRECTIONS CHARLOTTE SCOTT BUILDING _</pattern>
+        <pattern>DIRECTIONS CHARLOTTE SCOTT _</pattern>
         <template>
             <srai>
-                DIRECTIONS CHARLOTTE SCOTT BUILDING
+                DIRECTIONS CHARLOTTE SCOTT
             </srai>
         </template>
     </category>
@@ -84,7 +82,7 @@
         <pattern>DIRECTIONS CSB</pattern>
         <template>
             <srai>
-                DIRECTIONS CHARLOTTE SCOTT BUILDING
+                DIRECTIONS CHARLOTTE SCOTT
             </srai>
         </template>
     </category>
@@ -93,17 +91,17 @@
         <pattern>DIRECTIONS CSB _</pattern>
         <template>
             <srai>
-                DIRECTIONS CHARLOTTE SCOTT BUILDING
+                DIRECTIONS CHARLOTTE SCOTT
             </srai>
         </template>
     </category>   
     
     <!-- OPEN TIMES -->    
     <category>
-        <pattern>OPEN CHARLOTTE SCOTT BUILDING _</pattern>
+        <pattern>OPEN CHARLOTTE SCOTT _</pattern>
         <template>
             <srai>
-                OPEN CHARLOTTE SCOTT BUILDING
+                OPEN CHARLOTTE SCOTT
             </srai>
         </template>
     </category>
@@ -112,7 +110,7 @@
         <pattern>OPEN CSB</pattern>
         <template>
             <srai>
-                OPEN CHARLOTTE SCOTT BUILDING
+                OPEN CHARLOTTE SCOTT
             </srai>
         </template>
     </category>
@@ -121,7 +119,7 @@
         <pattern>OPEN CSB _</pattern>
         <template>
             <srai>
-                OPEN CHARLOTTE SCOTT BUILDING
+                OPEN CHARLOTTE SCOTT
             </srai>
         </template>
     </category>

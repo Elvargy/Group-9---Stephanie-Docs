@@ -4,10 +4,3 @@ Could also write your name next to one and sync before
 you start working on it to avoid multiple people working
 on the same thing
 
-CHARLOTTE SCOTT BUILDING
-| About:
-    - Item 2
-| Directions:
-    - Item 1
-    - Item 2
-| Open Times.
